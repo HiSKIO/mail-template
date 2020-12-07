@@ -6,7 +6,7 @@
     </mj-attributes>
   </mj-head>
   <mj-body background-color="#f0f0f0">
-    <mj-wrapper padding="15px">
+    <mj-wrapper padding="12px">
       <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="36px">
         <mj-column>
           <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
@@ -59,7 +59,7 @@
         </mj-group>
         <mj-group width='100%'>
           <mj-column>
-            <mj-text align="center" padding-top="24px" font-size="14px" color="#8c8c8c"> 有點意思科技有限公司版權所有，轉載必究 Copyright© HiSKIO </mj-text>
+            <mj-text align="center" padding-top="24px" font-size="14px" color="#8c8c8c" line-height='20px'> 有點意思科技有限公司版權所有，轉載必究 Copyright© HiSKIO </mj-text>
           </mj-column>
         </mj-group>
       </mj-section>

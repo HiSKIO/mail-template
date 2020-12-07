@@ -6,7 +6,7 @@
     </mj-attributes>
   </mj-head>
   <mj-body  background-color="#f0f0f0">
-    <mj-wrapper padding="15px">
+    <mj-wrapper padding="12px">
       <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="36px">
         <mj-column>
           <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
