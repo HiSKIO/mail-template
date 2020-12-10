@@ -23,8 +23,8 @@
           <mj-text font-size='20px' align='left' padding='0px' padding-bottom='20px' line-height='29px'> 你所關注的募資課程<span style='font-weight:500'>『MultiCharts 程式交易｜從零到一快速上手』</span> 即將在<span style='color:#EB6767;font-weight:500'> 3 天後 (2020/01/01 12:00) </span>進行漲價囉！如果想入手課程，趕快把握現階段的募資限時價，別錯過這麼優惠的價格！ </mj-text>
         </mj-column>
         <mj-column width='100%' background-color='#f5f5f5' border-radius='8px'>
-          <mj-text font-size='18px' padding-bottom='6px' padding-top='20px'> 募資中限時價：<span style='color:#EB6767'>$1,000</span></mj-text>
-          <mj-text font-size='18px' padding-top='6px' padding-bottom='20px'><span style='text-decoration:line-through'>募資課程原價：$3,000</span></mj-text>
+          <mj-text font-size='18px' padding-bottom='6px' padding-top='20px' align='left'> 募資中限時價：<span style='color:#EB6767'>$1,000</span></mj-text>
+          <mj-text font-size='18px' padding-top='6px' padding-bottom='20px' align='left'><span style='text-decoration:line-through'>募資課程原價：$3,000</span></mj-text>
         </mj-column>
         <mj-column width='100%'>
           <mj-button width='210px' height='50px' href='前往募資課程銷售頁/?utm_source=edm&utm_medium=raise&utm_campaign=funding_course&utm_term=funding_course_raise' padding='0px' padding-top='40px' background-color="#178FAC" border-radius='8px' font-size='20px' href="#">把握限時優惠</mj-button>
