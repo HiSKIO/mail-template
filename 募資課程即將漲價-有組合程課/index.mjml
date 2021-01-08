@@ -14,7 +14,7 @@
       </mj-section>
       <mj-section padding='0px' border-radius='6px 6px 0px 0px'>
         <mj-column>
-          <mj-image src="../images/fundraising-bg.svg" width="600px" padding='0px' />
+          <mj-image src="../images/fundraising-bg.png" width="600px" padding='0px' />
         </mj-column>
       </mj-section>
       <mj-section border-radius='0px 0px 6px 6px' padding='40px'>
@@ -30,14 +30,14 @@
           <mj-button width='210px' height='50px' padding-bottom='20px' href=' /?utm_source=edm&utm_medium=raise&utm_campaign=funding_course&utm_term=funding_course_raise' padding='0px' padding-top='40px' background-color="#178FAC" border-radius='8px' font-size='20px' href="#">把握限時優惠</mj-button>
         </mj-column>
         <mj-column width='100%' border-top='1px solid #D9D9D9'>
-          <mj-image src="../images/fundraising-bg.svg" border-radius='5px' padding-top='30px' padding-bottom='20px' padding='0px' />
+          <mj-image src="../images/fundraising-bg.png" border-radius='5px' padding-top='30px' padding-bottom='20px' padding='0px' />
         </mj-column>
          <mj-column width='100%' background-color='#f5f5f5' border-radius='8px'>
           <mj-text font-size='18px' padding='18px'  padding-bottom='6px' padding-top='20px'  align='left'>組合限時價：<span style='color:#EB6767'>$10,000 </span></mj-text>
           <mj-text font-size='18px' padding='18px' padding-top='6px' padding-bottom='20px' align='left'><span style='text-decoration:line-through'>組合原價：$23,000 </span></mj-text>
         </mj-column>
         <mj-column width='100%'>
-          <mj-button width='210px' height='50px' href='去組合包銷售頁，帶有參數/?utm_source=edm&utm_medium=raise&utm_campaign=funding_combo&utm_term=funding_combo_raise' padding='0px' padding-top='26px' background-color="#178FAC" border-radius='8px' font-size='20px' href="#">把握限時優惠</mj-button>
+          <mj-button width='210px' height='50px' href='去組合包銷售頁，帶有參數/?utm_source=edm&utm_medium=raise&utm_campaign=funding_combo&utm_term=funding_combo_raise' padding='0px' padding-top='26px' background-color="#178FAC" border-radius='8px' font-size='20px' href="#">把握組合優惠</mj-button>
         </mj-column>
       </mj-section>
       <mj-section background-color="#f0f0f0" padding='0px' padding-top='8px'>

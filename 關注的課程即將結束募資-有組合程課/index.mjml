@@ -14,7 +14,7 @@
       </mj-section>
       <mj-section padding='0px' border-radius='6px 6px 0px 0px'>
         <mj-column>
-          <mj-image src="../images/furndraising-finalpriceraise-bg.svg" width="600px" padding='0px' />
+          <mj-image src="../images/furndraising-finalpriceraise-bg.png" width="600px" padding='0px' />
         </mj-column>
       </mj-section>
       <mj-section border-radius='0px 0px 6px 6px' padding='40px'>

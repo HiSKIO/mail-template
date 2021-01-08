@@ -9,12 +9,12 @@
     <mj-wrapper padding="12px">
       <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="36px">
         <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/icon_logo.png" width="99px" />
+          <mj-image src="https://assets.f5ezcode.in/edm/icon_logo.svg" width="99px" />
         </mj-column>
       </mj-section>
       <mj-section padding="0px" border-radius="6px 6px 0px 0px">
         <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/challenge-0.svg" width="600px" padding="0px" />
+          <mj-image src="https://assets.f5ezcode.in/edm/challenge-0.png" width="600px" padding="0px" />
         </mj-column>
       </mj-section>
       <mj-section border-radius="0px 0px 6px 6px" padding="45px">
