@@ -12,7 +12,7 @@
           <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
         </mj-column>
       </mj-section>
-      <mj-section border-radius='4px 4px 4px 4px' background-size='cover' background-url='../images/fundraising-completed.svg' padding-bottom='30px' padding='40px' padding-left='45px' padding-right='45px'>
+      <mj-section border-radius='4px 4px 4px 4px' background-size='cover' background-url='../images/fundraising-completed.png' padding-bottom='30px' padding='40px' padding-left='45px' padding-right='45px'>
         <mj-column width='100%' border-bottom='1px solid #595959'>
           <mj-text color='#262626' font-size='28px' padding='0px' padding-bottom='12px' font-weight='500'> 課程募資失敗 </mj-text>
         </mj-column>
