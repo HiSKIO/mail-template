@@ -5,24 +5,33 @@
       <mj-section background-color="#fff" />
     </mj-attributes>
   </mj-head>
-  <mj-body background-color="#f0f0f0">
+  <mj-body background-color="#fafafa">
     <mj-wrapper padding="12px">
-      <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="36px">
+      <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="36px">
         <mj-column>
-          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
+          <mj-image src="https://assets.f5ezcode.in/edm/codeFree-logo.png" width="138px" />
         </mj-column>
       </mj-section>
-      <mj-section border-radius='4px 4px 4px 4px' background-size='cover' background-url='../images/fundraising-completed.png' padding-bottom='30px' padding='40px' padding-left='60px' padding-right='60px'>
-        <mj-column width='100%' border-bottom='1px solid #595959'>
-          <mj-text color='#262626' font-size='28px' padding='0px' padding-bottom='12px' font-weight='500'> 課程募資失敗 </mj-text>
-        </mj-column>
-        <mj-column width='100%'>
-          <mj-text padding='0px' padding-top='30px' font-size='20px' align='left' line-height='32px'>親愛的 陳湯圓 老師 </mj-text>
-          <mj-text padding='0px' font-size='20px' align='left' line-height='32px'> 很遺憾通知你，你的募資課程 <span style='font-weight:500'>『MultiCharts 程式交易｜從零到一快速上手』</span>在募資截止當日，並未達成募資人數門檻。</mj-text>
-          <mj-text padding='0px' font-size='20px' align='left' line-height='32px'> 我們將於 7 個工作天後，全額退款給購買這堂募資課程的學生。</mj-text>
+      <mj-section padding="0px" border-radius="6px 6px 0px 0px">
+        <mj-column>
+          <mj-image src="https://assets.f5ezcode.in/edm/welcomecodefree.png" width="600px" padding="0px" padding-top='40px' />
         </mj-column>
       </mj-section>
-       <mj-section background-color="#f0f0f0" padding="0px" padding-top="8px">
+      <mj-section border-radius="0px 0px 6px 6px" padding="20px" padding-top='68px'>
+        <mj-column width="100%">
+          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="5px">嗨，小白！</mj-text>
+          <mj-text font-size="20px" align="left" padding="0px" padding-bottom='30px' line-height="29px"
+            >歡迎您加入 Codefree 一起學習程式技能，您可以挑選喜歡的課程並隨時參與學習。祝您在 Codefree 有美好的學習體驗！</mj-text
+          >
+          
+        </mj-column>
+        <mj-column width="100%">
+          <mj-button width="210px" height="50px" href="" padding="0px" padding-top="40px" padding-bottom='26px' background-color="#17547F" border-radius="8px" font-size="20px"
+            >開始學習</mj-button
+          >
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fafafa" padding="0px" padding-top="8px">
         <mj-column>
           <mj-text align="left" padding="0px" color="#8c8c8c" font-size="14px" line-height="23px">
             以上資訊若有任何問題，請透過
@@ -30,7 +39,7 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="40px">
+      <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="40px">
         <mj-group width="100%">
           <mj-column width="10%"></mj-column>
          

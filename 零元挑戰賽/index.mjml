@@ -9,7 +9,7 @@
     <mj-wrapper padding="12px">
       <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="36px">
         <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/icon_logo.svg" width="99px" />
+          <mj-image src="https://assets.f5ezcode.in/edm/icon_logo.png" width="99px" />
         </mj-column>
       </mj-section>
       <mj-section padding="0px" border-radius="6px 6px 0px 0px">
@@ -45,8 +45,10 @@
         </mj-column>
       </mj-section>
       <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="40px">
-        <mj-group width="67%">
-          <mj-column>
+        <mj-group width="100%">
+          <mj-column width="10%"></mj-column>
+         
+          <mj-column width="20%">	
             <mj-image
               href="https://www.facebook.com/hiskio"
               target="_blank"
@@ -58,13 +60,13 @@
               <a href="https://www.facebook.com/hiskio" target="_blank" style="text-decoration: none; color: #8c8c8c">粉絲專頁</a>
             </mj-text>
           </mj-column>
-          <mj-column>
+          <mj-column width="20%">
             <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_mail.png" />
             <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
             </mj-text>
           </mj-column>
-          <mj-column>
+          <mj-column width="20%">
             <mj-image
               href="https://hiskio.com"
               target="_blank"
@@ -76,7 +78,7 @@
               <a href="https://hiskio.com" target="_blank" style="text-decoration: none; color: #8c8c8c">官方網站</a>
             </mj-text>
           </mj-column>
-          <mj-column>
+          <mj-column width="20%">
             <mj-image
               href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg"
               target="_blank"
@@ -88,6 +90,7 @@
               <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" style="text-decoration: none; color: #8c8c8c">Youtube</a>
             </mj-text>
           </mj-column>
+           <mj-column width="10%"></mj-column>
         </mj-group>
         <mj-group width="100%">
           <mj-column>
