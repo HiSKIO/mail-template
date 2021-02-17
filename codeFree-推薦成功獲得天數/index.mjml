@@ -14,20 +14,20 @@
       </mj-section>
       <mj-section padding="0px" border-radius="6px 6px 0px 0px">
         <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/welcomecodefree.png" width="600px" padding="0px" padding-top='40px' />
+          <mj-image src="https://assets.f5ezcode.in/edm/code-free-hiskiomember.png" width="600px" padding="0px" padding-top='40px' />
         </mj-column>
       </mj-section>
       <mj-section border-radius="0px 0px 6px 6px" padding="20px" padding-top='68px'>
         <mj-column width="100%">
           <mj-text font-size="20px" align="left" padding="0px" padding-bottom="5px"> 哈囉～ 小白</mj-text>
           <mj-text font-size="20px" align="left" padding="0px" padding-bottom='30px' line-height="29px"
-            >歡迎您加入 Codefree 一起學習程式技能，您可以挑選喜歡的課程並隨時參與學習。祝您在 Codefree 有美好的學習體驗！</mj-text
+                   >您已成功推薦好友加入 Codefree，您的<span style='color:#E34A4A'>推薦獎勵 10 天 學習期限</span>已幫您累計。繼續邀請更多的好友以增加更多學習天數吧！</mj-text
           >
           
         </mj-column>
         <mj-column width="100%">
-          <mj-button width="210px" height="50px" href="" padding="0px" padding-top="40px" padding-bottom='26px' background-color="#17547F" border-radius="8px" font-size="20px"
-            >開始學習</mj-button
+          <mj-button width="210px" height="50px" href="" padding="0px" padding-top="10px" padding-bottom='36px' background-color="#17547F" border-radius="8px" font-size="20px"
+            >前往 Codefree</mj-button
           >
         </mj-column>
       </mj-section>
