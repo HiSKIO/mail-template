@@ -19,7 +19,7 @@
       </mj-section>
       <mj-section border-radius="0px 0px 6px 6px" padding="20px" padding-top='68px'>
         <mj-column width="100%">
-          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="5px"> 哈囉～ 小白</mj-text>
+          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="5px">嗨，小白！</mj-text>
           <mj-text font-size="20px" align="left" padding="0px" padding-bottom='30px' line-height="29px"
             >歡迎您加入 Codefree 一起學習程式技能，您可以挑選喜歡的課程並隨時參與學習。祝您在 Codefree 有美好的學習體驗！</mj-text
           >
