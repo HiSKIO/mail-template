@@ -12,12 +12,12 @@
           <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
         </mj-column>
       </mj-section>
-      <mj-section padding='0px' border-radius='6px 6px 0px 0px'>
+      <mj-section padding='0px' border-radius='10px 10px 0px 0px'>
         <mj-column>
-          <mj-image src="../images/six-angle-bg.png" width="600px" padding='0px' />
+          <mj-image src="https://assets.f5ezcode.in/edm/six-angle-bg.png" width="600px" padding='0px' />
         </mj-column>
       </mj-section>
-      <mj-section border-radius='0px 0px 6px 6px' padding='40px' padding-left='60px' padding-right='60px'>
+      <mj-section border-radius='0px 0px 10px 10px' padding='40px' padding-left='60px' padding-right='60px'>
         <mj-column width='100%'>
           <mj-text font-size='20px' align='left' color='#262626' padding='0px' padding-bottom='20px'>Hi 小白！</mj-text>
           <mj-text font-size='20px' align='left' padding='0px' color='#262626' padding-bottom='20px' line-height='29px'> 在學習前端技能的路上，你是不是猶如誤入叢林的小白兔，找不到學習的方向與資源呢？</mj-text>
