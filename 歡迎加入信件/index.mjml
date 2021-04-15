@@ -55,7 +55,7 @@
                     <img src="https://assets.f5ezcode.in/edm/icon_fb.png" width="40px" style="display: inline-block;padding-right:8px;
   vertical-align: middle;" /></a>
                   <mj-text style="flex: 1 1 0%">
-                    <a href="https://www.facebook.com/hiskio" style="display:flex;align-items:center; text-decoration: none;font-size:14px;color:#595959">HiSKIO 嗨 程式技能</a>
+                    <a href="https://www.facebook.com/hiskio" style="line-height:40px; text-decoration: none;font-size:14px;color:#595959">HiSKIO 嗨 程式技能</a>
                   </mj-text>
                 </td>
               </tr>
@@ -68,7 +68,7 @@
                   <a href="https://www.facebook.com/hilivecode" style="margin-right:20px">
                     <img src="https://assets.f5ezcode.in/edm/icon-program-learn.png" width="40px" style="display: inline-block;
   vertical-align: middle;" /></a>
-                  <mj-text style="flex: 1 1 0%"> <a href="https://www.facebook.com/hilivecode" style="display:flex;align-items:center;text-decoration: none;font-size:14px;color:#595959">Hi直播學程式</a></mj-text>
+                  <mj-text style="flex: 1 1 0%"> <a href="https://www.facebook.com/hilivecode" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">Hi直播學程式</a></mj-text>
                 </td>
               </tr>
             </mj-table>
@@ -83,7 +83,7 @@
                     <img src="https://assets.f5ezcode.in/edm/line.png" width="40px" style="display: inline-block;padding-right:8px;
   vertical-align: middle;" /></a>
                   <mj-text style="flex: 1 1 0%">
-                    <a href="https://liff.line.me/1655597980-8jvMLEvZ" style="display:flex;align-items:center;text-decoration: none;font-size:14px;color:#595959">Line 官方帳號</a>
+                    <a href="https://liff.line.me/1655597980-8jvMLEvZ" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">Line 官方帳號</a>
                   </mj-text>
                 </td>
               </tr>
@@ -95,7 +95,7 @@
                 <td style="display:flex;justify-content:center; align-items:center;">
                   <a href="https://www.facebook.com/groups/406460463268219" style="margin-right:20px">
                     <img src="https://assets.f5ezcode.in/edm/icon-program-don.png" width="40px" style="display: inline-block; vertical-align: middle;" /></a>
-                  <mj-text style="flex: 1 1 0%"> <a href="https://www.facebook.com/groups/406460463268219" style="display:flex;align-items:center;text-decoration: none;font-size:14px;color:#595959">FB 社團 程式丼起來</a></mj-text>
+                  <mj-text style="flex: 1 1 0%"> <a href="https://www.facebook.com/groups/406460463268219" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">FB 社團 程式丼起來</a></mj-text>
                 </td>
               </tr>
             </mj-table>
@@ -111,7 +111,7 @@
                     <img src="https://assets.f5ezcode.in/edm/icon_youtube.png" width="40px" style="display: inline-block;padding-right:8px;
   vertical-align: middle;" /></a>
                   <mj-text style="flex: 1 1 0%">
-                    <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" style="display:flex;align-items:center;text-decoration: none;font-size:14px;color:#595959">YouTube HiSKIO</a>
+                    <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">YouTube HiSKIO</a>
                   </mj-text>
                 </td>
               </tr>
@@ -123,7 +123,7 @@
                 <td style="display:flex;justify-content:center; align-items:center;">
                   <a style="margin-right:20px" href="https://codefree.hiskio.com/">
                     <img src="https://assets.f5ezcode.in/edm/codefree.png" width="40px" style="display: inline-block; vertical-align: middle;" /></a>
-                  <mj-text style="flex: 1 1 0%"> <a href="https://codefree.hiskio.com/" style="display:flex;align-items:center;text-decoration: none;font-size:14px;color:#595959">Codefree 輕鬆學程式</a></mj-text>
+                  <mj-text style="flex: 1 1 0%"> <a href="https://codefree.hiskio.com/" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">Codefree 輕鬆學程式</a></mj-text>
                 </td>
               </tr>
             </mj-table>
