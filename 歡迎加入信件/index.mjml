@@ -6,7 +6,7 @@
       <mj-body />
     </mj-attributes>
     <mj-style> .box-shadow a, .box-shadow p { box-shadow: 0 4px 6px hsla(0, 0%, 46%, 0.2), 0 1px 3px hsla(0, 0%, 46%, 0.2); } </mj-style>
-    <mj-style inline="inline"> .body-padding { padding-left: 28px !important; padding-right: 28px !important; padding-bottom: 50px !important; } .table-border { border: 1px solid #189fac !important; } .tag-border div { border: 2px dotted #FFA81D !important; border-radius: 4px !important; width: 120px !important; padding: 10px !important; text-decoration: none !important; } </mj-style>
+    <mj-style inline="inline"> .body-padding { padding-left: 10px !important; padding-right: 10px !important; padding-bottom: 50px !important; } .table-border { border: 1px solid #189fac !important; } .tag-border div { border: 2px dotted #FFA81D !important; border-radius: 4px !important; width: 120px !important; padding: 10px !important; text-decoration: none !important; } </mj-style>
     <mj-style> @media (min-width:480px) { .logo-padding { padding-bottom: 50px !important; } .hero { width: 100% !important; height: 100% !important; } .hero-title div { font-size: 28px !important; } .logo td { width: 140px !important; } .logo-text { padding-left: 25px !important; padding-right: 25px !important; } .logo-text div { font-size: 16px !important; } .btn-text a { font-size: 20px !important; } .table-border { border: 1px solid #189fac !important; width: 200px !important; } table { border-collapse: collapse; } } </mj-style>
     <mj-style>
     @media (max-width:500px){
@@ -45,7 +45,7 @@
           <mj-text line-height="25px" padding-top="8px"> 3.提供豐富的課後資源，包含： </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding-left="24px" padding-right="24px" background-color="#fff">
+      <mj-section padding-left="20px" padding-right="20px" background-color="#fff">
         <mj-group width="100%" background-color="#fafafa">
           <mj-column width="50%" css-class="layout">
             <mj-table padding-top='20px' padding-bottom="10px" padding-left="25px" padding-right="25px">
@@ -55,7 +55,7 @@
                     <img src="https://assets.f5ezcode.in/edm/icon_fb.png" width="40px" style="display: inline-block;padding-right:8px;
   vertical-align: middle;" /></a>
                   <mj-text style="flex: 1 1 0%">
-                    <a href="https://www.facebook.com/hiskio" style="display:flex;align-items:center; text-decoration: none;font-size:14px;color:#595959">HiSKIO 嗨 程式技能</a>
+                    <a href="https://www.facebook.com/hiskio" style="line-height:40px; text-decoration: none;font-size:14px;color:#595959">HiSKIO 嗨 程式技能</a>
                   </mj-text>
                 </td>
               </tr>
@@ -68,7 +68,7 @@
                   <a href="https://www.facebook.com/hilivecode" style="margin-right:20px">
                     <img src="https://assets.f5ezcode.in/edm/icon-program-learn.png" width="40px" style="display: inline-block;
   vertical-align: middle;" /></a>
-                  <mj-text style="flex: 1 1 0%"> <a href="https://www.facebook.com/hilivecode" style="display:flex;align-items:center;text-decoration: none;font-size:14px;color:#595959">Hi直播學程式</a></mj-text>
+                  <mj-text style="flex: 1 1 0%"> <a href="https://www.facebook.com/hilivecode" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">Hi直播學程式</a></mj-text>
                 </td>
               </tr>
             </mj-table>
@@ -83,7 +83,7 @@
                     <img src="https://assets.f5ezcode.in/edm/line.png" width="40px" style="display: inline-block;padding-right:8px;
   vertical-align: middle;" /></a>
                   <mj-text style="flex: 1 1 0%">
-                    <a href="https://liff.line.me/1655597980-8jvMLEvZ" style="display:flex;align-items:center;text-decoration: none;font-size:14px;color:#595959">Line 官方帳號</a>
+                    <a href="https://liff.line.me/1655597980-8jvMLEvZ" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">Line 官方帳號</a>
                   </mj-text>
                 </td>
               </tr>
@@ -95,7 +95,7 @@
                 <td style="display:flex;justify-content:center; align-items:center;">
                   <a href="https://www.facebook.com/groups/406460463268219" style="margin-right:20px">
                     <img src="https://assets.f5ezcode.in/edm/icon-program-don.png" width="40px" style="display: inline-block; vertical-align: middle;" /></a>
-                  <mj-text style="flex: 1 1 0%"> <a href="https://www.facebook.com/groups/406460463268219" style="display:flex;align-items:center;text-decoration: none;font-size:14px;color:#595959">FB 社團 程式丼起來</a></mj-text>
+                  <mj-text style="flex: 1 1 0%"> <a href="https://www.facebook.com/groups/406460463268219" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">FB 社團 程式丼起來</a></mj-text>
                 </td>
               </tr>
             </mj-table>
@@ -111,7 +111,7 @@
                     <img src="https://assets.f5ezcode.in/edm/icon_youtube.png" width="40px" style="display: inline-block;padding-right:8px;
   vertical-align: middle;" /></a>
                   <mj-text style="flex: 1 1 0%">
-                    <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" style="display:flex;align-items:center;text-decoration: none;font-size:14px;color:#595959">YouTube HiSKIO</a>
+                    <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">YouTube HiSKIO</a>
                   </mj-text>
                 </td>
               </tr>
@@ -123,7 +123,7 @@
                 <td style="display:flex;justify-content:center; align-items:center;">
                   <a style="margin-right:20px" href="https://codefree.hiskio.com/">
                     <img src="https://assets.f5ezcode.in/edm/codefree.png" width="40px" style="display: inline-block; vertical-align: middle;" /></a>
-                  <mj-text style="flex: 1 1 0%"> <a href="https://codefree.hiskio.com/" style="display:flex;align-items:center;text-decoration: none;font-size:14px;color:#595959">Codefree 輕鬆學程式</a></mj-text>
+                  <mj-text style="flex: 1 1 0%"> <a href="https://codefree.hiskio.com/" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">Codefree 輕鬆學程式</a></mj-text>
                 </td>
               </tr>
             </mj-table>
