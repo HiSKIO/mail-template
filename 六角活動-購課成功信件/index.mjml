@@ -21,7 +21,7 @@
       <mj-section background-color="#fff" padding-left="28px" padding-right="28px">
         <mj-column css-class='max-layout'>
           <mj-text font-size="16px" color="#595959" padding-top="24px" padding-bottom="8px" padding-left="0" padding-right="0"> 哈囉～ 小白 <mj-text></mj-text>
-            <br>您已經成功購買HiSKIO的『前端新手升級營：JavaScript + Vue3 + Nuxt.js』，希望你能透過課程獲得你想學習的知識與技能，HISKIO團隊祝福你學習愉快與順利。點擊下方按鈕前往你的課程頁開始學習吧！ </mj-text>
+            <br>您已經成功購買HiSKIO的『<span style='color:#262626'>打造前端職人力：JavaScript + Vue3 + Nuxt.js</span>』，希望你能透過課程獲得你想學習的知識與技能，HISKIO團隊祝福你學習愉快與順利。點擊下方按鈕前往你的課程頁開始學習吧！ </mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
@@ -55,21 +55,27 @@
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
         <mj-column css-class='max-layout' padding-bottom="24px" padding-top="16px">
-          <mj-button css-class="activate" href="#" padding="0" background-color="#178fac" color="#fff" border-radius='8px' width="160px">開始學習</mj-button>
+          <mj-button height='52' font-size='18px' href="#" padding="0" background-color="#178fac" color="#fff" border-radius='8px' width="160px">開始學習</mj-button>
         </mj-column>
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
         <mj-column css-class='max-layout' padding-bottom="24px" padding-top="16px">
           <mj-text font-size="16px" padding="0px" color="#262626" font-weight="bold">贈書書籍須知</mj-text>
-          <mj-text font-size="16px" color="#595959" padding="0px" padding-top="24px" padding-bottom="8px">請點擊下方按鈕，選擇您想要收到哪一本書，並填寫可聯絡的手機號碼及寄送地址，我們將於月底統一寄送。</mj-text>
+          <mj-text font-size="16px" color="#595959" padding="0px" padding-top="18px" padding-bottom="8px">請點擊下方按鈕，選擇您想要收到哪一本書，並填寫可聯絡的手機號碼及寄送地址，我們將於月底統一寄送。</mj-text>
           <mj-text font-size="16px" padding="0px" color="#595959" padding-top="24px" padding-bottom="8px">若您是在當月 21 號前購買此方案，將於當月月底收到您所選擇的書籍，若您是在當月 21 號之後才購買，則會在下個月的月底收到，若有其他問題也歡迎來信至此信箱 <span style='color:#178fac'>support@hiskio.com</span> 詢問。</mj-text>
-          <mj-button css-class="activate" href="#" padding="0" background-color="#178fac" color="#fff" border-radius='8px' width="160px">開始填寫</mj-button>
+          <mj-button height='52' font-size='18px' href="#" padding="0" padding-top='20px' background-color="#178fac" color="#fff" border-radius='8px' width="160px">開始填寫</mj-button>
+        </mj-column>
+      </mj-section>
+         <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
+        <mj-column css-class='max-layout' padding-bottom="24px" padding-top="16px">
+          <mj-text font-size="16px" padding='0px' color="#262626" font-weight="bold">直播課程進行方式</mj-text>
+          <mj-text font-size="16px" css-class="message" color="#595959" padding-top="18px" padding-bottom="8px" padding-left="0" padding-right="0">Mike 老師每個月會使用 zoom 進行閉門的直播課程，你將會於每月直播日的前一週透過信件收到觀看直播連結及密碼，而 Live 錄影檔會於每月直播的隔日於 HiSKIO「<span style='color:#178fac;text-decoration:underline'>打造前端職人力：JavaScript + Vue3 + Nuxt.js</span>」的銷售頁面上進行發佈，若是錯過直播日期可找適合的時間自行補課，Live 錄影檔可無限重複觀看。</mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
         <mj-column css-class='max-layout' padding-bottom="24px" padding-top="16px">
           <mj-text font-size="16px" padding='0px' color="#262626" font-weight="bold">養成營退費須知</mj-text>
-          <mj-text font-size="16px" css-class="message" color="#595959" padding-top="24px" padding-bottom="8px" padding-left="0" padding-right="0">若您於購買課程後未觀看試閱章節以外之內容（付費內容），並於購買後 7 日內向客服（<span style='color:#178fac'>support@hiskio.com</span>）提出退費申請，可全額退費；若您於購買後 8 - 14 日提出申請，可退課程購買實際支付 30% 費用；若您於購買後超過 14 日起恕不受理退費申請，詳細可參考「<a target="_blank" href="https://help.hiskio.com/zh-TW/articles/5083858-hiskio-%E9%A4%8A%E6%88%90%E7%87%9F%E7%B0%A1%E4%BB%8B#h_5863b264b6" style='text-decoration: none; color:#178fac'>課程退費規範</a>」。</mj-text>
+          <mj-text font-size="16px" css-class="message" color="#595959" padding-top="18px" padding-bottom="8px" padding-left="0" padding-right="0">若您於購買課程後未觀看試閱章節以外之內容（付費內容），並於購買後 7 日內向客服（<span style='color:#178fac'>support@hiskio.com</span>）提出退費申請，可全額退費；若您於購買後 8 - 14 日提出申請，可退課程購買實際支付 30% 費用；若您於購買後超過 14 日起恕不受理退費申請，詳細可參考「<a target="_blank" href="https://help.hiskio.com/zh-TW/articles/5083858-hiskio-%E9%A4%8A%E6%88%90%E7%87%9F%E7%B0%A1%E4%BB%8B#h_5863b264b6" style='text-decoration: none; color:#178fac;text-decoration:underline'>課程退費規範</a>」。</mj-text>
         </mj-column>
       </mj-section>
       <mj-section background-color="#f0f0f0" padding-left="28px" padding-right="28px" padding-bottom="15px">
