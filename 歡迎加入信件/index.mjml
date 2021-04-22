@@ -33,11 +33,11 @@
           <mj-text padding-top="8px" text-decoration="none">1. <a href="https://codefree.hiskio.com/" style="text-decoration: underline;color:#262626;box-shadow:none">Codefree 喝一杯咖啡，輕鬆學程式</a> - 學習期限 30 天</span> </mj-text>
           <mj-text padding-top="4px" text-decoration="none">2. 天瓏網路書店購書優惠代碼－YZ34P2R（滿 500 折 50 元） </mj-text>
           <mj-text  padding-top="16px">
-            <a href="" style="text-decoration: none; box-shadow: none;">
+            <span style="text-decoration: none; box-shadow: none;">
               <span style=" border: 2px solid #FFA81D ; border-radius: 4px ; width: 117px ; padding: 2px ;display:block; text-decoration: none ;">
                 <span style="font-size: 20px; color: #ffa81d;border: 2px dotted #FFA81D;display:block;text-align: center;padding-top:8px;padding-bottom:8px">YZ34P2R</span>
               </span>
-            </a>
+            </span>
           </mj-text>
           <mj-text padding-top="48px" color="#308eac" font-weight="bold" font-size="20px"> 關於 HiSKIO，我們想讓您知道 </mj-text>
           <mj-text line-height="25px" padding-top="8px"> 1. HiSKIO 有 14 大程式領域的專業課程，例如：網頁前端、後端、人工智慧、程式交易等，任您挑選！ <br /> </mj-text>

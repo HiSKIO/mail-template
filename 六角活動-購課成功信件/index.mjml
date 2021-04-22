@@ -44,7 +44,7 @@
               <td class="info-title" style="color:#595959;font-size:16px;font-weight:bold;"> 購買內容 </td>
             </tr>
             <tr>
-              <td class="info-content" style="color:#8c8c8c;font-size:14px;max-width:200px">JavaScript + Vue3 + Nuxt.js 前端全技能養成營（贈書一本）</td>
+              <td class="info-content" style="color:#8c8c8c;font-size:14px;max-width:200px">打造前端職人力：JavaScript + Vue3 + Nuxt.js（贈書一本）</td>
               <td class="info-content" style="padding:0;color:#8c8c8c;font-size:14px;padding-left:16px;" align="right"> NTD 8,290 </td>
             </tr>
           </mj-table>
@@ -75,7 +75,7 @@
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
         <mj-column css-class='max-layout' padding-bottom="24px" padding-top="16px">
           <mj-text font-size="16px" padding='0px' color="#262626" font-weight="bold">養成營退費須知</mj-text>
-          <mj-text font-size="16px" css-class="message" color="#595959" padding-top="18px" padding-bottom="8px" padding-left="0" padding-right="0">若您於購買課程後未觀看試閱章節以外之內容（付費內容），並於購買後 7 日內向客服（<span style='color:#178fac'>support@hiskio.com</span>）提出退費申請，可全額退費；若您於購買後 8 - 14 日提出申請，可退課程購買實際支付 30% 費用；若您於購買後超過 14 日起恕不受理退費申請，詳細可參考「<a target="_blank" href="https://help.hiskio.com/zh-TW/articles/5083858-hiskio-%E9%A4%8A%E6%88%90%E7%87%9F%E7%B0%A1%E4%BB%8B#h_5863b264b6" style='text-decoration: none; color:#178fac;text-decoration:underline'>課程退費規範</a>」。</mj-text>
+          <mj-text font-size="16px" css-class="message" color="#595959" padding-top="18px" padding-bottom="8px" padding-left="0" padding-right="0">若您於購買課程後未觀看試閱章節以外之內容（付費內容），並於購買後 7 日內向客服（<span style='color:#178fac'>support@hiskio.com</span>）提出退費申請，可全額退費；若您於購買後 8 - 14 日提出申請，可退課程購買實際支付 30% 費用；若您於購買後超過 14 日起恕不受理退費申請，詳細可參考「<a target="_blank" href="http://help.hiskio.com/zh-TW/articles/5083858-hiskio-養成營簡介#h_5863b264b6" style='text-decoration: none; color:#178fac;text-decoration:underline'>課程退費規範</a>」。</mj-text>
         </mj-column>
       </mj-section>
       <mj-section background-color="#f0f0f0" padding-left="28px" padding-right="28px" padding-bottom="15px">
