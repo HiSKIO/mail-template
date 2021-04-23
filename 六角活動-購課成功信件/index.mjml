@@ -74,7 +74,7 @@
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
         <mj-column css-class='max-layout' padding-bottom="24px" padding-top="16px">
-          <mj-text font-size="16px" padding='0px' color="#262626" font-weight="bold">養成營退費須知</mj-text>
+          <mj-text font-size="16px" padding='0px' color="#262626" font-weight="bold">退費須知</mj-text>
           <mj-text font-size="16px" css-class="message" color="#595959" padding-top="18px" padding-bottom="8px" padding-left="0" padding-right="0">若您於購買課程後未觀看試閱章節以外之內容（付費內容），並於購買後 7 日內向客服（<a href='mailto:support@hiskio.com' style='color:#178fac; text-decoration:none'>support@hiskio.com</a>）提出退費申請，可全額退費；若您於購買後 8 - 14 日提出申請，可退課程購買實際支付 30% 費用；若您於購買後超過 14 日起恕不受理退費申請，詳細可參考「<a target="_blank" href="http://help.hiskio.com/zh-TW/articles/5083858-hiskio-養成營簡介#h_5863b264b6" style='text-decoration: none; color:#178fac;text-decoration:underline'>課程退費規範</a>」。</mj-text>
         </mj-column>
       </mj-section>
@@ -115,7 +115,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td padding-left="6px" padding-right="6px" style='color:#454545' class="course-title" padding-bottom="6px" padding-top="8px" color="#454545" font-weight="bold"> GA 流量掘金術｜成長駭客新手村 </td>
+                  <td valign="top" padding-left="6px" padding-right="6px" style='color:#454545; height:55px' class="course-title" padding-bottom="6px" padding-top="8px" color="#454545" font-weight="bold"> GA 流量客新手村 </td>
                 </tr>
                 <tr>
                   <td width="50%">
@@ -167,7 +167,7 @@
                   </table>
                 </td>
               <tr>
-                <td padding-left="6px" padding-right="6px" style='color:#454545' class="course-title" padding-bottom="6px" padding-top="8px" color="#454545" font-weight="bold"> GA 流量掘金術｜成長駭客新手村 </td>
+                <td valign="top" padding-left="6px" padding-right="6px" style='color:#454545;height:55px' class="course-title" padding-bottom="6px" padding-top="8px" color="#454545" font-weight="bold"> GA客新手村 </td>
               </tr>
               <tr>
                 <td width="100%" padding-left="10px">
@@ -224,7 +224,7 @@
                 </td>
               </tr>
               <tr>
-                <td padding-left="6px" padding-right="6px" style='color:#454545' class="course-title" padding-bottom="6px" padding-top="8px" color="#454545" font-weight="bold"> GA 流量掘金術｜成長駭客新手村 </td>
+                <td valign="top" padding-left="6px" padding-right="6px" style='color:#454545;height:55px' class="course-title" padding-bottom="6px" padding-top="8px" color="#454545" font-weight="bold"> GA 流量掘村 </td>
               </tr>
               <tr>
                 <td width="50%">
