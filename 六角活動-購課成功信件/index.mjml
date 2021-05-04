@@ -21,7 +21,7 @@
       <mj-section background-color="#fff" padding-left="28px" padding-right="28px">
         <mj-column css-class='max-layout'>
           <mj-text font-size="16px" color="#595959" padding-top="24px" padding-bottom="8px" padding-left="0" padding-right="0"> 哈囉～ 小白 <mj-text></mj-text>
-            <br>您已經成功購買HiSKIO的『<span style='color:#262626'>打造前端職人力：JavaScript + Vue3 + Nuxt.js</span>』，希望你能透過課程獲得你想學習的知識與技能，HISKIO團隊祝福你學習愉快與順利。點擊下方按鈕前往你的課程頁開始學習吧！ </mj-text>
+            <br>您已經成功購買HiSKIO的『<span style='color:#262626'>打造前端職人力：JavaScript + Vue3 + Nuxt.js</span>』，記得加入<span style='color:#178fac'>「</span><a href='https://www.facebook.com/groups/2189823101261689' style='color:#178fac; text-decoration:underline'>學員專屬社團</a></span><span style="color:#178fac">」</span>，希望你能透過課程獲得你想學習的知識與技能，HISKIO團隊祝福你學習愉快與順利。點擊下方按鈕前往你的課程頁開始學習吧！ </mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
