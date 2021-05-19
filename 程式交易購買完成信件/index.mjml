@@ -123,154 +123,82 @@
       <mj-section padding-left='28px' padding-top='6px' padding-right='28px' padding-bottom='12px' background-color='#f0f0f0'>
         <mj-group css-class='course-layout'>
           <mj-column width="33.33%" padding-left="10px" padding-right="10px" padding-bottom="10px" css-class="course-max">
-            <mj-table padding-left="0" padding-top="0" padding-bottom="10px" padding-right="0" css-class="course-table">
-              <tr>
-                <td width="100%">
-                  <a href="#" target="_blank" style="position: absolute; width: 100%; height: 100%;">
-                  </a>
-                  <image src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="course" width="100%" style="border-top-left-radius: 6px; border-top-right-radius: 6px; vertical-align: bottom;" />
-                </td>
-              </tr>
-              <tr style="background-color: #fff;">
-                <td>
-                  <table width="100%">
-                    <tr>
-                      <td style="font-size:16px;color:#8c8c8c; display:inline-block; padding:12px 0 8px 10px">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="17px" style="display: inline-block; vertical-align: text-top;" />
-                        <span style="display: inline-block; line-height: 1;">5.0 (97)</span>
-                      </td>
-                      <td align="right" style="font-size:16px;color:#8c8c8c; padding: 12px 10px 8px 0;">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-student.png?1597976433825" width="22px" style="display: inline-block;" />
-                        <span style="display: inline-block;">422<span>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr style="background-color: #fff;">
-                <td valign="top" padding-left="10px" padding-right="10px" style='color:#454545;height:48px;overflow:hidden; -webkit-line-clamp:2; display: -webkit-box; -webkit-box-orient: vertical;' class="course-title" padding-bottom="6px" padding-top="8px" color="#454545" font-weight="bold">GA 流量客新手村流量客新手村流量客新手村流量客新手村流量客新手村</td>
-              </tr>
-              <tr>
-                <td width="50%">
-                  <table width="100%" style="padding-left:10px; background-color: #fff;">
-                    <tr>
-                      <td style="height:30px;vertical-align:middle; padding-left:10px">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1598406666608" width="24px" style="display:inline-block; margin-right:8px; vertical-align: middle; border-radius:50%" />
-                        <mj-text style="font-size:16px;color:#8c8c8c;display: inline-block;vertical-align: middle;">Mia Liu</mj-text>
-                      </td>
-                    </tr>
-                  </table>
-                  <table width="100%" style="background-color: #fff; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;">
-                    <tr>
-                      <td width="91px" style="padding-top: 14px; padding-bottom: 12px; font-size:14px;padding-left:10px;">
-                        <span style="color:#e34a4a; font-weight: 500;">NTD 2,000</span>
-                        <del style="color:#bfbfbf;">NTD 2,500</del>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </mj-table>
+            <mj-raw>
+              <a href="#" target="_blank" style="display: block; margin-bottom: 10px; padding-bottom: 12px; background-color: #fff; color: inherit; text-decoration: none; border-radius: 6px;">
+                <image src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="course" width="100%" style="vertical-align: bottom;" />
+                <div style="padding:12px 10px; font-size:16px;color:#8c8c8c;">
+                  <div style="display: inline-block; width: 50%;">
+                    <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="17px" style="display: inline-block; vertical-align: text-top;" />
+                    <span style="display: inline-block; line-height: 1;">5.0 (97)</span>
+                  </div>
+                  <div style="display: inline-block; width: 50%; text-align: right;">
+                    <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-student.png?1597976433825" width="22px" style="display: inline-block;" />
+                    <span style="display: inline-block;">422<span>
+                  </div>
+                </div>
+                <p style="margin: 0; padding:0 10px 0; color:#454545; overflow:hidden; -webkit-line-clamp:2; display: -webkit-box; -webkit-box-orient: vertical; font-size: 20px; line-height: 1.448; font-weight: 500">GA 流量客新手村流量客新手村流量客新手村流量客新手村流量客新手村</p>
+                <div style="padding: 6px 10px 15px;">
+                  <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1598406666608" width="24px" style="display:inline-block; margin-right:8px; vertical-align: middle; border-radius:50%" />
+                  <span style="font-size:16px; color:#8c8c8c; display: inline-block; vertical-align: middle;">Mia Liu</span>
+                </div>
+                <div style="padding: 0 10px; font-size: 14px; line-height: 1.35;">
+                  <span style="color:#e34a4a; font-weight: 500;">NTD 2,000</span>
+                  <del style="color:#bfbfbf;">NTD 2,500</del>
+                </div>
+              </a>
+            </mj-raw>
           </mj-column>
           <mj-column width="33.33%" padding-left="10px" padding-right="10px" padding-bottom="10px" css-class="course-max">
-            <mj-table padding-left="0" padding-top="0" padding-bottom="10px" padding-right="0" css-class="course-table">
-              <tr>
-                <td width="100%">
-                  <a href="#" target="_blank" style="position: absolute; width: 100%; height: 100%;">
-                  </a>
-                  <image src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="course" width="100%" style="border-top-left-radius: 6px; border-top-right-radius: 6px; vertical-align: bottom;" />
-                </td>
-              </tr>
-              <tr style="background-color: #fff;">
-                <td>
-                  <table width="100%">
-                    <tr>
-                      <td width="90px" style="font-size:16px;color:#8c8c8c; display:inline-block; padding:12px 0 8px 10px">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="17px" style="display: inline-block; vertical-align: text-top;" />
-                        <span style="display: inline-block; line-height: 1;">5.0 (97)</span>
-                      </td>
-                      <td align="right" style="font-size:16px;color:#8c8c8c; padding: 12px 10px 8px 0;">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-student.png?1597976433825" width="22px" style="display: inline-block;" />
-                        <span style="display: inline-block;">422<span>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr style="background-color: #fff;">
-                <td valign="top" padding-left="10px" padding-right="10px" style='color:#454545;height:48px;overflow:hidden; -webkit-line-clamp:2; display: -webkit-box; -webkit-box-orient: vertical;' class="course-title" padding-bottom="6px" padding-top="8px" color="#454545" font-weight="bold">GA 流量客新手村流量客新手村流量客新手村流量客新手村流量客新手村</td>
-              </tr>
-              <tr>
-                <td width="50%">
-                  <table width="100%" style="padding-left:10px; background-color: #fff;">
-                    <tr>
-                      <td style="height:30px;vertical-align:middle; padding-left:10px">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1598406666608" width="24px" style="display:inline-block; margin-right:8px; vertical-align: middle; border-radius:50%" />
-                        <mj-text style="font-size:16px;color:#8c8c8c;display: inline-block;vertical-align: middle;">Mia Liu</mj-text>
-                      </td>
-                    </tr>
-                  </table>
-                  <table width="100%" style="background-color: #fff; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;">
-                    <tr>
-                      <td width="91px" style="padding-top: 14px; padding-bottom: 12px; font-size:14px;padding-left:10px;">
-                        <span style="color:#178fac; font-weight: 500;">NTD 2,000</span>
-                        <del style="display: none; color:#bfbfbf;">NTD 2,500</del>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </mj-table>
+            <mj-raw>
+              <a href="#" target="_blank" style="display: block; margin-bottom: 10px; padding-bottom: 12px; background-color: #fff; color: inherit; text-decoration: none; border-radius: 6px;">
+                <image src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="course" width="100%" style="vertical-align: bottom;" />
+                <div style="padding:12px 10px; font-size:16px;color:#8c8c8c;">
+                  <div style="display: inline-block; width: 50%;">
+                    <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="17px" style="display: inline-block; vertical-align: text-top;" />
+                    <span style="display: inline-block; line-height: 1;">5.0 (97)</span>
+                  </div>
+                  <div style="display: inline-block; width: 50%; text-align: right;">
+                    <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-student.png?1597976433825" width="22px" style="display: inline-block;" />
+                    <span style="display: inline-block;">422<span>
+                  </div>
+                </div>
+                <p style="margin: 0; padding:0 10px 0; color:#454545; overflow:hidden; -webkit-line-clamp:2; display: -webkit-box; -webkit-box-orient: vertical; font-size: 20px; line-height: 1.448; font-weight: 500">GA 流量客新手村流量客新手村流量客新手村流量客新手村流量客新手村</p>
+                <div style="padding: 6px 10px 15px;">
+                  <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1598406666608" width="24px" style="display:inline-block; margin-right:8px; vertical-align: middle; border-radius:50%" />
+                  <span style="font-size:16px; color:#8c8c8c; display: inline-block; vertical-align: middle;">Mia Liu</span>
+                </div>
+                <div style="padding: 0 10px; font-size: 14px; line-height: 1.35;">
+                  <span style="color:#178fac; font-weight: 500;">NTD 2,000</span>
+                  <del style="display: none; color:#bfbfbf;">NTD 2,500</del>
+                </div>
+              </a>
+            </mj-raw>
           </mj-column>
           <mj-column width="33.33%" padding-left="10px" padding-right="10px" padding-bottom="10px" css-class="course-max">
-            <mj-table padding-left="0" padding-top="0" padding-bottom="10px" padding-right="0" css-class="course-table">
-              <tr>
-                <td width="100%">
-                  <a href="#" target="_blank" style="position: absolute; width: 100%; height: 100%;">
-                  </a>
-                  <image src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="course" width="100%" style="border-top-left-radius: 6px; border-top-right-radius: 6px; vertical-align: bottom;" />
-                </td>
-              </tr>
-              <tr style="background-color: #fff;">
-                <td>
-                  <table width="100%">
-                    <tr>
-                      <td width="90px" style="font-size:16px;color:#8c8c8c; display:inline-block; padding:12px 0 8px 10px">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="17px" style="display: inline-block; vertical-align: text-top;" />
-                        <span style="display: inline-block; line-height: 1;">5.0 (97)</span>
-                      </td>
-                      <td align="right" style="font-size:16px;color:#8c8c8c; padding: 12px 10px 8px 0;">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-student.png?1597976433825" width="22px" style="display: inline-block;" />
-                        <span style="display: inline-block;">422<span>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr style="background-color: #fff;">
-                <td valign="top" padding-left="10px" padding-right="10px" style='color:#454545;height:48px;overflow:hidden; -webkit-line-clamp:2; display: -webkit-box; -webkit-box-orient: vertical;' class="course-title" padding-bottom="6px" padding-top="8px" color="#454545" font-weight="bold">GA 流量客新手村流量客新手村流量客新手村流量客新手村流量客新手村</td>
-              </tr>
-              <tr>
-                <td width="50%">
-                  <table width="100%" style="padding-left:10px; background-color: #fff;">
-                    <tr>
-                      <td style="height:30px;vertical-align:middle; padding-left:10px">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1598406666608" width="24px" style="display:inline-block; margin-right:8px; vertical-align: middle; border-radius:50%" />
-                        <mj-text style="font-size:16px;color:#8c8c8c;display: inline-block;vertical-align: middle;">Mia Liu</mj-text>
-                      </td>
-                    </tr>
-                  </table>
-                  <table width="100%" style="background-color: #fff; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;">
-                    <tr>
-                      <td width="91px" style="padding-top: 14px; padding-bottom: 12px; font-size:14px;padding-left:10px;"></span>
-                        <span style="color:#178fac; font-weight: 500;">NTD 2,000</span>
-                        <del style="display: none; color:#bfbfbf;">NTD 2,500</del>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </mj-table>
+            <mj-raw>
+              <a href="#" target="_blank" style="display: block; margin-bottom: 10px; padding-bottom: 12px; background-color: #fff; color: inherit; text-decoration: none; border-radius: 6px;">
+                <image src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="course" width="100%" style="vertical-align: bottom;" />
+                <div style="padding:12px 10px; font-size:16px;color:#8c8c8c;">
+                  <div style="display: inline-block; width: 50%;">
+                    <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="17px" style="display: inline-block; vertical-align: text-top;" />
+                    <span style="display: inline-block; line-height: 1;">5.0 (97)</span>
+                  </div>
+                  <div style="display: inline-block; width: 50%; text-align: right;">
+                    <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-student.png?1597976433825" width="22px" style="display: inline-block;" />
+                    <span style="display: inline-block;">422<span>
+                  </div>
+                </div>
+                <p style="margin: 0; padding:0 10px 0; color:#454545; overflow:hidden; -webkit-line-clamp:2; display: -webkit-box; -webkit-box-orient: vertical; font-size: 20px; line-height: 1.448; font-weight: 500">GA 流量客新手村流量客新手村流量客新手村流量客新手村流量客新手村</p>
+                <div style="padding: 6px 10px 15px;">
+                  <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1598406666608" width="24px" style="display:inline-block; margin-right:8px; vertical-align: middle; border-radius:50%" />
+                  <span style="font-size:16px; color:#8c8c8c; display: inline-block; vertical-align: middle;">Mia Liu</span>
+                </div>
+                <div style="padding: 0 10px; font-size: 14px; line-height: 1.35;">
+                  <span style="color:#178fac; font-weight: 500;">NTD 2,000</span>
+                  <del style="display: none; color:#bfbfbf;">NTD 2,500</del>
+                </div>
+              </a>
+            </mj-raw>
           </mj-column>
         </mj-group>
       </mj-section>
