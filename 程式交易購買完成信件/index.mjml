@@ -117,8 +117,8 @@
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
         <mj-column css-class='max-layout' padding-bottom="44px" padding-top="0">
           <mj-text font-size="20px" padding="0px" color="#262626" font-weight="bold">豹投資台股及美股數據包</mj-text>
-          <mj-text font-size="20px" color="#595959" padding="0px" padding-top="17px" padding-bottom="24px">台股數據包為：台灣50成份股2020年一整年的開高低收、外資買賣超、投信買賣超、自營商買賣超。
-            美股數據包為 ：十檔股票的開高低收，2020/12一整個月的資料，十檔股票分別是特斯拉、蘋果、臉書、微軟、亞馬遜、迪士尼、nflx、visa、波克夏、阿里巴巴。
+          <mj-text font-size="20px" color="#595959" padding="0px" padding-top="17px" padding-bottom="24px">台股數據包為：台灣50成份股2020年一整年的開高低收、外資買賣超、投信買賣超、自營商買賣超。<br />
+            美股數據包為 ：十檔股票的開高低收，2020/12一整個月的資料，十檔股票分別是特斯拉、蘋果、臉書、微軟、亞馬遜、迪士尼、nflx、visa、波克夏、阿里巴巴。<br />
             清洗後完整的數據包，讓你在建立自己的投資模組時，可以更精準地找到自己的投資策略，有任何問題也可以聯絡<a href="#" style="color: #178FAC;">豹投資客服</a>詢問。</mj-text>
           <mj-button href='#' height='10px' font-size='20px' padding="0" background-color="#178fac" color="#fff" border-radius='8px' width="210px">立即下載數據包</mj-button>
         </mj-column>
