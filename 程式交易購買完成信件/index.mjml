@@ -106,13 +106,21 @@
         </mj-column>
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
-        <mj-column css-class='max-layout' padding-bottom="44px" padding-top="30px">
+        <mj-column css-class='max-layout' padding-bottom="20px" padding-top="30px">
           <mj-text font-size="20px" padding="0px" color="#262626" font-weight="bold">豹投資 PRO 兌換流程</mj-text>
-          <mj-text font-size="20px" color="#595959" padding="0px" padding-top="17px" padding-bottom="8px">（1）前往 <a href="#" style="color: #178FAC;">豹投資</a> 申請會員帳號</mj-text>
-          <mj-text font-size="20px" color="#595959" padding="0px" padding-bottom="24px">（2）使用輸入此序號「xxxxxx」並成功獲得一個月免費方案
-          </mj-text>
-          <mj-text font-size="20px" padding="0px" color="#595959" padding-bottom="24px">請於 2021/6/11 前完成申請，逾時序號將不再生效</mj-text>
+          <mj-text font-size="20px" color="#595959" padding="0px" padding-top="17px" padding-bottom="0">（1）前往 <a href="#" style="color: #178FAC;">豹投資</a> 申請會員帳號</mj-text>
+          <mj-text font-size="20px" color="#595959" padding="0px" padding-bottom="0">（2）點選豹投資網站上的右上角大頭貼，選擇兌換優惠碼，輸入此序號「 <span style="color: #178FAC;">hiskio666</span>」就成功獲得一個月免費方案</mj-text>
+          <mj-text font-size="20px" padding="0px" color="#595959" padding-bottom="24px">請於 2021/7/24 23:59 前完成申請，逾時序號將不再生效</mj-text>
           <mj-button href='#' height='10px' font-size='20px' padding="0" background-color="#178fac" color="#fff" border-radius='8px' width="210px">立即兌換</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
+        <mj-column css-class='max-layout' padding-bottom="44px" padding-top="0">
+          <mj-text font-size="20px" padding="0px" color="#262626" font-weight="bold">豹投資台股及美股數據包</mj-text>
+          <mj-text font-size="20px" color="#595959" padding="0px" padding-top="17px" padding-bottom="24px">台股數據包為：台灣50成份股2020年一整年的開高低收、外資買賣超、投信買賣超、自營商買賣超。
+            美股數據包為 ：十檔股票的開高低收，2020/12一整個月的資料，十檔股票分別是特斯拉、蘋果、臉書、微軟、亞馬遜、迪士尼、nflx、visa、波克夏、阿里巴巴。
+            清洗後完整的數據包，讓你在建立自己的投資模組時，可以更精準地找到自己的投資策略，有任何問題也可以聯絡<a href="#" style="color: #178FAC;">豹投資客服</a>詢問。</mj-text>
+          <mj-button href='#' height='10px' font-size='20px' padding="0" background-color="#178fac" color="#fff" border-radius='8px' width="210px">立即下載數據包</mj-button>
         </mj-column>
       </mj-section>
       <mj-section background-color="#f0f0f0" padding-left="28px" padding-right="28px" padding-top="32px">
