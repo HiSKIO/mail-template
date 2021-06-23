@@ -47,6 +47,14 @@
         padding-right: 6px !important;
         font-size: 16px !important;
       }
+
+      .ebook-title {
+        padding-top: 0 !important;
+        padding-bottom: 38px !important;
+        padding-left: 10px !important;
+        padding-right: 6px !important;
+        font-size: 16px !important;
+      }
     </mj-style>
   </mj-head>
   <mj-body>
@@ -265,20 +273,10 @@
                 </td>
               </tr>
               <tr>
-                <td valign="top" padding-left="6px" padding-right="6px" style='color:#454545;height:48px;overflow:hidden; -webkit-line-clamp:2; display: -webkit-box; -webkit-box-orient: vertical;' class="course-title" padding-bottom="6px" padding-top="8px" color="#454545" font-weight="bold"> GA ddddddddddddddddddddd </td>
+                <td valign="top" style='color:#454545;height:48px;overflow:hidden; -webkit-line-clamp:2; display: -webkit-box; -webkit-box-orient: vertical;' class="ebook-title" color="#454545" font-weight="bold"> GA ddddddddddddddddddddd </td>
               </tr>
               <tr>
                 <td width="50%">
-                  <table width="100%" padding-left="10px" style="padding-left:10px;">
-                    <tr>
-                      <td style="height:30px;vertical-align:middle;padding-left:12px">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1598406666608" width="24px" style="display:inline-block; margin-right:8px; vertical-align: middle; border-radius:50%;
-  vertical-align: middle;" />
-                        <mj-text style="font-size:14px;color:#8c8c8c;display: inline-block;
-  vertical-align: middle;">Mia Liu</mj-text>
-                      </td>
-                    </tr>
-                  </table>
                   <table width="100%">
                     <tr>
                       <td width="91px" style="color:#178fac;font-size:14px;padding-left:12px;"> NTD <span style="font-size:20px;">2,000</span>
