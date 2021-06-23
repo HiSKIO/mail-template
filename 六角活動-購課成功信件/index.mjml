@@ -5,8 +5,49 @@
       <mj-all line-height="1.6"></mj-all>
       <mj-body width="1800px">
     </mj-attributes>
-    <mj-style> .max-layout{ max-width:600px; } @media (max-width:600px){ .course-max{ width:100% !important; max-width:100% !important } } .course-max{ max-width:237px; } .course-infor{ max-width: 761px; } .course-layout { max-width:716px; margin-left:auto; margin-right:auto; } </mj-style>
-    <mj-style inline="inline"> .course-title { padding-top: 0 !important; padding-bottom: 5px !important; padding-left: 10px !important; padding-right: 6px !important; font-size: 16px !important; } </mj-style>
+    <mj-style>
+      .max-layout {
+        max-width: 600px;
+      }
+
+      .bg-white {
+        background-color: #fff;
+      }
+
+      .rounded-md {
+        border-radius: 6px;
+      }
+
+      @media (max-width:600px) {
+        .course-max {
+          width: 100% !important;
+          max-width: 100% !important
+        }
+      }
+
+      .course-max {
+        max-width: 237px;
+      }
+
+      .course-infor {
+        max-width: 761px;
+      }
+
+      .course-layout {
+        max-width: 716px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .course-title {
+        padding-top: 0 !important;
+        padding-bottom: 5px !important;
+        padding-left: 10px !important;
+        padding-right: 6px !important;
+        font-size: 16px !important;
+      }
+    </mj-style>
   </mj-head>
   <mj-body>
     <mj-wrapper background-color="#e7f4f7" padding='0px'>
@@ -66,7 +107,7 @@
           <mj-button href='https://www.surveycake.com/s/y9GM6' height='52px' font-size='18px' href="#" padding="0" padding-top='20px' background-color="#178fac" color="#fff" border-radius='8px' width="160px">開始填寫</mj-button>
         </mj-column>
       </mj-section>
-         <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
+      <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
         <mj-column css-class='max-layout' padding-bottom="24px" padding-top="16px">
           <mj-text font-size="16px" padding='0px' color="#262626" font-weight="bold">直播課程進行方式</mj-text>
           <mj-text font-size="16px" css-class="message" color="#595959" padding-top="18px" padding-bottom="8px" padding-left="0" padding-right="0">Mike 老師每個月會使用 zoom 進行閉門的直播課程，你將會於每月直播日的前一週透過信件收到觀看直播連結及密碼，而 Live 錄影檔會於每月直播的隔日於 HiSKIO「<a href='https://hiskio.com/f2ecamp' style='color:#178fac;'>打造前端職人力：JavaScript + Vue3 + Nuxt.js</a>」的銷售頁面上進行發佈，若是錯過直播日期可找適合的時間自行補課，Live 錄影檔可無限重複觀看。</mj-text>
@@ -85,66 +126,66 @@
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' padding-bottom='30px' background-color='#f0f0f0'>
         <mj-group css-class='course-layout'>
-          
-          <mj-column width="33.33%" padding-top="8px" padding-left="5px" padding-right="5px" padding-bottom="6px" css-class="course-max" inner-background-color="#fff" inner-border-radius="6px">
-            <mj-table padding-left="0" padding-top="0" padding-bottom="6px" padding-right="0">
-             
-                
-                <tr>
-                  <td width="100%">
-                    <image src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="" width="100%" />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <table width="100%">
-                      <tr>
-                        <td width="90px" style="font-size:14px;color:#8c8c8c;display: inline-block;
-  padding-left:12px;padding:10px">
-                          <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="16px" style="display: inline-block;
-  vertical-align: middle;" />
-                          <span style="display: inline-block"> 5.0 (97)</span>
-                        </td>
-                        <td align="right" style="font-size:14px;color:#8c8c8c;padding-left:4px;">
-                          <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-student.png?1597976433825" width="20px" style="display: inline-block;
-  vertical-align: middle;" />
-                          <span style="display: inline-block;padding-right:12px">422<span>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr>
-                  <td valign="top" padding-left="6px" padding-right="6px" style='color:#454545;height:48px;overflow:hidden; -webkit-line-clamp:2; display: -webkit-box; -webkit-box-orient: vertical;' class="course-title" padding-bottom="6px" padding-top="8px" color="#454545" font-weight="bold"> GA 流量客新手村流量客新手村流量客新手村流量客新手村流量客新手村 </td>
-                </tr>
-                <tr>
-                  <td width="50%">
-                    <table width="100%" style="padding-left:10px;">
-                      <tr>
-                        <td style="height:30px;vertical-align:middle; padding-left:12px">
-                          <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1598406666608" width="24px" style="display:inline-block; margin-right:8px; vertical-align: middle; border-radius:50%" />
-                          <mj-text style="font-size:14px;color:#8c8c8c;display: inline-block;vertical-align: middle;">Mia Liu</mj-text>
-                        </td>
-                      </tr>
-                    </table>
-                    <table width="100%">
-                      <tr>
-                        <td width="91px" style="color:#178fac;font-size:14px;padding-left:12px;"> NTD <span style="font-size:20px;">2,000</span>
-                        </td>
-                        <td vertical-align="bottom" style="text-decoration:line-through;color:#bfbfbf;display:none;"> NTD <span>2,500</span>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                  
-            </mj-table>
-          </mj-column>
-          <mj-column width="33.33%" padding-top="8px" padding-left="5px" padding-right="5px" padding-bottom="6px" css-class="course-max" inner-background-color="#fff" inner-border-radius="6px">
-            <mj-table padding-left="0" padding-top="0" padding-bottom="6px" padding-right="0">
+
+          <mj-column width="33.33%" padding-top="8px" padding-left="5px" padding-right="5px" padding-bottom="6px" css-class="course-max">
+            <mj-table padding-left="0" padding-top="0" padding-bottom="6px" padding-right="0" css-class="bg-white rounded-md">
+
+
               <tr>
                 <td width="100%">
-                  <image src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="" width="100%" />
+                  <img src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="" style="display: block; width: 100%; height: 130px; object-fit: cover; border-top-left-radius: 6px; border-top-right-radius: 6px;" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table width="100%">
+                    <tr>
+                      <td width="90px" style="font-size:14px;color:#8c8c8c;display: inline-block;
+  padding-left:12px;padding:10px">
+                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="16px" style="display: inline-block;
+  vertical-align: middle;" />
+                        <span style="display: inline-block"> 5.0 (97)</span>
+                      </td>
+                      <td align="right" style="font-size:14px;color:#8c8c8c;padding-left:4px;">
+                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-student.png?1597976433825" width="20px" style="display: inline-block;
+  vertical-align: middle;" />
+                        <span style="display: inline-block;padding-right:12px">422<span>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top" padding-left="6px" padding-right="6px" style='color:#454545;height:48px;overflow:hidden; -webkit-line-clamp:2; display: -webkit-box; -webkit-box-orient: vertical;' class="course-title" padding-bottom="6px" padding-top="8px" color="#454545" font-weight="bold"> GA 流量客新手村流量客新手村流量客新手村流量客新手村流量客新手村 </td>
+              </tr>
+              <tr>
+                <td width="50%">
+                  <table width="100%" style="padding-left:10px;">
+                    <tr>
+                      <td style="height:30px;vertical-align:middle; padding-left:12px">
+                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1598406666608" width="24px" style="display:inline-block; margin-right:8px; vertical-align: middle; border-radius:50%" />
+                        <mj-text style="font-size:14px;color:#8c8c8c;display: inline-block;vertical-align: middle;">Mia Liu</mj-text>
+                      </td>
+                    </tr>
+                  </table>
+                  <table width="100%">
+                    <tr>
+                      <td width="91px" style="color:#178fac;font-size:14px;padding-left:12px;"> NTD <span style="font-size:20px;">2,000</span>
+                      </td>
+                      <td vertical-align="bottom" style="text-decoration:line-through;color:#bfbfbf;display:none;"> NTD <span>2,500</span>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+            </mj-table>
+          </mj-column>
+          <mj-column width="33.33%" padding-top="8px" padding-left="5px" padding-right="5px" padding-bottom="6px" css-class="course-max">
+            <mj-table padding-left="0" padding-top="0" padding-bottom="6px" padding-right="0" css-class="bg-white rounded-md">
+              <tr>
+                <td width="100%">
+                  <img src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="" style="display: block; width: 100%; height: 130px; object-fit: cover; border-top-left-radius: 6px; border-top-right-radius: 6px;" />
                 </td>
               </tr>
               <tr>
@@ -196,11 +237,11 @@
               </tr>
             </mj-table>
           </mj-column>
-          <mj-column width="33.33%" padding-top="8px" padding-left="5px" padding-right="5px" padding-bottom="0" css-class="course-max" inner-background-color="#fff" inner-border-radius="6px">
-            <mj-table padding-left="0" padding-top="0" padding-bottom="6px" padding-right="0">
+          <mj-column width="33.33%" padding-top="8px" padding-left="5px" padding-right="5px" padding-bottom="0" css-class="course-max">
+            <mj-table padding-left="0" padding-top="0" padding-bottom="6px" padding-right="0" css-class="bg-white rounded-md">
               <tr>
                 <td width="100%">
-                  <image src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="" width="100%" />
+                  <img src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="" style="display: block; margin-left: auto; margin-right: auto; width: 93.21px; height: 130px; object-fit: cover;" />
                 </td>
               </tr>
               <tr>
