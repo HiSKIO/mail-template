@@ -58,7 +58,7 @@
       <mj-section background-color="#fff" padding-left="28px" padding-right="28px">
         <mj-column css-class='max-layout'>
           <mj-text font-size="20px" color="#595959" padding-top="40px" padding-bottom="16px" padding-left="0" padding-right="0"> 哈囉～ 小白
-            <br>您已經成功購買HiSKIO的『<span style='color:#262626；font-weight: 500;'>MultiCharts 程式交易｜從零到一快速上手</span>』<span style='color:#262626；font-weight: 500;'>與其他課程<span>，希望你能透過課程獲得你想學習的知識與技能，HISKIO團隊祝福你學習愉快與順利。點擊下方按鈕前往你的課程頁開始學習吧！
+            <br>您已經成功購買HiSKIO的『<span style='color:#262626; font-weight: 500;'>MultiCharts 程式交易｜從零到一快速上手</span>』<span style='color:#262626; font-weight: 500;'>與其他課程</span>，希望你能透過課程獲得你想學習的知識與技能，HISKIO團隊祝福你學習愉快與順利。點擊下方按鈕前往你的課程頁開始學習吧！
           </mj-text>
         </mj-column>
       </mj-section>
