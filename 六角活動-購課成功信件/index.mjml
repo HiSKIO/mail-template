@@ -65,6 +65,7 @@
           <mj-image css-class="main-icon" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-purchase-confirmation.png?1597942574236" alt="" width="51.9px" padding-top="0" padding-bottom="13px" />
           <mj-text css-class="title" color="#262626" align="center" font-size="24px" font-weight="bold"> 課程購買成功 </mj-text>
           <mj-text css-class="purchase-success" font-size="16px" color="#262626" align="center" padding-bottom="33px" padding-top="0">恭喜你成為前 100 名購買者，選擇你想要的書吧！</mj-text>
+          <!-- <mj-text css-class="purchase-success" font-size="16px" color="#262626" align="center" padding-bottom="33px" padding-top="0">&ensp;</mj-text> -->
         </mj-column>
       </mj-section>
       <mj-section background-color="#fff" padding-left="28px" padding-right="28px">
@@ -104,7 +105,7 @@
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
         <mj-column css-class='max-layout' padding-bottom="24px" padding-top="16px">
-          <mj-button href='https://hiskio.com/account/courses/continue?utm_source=edm&utm_medium=purchase_completed&utm_campaign=camp' height='52px' font-size='18px' href="#" padding="0" background-color="#178fac" color="#fff" border-radius='8px' width="160px">開始學習</mj-button>
+          <mj-button href='https://hiskio.com/account/courses/continue?utm_source=edm&utm_medium=purchase_completed&utm_campaign=camp' height='32px' font-size='18px' href="#" padding="0" background-color="#178fac" color="#fff" border-radius='8px' width="160px">開始學習</mj-button>
         </mj-column>
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
@@ -112,7 +113,7 @@
           <mj-text font-size="16px" padding="0px" color="#262626" font-weight="bold">贈書書籍須知</mj-text>
           <mj-text font-size="16px" color="#595959" padding="0px" padding-top="18px" padding-bottom="8px">請點擊下方按鈕，選擇您想要收到哪一本書，並填寫可聯絡的手機號碼及寄送地址，我們將於月底統一寄送。</mj-text>
           <mj-text font-size="16px" padding="0px" color="#595959" padding-top="24px" padding-bottom="8px">若您是在當月 21 號前購買此方案，將於當月月底收到您所選擇的書籍，若您是在當月 21 號之後才購買，則會在下個月的月底收到，若有其他問題也歡迎來信至此信箱 <a href='mailto:support@hiskio.com' style='color:#178fac; text-decoration:none'>support@hiskio.com</a> 詢問。</mj-text>
-          <mj-button href='https://www.surveycake.com/s/y9GM6' height='52px' font-size='18px' href="#" padding="0" padding-top='20px' background-color="#178fac" color="#fff" border-radius='8px' width="160px">開始填寫</mj-button>
+          <mj-button href='https://www.surveycake.com/s/y9GM6' height='32px' font-size='18px' href="#" padding="0" padding-top='20px' background-color="#178fac" color="#fff" border-radius='8px' width="160px">開始填寫</mj-button>
         </mj-column>
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
