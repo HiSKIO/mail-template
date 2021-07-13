@@ -67,7 +67,7 @@
       </mj-section>
       <mj-section background-color='#fff' padding-bottom="60px">
         <mj-column css-class='max-layout'>
-          <mj-button href='https://hiskio.com/account/courses/continue?utm_source=edm&utm_medium=purchase_completed&utm_campaign=camp' height='10px' font-size='20px' padding="0" background-color="#178fac" color="#fff" border-radius='8px' width="210px">前往我的課程</mj-button>
+          <mj-button href='https://hiskio.com/account/courses/continue?utm_source=edm&utm_medium=30days' height='10px' font-size='20px' padding="0" background-color="#178fac" color="#fff" border-radius='8px' width="210px">前往我的課程</mj-button>
         </mj-column>
       </mj-section>
       <mj-section background-color="#F5F5F5" padding-top="32px">
