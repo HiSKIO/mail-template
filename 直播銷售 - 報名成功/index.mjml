@@ -18,15 +18,10 @@
         border-radius: 6px;
       }
 
-      @media (max-width:600px) {
-        .course-max {
-          width: 100% !important;
-          max-width: 100% !important
-        }
-      }
-
       .course-max {
-        max-width: 237px;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 237px
       }
 
       .course-infor {
@@ -37,6 +32,15 @@
         max-width: 781px;
         margin-left: auto;
         margin-right: auto;
+      }
+
+      @media (max-width:600px) {
+        .course-max {
+          padding-left: 0;
+          padding-right: 0;
+          width: 100% !important;
+          max-width: 100% !important
+        }
       }
     </mj-style>
     <mj-style inline="inline">
@@ -128,7 +132,7 @@
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' padding-bottom='9px' background-color='#f0f0f0'>
         <mj-group css-class='course-layout'>
-          <mj-column width="33.33%" padding-top="8px" padding-left="10px" padding-right="10px" padding-bottom="20px">
+          <mj-column width="33.33%" padding-top="8px" padding-bottom="20px" css-class="course-max">
             <mj-table padding-left="0" padding-top="0" padding-bottom="6px" padding-right="0" css-class="bg-white rounded-md">
               <tr>
                 <td width="100%">
@@ -182,7 +186,7 @@
 
             </mj-table>
           </mj-column>
-          <mj-column width="33.33%" padding-top="8px" padding-left="10px" padding-right="10px" padding-bottom="20px">
+          <mj-column width="33.33%" padding-top="8px" padding-bottom="20px" css-class="course-max">
             <mj-table padding-left="0" padding-top="0" padding-bottom="6px" padding-right="0" css-class="bg-white rounded-md">
               <tr>
                 <td width="100%">
@@ -240,7 +244,7 @@
               </tr>
             </mj-table>
           </mj-column>
-          <mj-column width="33.33%" padding-top="8px" padding-left="10px" padding-right="10px" padding-bottom="20px">
+          <mj-column width="33.33%" padding-top="8px" padding-bottom="20px" css-class="course-max">
             <mj-table padding-left="0" padding-top="0" padding-bottom="6px" padding-right="0" css-class="bg-white rounded-md">
               <tr>
                 <td width="100%">
