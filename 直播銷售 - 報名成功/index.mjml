@@ -136,7 +136,7 @@
             <mj-table padding-left="0" padding-top="0" padding-bottom="6px" padding-right="0" css-class="bg-white rounded-md">
               <tr>
                 <td width="100%">
-                  <img src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="" style="display: block; width: 100%; height: 130px; object-fit: cover; border-top-left-radius: 6px; border-top-right-radius: 6px;" />
+                  <div style="padding-top: 56.25%; border-top-left-radius: 6px; border-top-right-radius: 6px; background: url('https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723') center / cover;"></div>
                 </td>
               </tr>
               <tr>
@@ -190,7 +190,7 @@
             <mj-table padding-left="0" padding-top="0" padding-bottom="6px" padding-right="0" css-class="bg-white rounded-md">
               <tr>
                 <td width="100%">
-                  <img src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="" style="display: block; width: 100%; height: 130px; object-fit: cover; border-top-left-radius: 6px; border-top-right-radius: 6px;" />
+                  <div style="padding-top: 56.25%; border-top-left-radius: 6px; border-top-right-radius: 6px; background: url('https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723') center / cover;"></div>
                 </td>
               </tr>
               <tr>
@@ -248,7 +248,8 @@
             <mj-table padding-left="0" padding-top="0" padding-bottom="6px" padding-right="0" css-class="bg-white rounded-md">
               <tr>
                 <td width="100%">
-                  <img src="https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723" alt="" style="display: block; margin-left: auto; margin-right: auto; width: 93.21px; height: 130px; object-fit: cover;" />
+                  <div style="margin: 0 auto;padding-top: 56.25%; width: 39.22%; background: url('https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723') center / cover;">
+                  </div>
                 </td>
               </tr>
               <tr>
