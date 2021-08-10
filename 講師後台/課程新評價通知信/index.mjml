@@ -52,7 +52,7 @@
                 </div>
                 <p style="clear: right; margin-top: 6px; padding-left: 56px; font-size: 20px; line-height: 29px; color: #262626;">非常喜歡個課，非常實用！</p>
               </div>
-              <a href="" style="display: block; margin: 0 auto; width: 210px; height: 50px; text-align: center; text-decoration: none; font-size: 20px; line-height: 50px; background-color: #178FAC; color: #fff; border-radius: 8px; font-weight: 500;">去回覆評價</a>
+              <a href="" target="_blank" style="display: block; margin: 0 auto; width: 210px; height: 50px; text-align: center; text-decoration: none; font-size: 20px; line-height: 50px; background-color: #178FAC; color: #fff; border-radius: 8px; font-weight: 500;">去回覆評價</a>
               <div>
           </mj-raw>
         </mj-column>
