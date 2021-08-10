@@ -31,7 +31,7 @@
       <mj-section>
         <mj-column css-class='max-layout'>
           <mj-raw>
-            <div style="background: url('../../images/講師後台/課程新評價通知信/bg.png') top center / cover #fff; padding: 40px 60px 42px; border-radius: 4px;">
+            <div style="background: url('../../images/講師後台/課程新評價通知信/bg.png') top center / cover #fff; padding: 40px 10% 42px; border-radius: 4px;">
               <h2 style="margin-bottom: 12px; padding-bottom: 12px; text-align: center; font-size: 28px; line-height: 41px; color: #262626; font-weight: 500; border-bottom: 1px solid #595959;">課前提問</h2>
               <p style="margin-bottom: 24px; font-size: 20px; line-height: 33px; color: #595959;">
                 親愛的 陳湯圓 老師 <br>
