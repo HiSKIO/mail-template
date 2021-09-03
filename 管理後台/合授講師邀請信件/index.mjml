@@ -9,17 +9,17 @@
     <mj-wrapper padding="12px">
       <mj-section background-color="#f0f0f0" padding-top="64px" padding-bottom="40px">
         <mj-column>
-          <mj-image src="../images/hiskio.png" width="138px" />
+          <mj-image src="../../images/hiskio.png" width="138px" />
         </mj-column>
       </mj-section>
-      <mj-section border-radius='4px 4px 4px 4px' background-size='cover' background-url='../images/fundraising-completed.png' padding-top="40px" padding-left="60px" padding-right="60px" padding-bottom='60px'>
+      <mj-section border-radius='4px 4px 4px 4px' background-size='cover' background-url='../../images/fundraising-completed.png' padding-top="40px" padding-left="60px" padding-right="60px" padding-bottom='60px'>
         <mj-column width='100%' border-bottom='1px solid #595959'>
           <mj-text color='#262626' font-size='28px' line-height="41px" padding='0px' padding-bottom='12px' font-weight='500'>合授老師邀請信</mj-text>
         </mj-column>
         <mj-column width='100%'>
           <mj-text padding='0px' padding-top='20px' font-size='20px' line-height='30px' align='left'>親愛的 陳湯圓 老師 </mj-text>
           <mj-text padding='0px' padding-bottom="20px" font-size='20px' align='left' line-height='30px'>林麥克 老師 邀請你成為單堂課程『<span style="font-weight: 500px">MultiCharts 程式交易｜從零到一快速上手</span>』的合授老師。</mj-text>
-          <mj-text padding='0px' padding-bottom="40px" align='left' line-height='20px' color="#8C8C8C">若不同意則不需理會此封信件</mj-text>
+          <mj-text padding='0px' padding-bottom="40px" align='left' font-size="16px" line-height='20px' color="#8C8C8C">若不同意則不需理會此封信件</mj-text>
           <mj-button href="#" width='210px' height='30px' padding='0' background-color="#178FAC" color="#fff" border-radius='8px' font-size='20px' line-height='30px'>確認邀請</mj-button>
         </mj-column>
       </mj-section>
