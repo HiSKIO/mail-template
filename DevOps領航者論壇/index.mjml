@@ -19,7 +19,6 @@
         font-size: 13px;
         line-height: 1;
         color: #595959;
-        font-weight: 700;
       }
 
       .coupon-code {
@@ -27,6 +26,7 @@
         font-size: 18px;
         line-height: 1;
         color: #4C7A94;
+        font-weight: 700;
       }
 
       .coupon-tenlong-logo {
@@ -90,6 +90,7 @@
         }
 
         .coupon-code {
+          padding-left: 6px;
           width: 157px;
           text-align: center;
           font-size: 24px;
