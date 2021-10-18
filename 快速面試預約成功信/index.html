@@ -112,6 +112,17 @@
       .max-w-630 {
         max-width: 630px !important;
       }
+
+      .qrcode table {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      @media (min-width: 768px) {
+        .md\:hidden {
+          display: none;
+        }
+      }
     </style>
   </head>
   <body style="background-color: #f0f0f0">
@@ -196,7 +207,9 @@
                           <div class="mj-column-per-100 outlook-group-fix" style="font-size: 13px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%">
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align: top" width="100%">
                               <tr>
-                                <td align="center" style="font-size: 0px; padding: 0px; padding-bottom: 19px; word-break: break-word"><div style="font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 20px; line-height: 1; text-align: center; color: #595959">Ｈello {User name}，恭喜你預約成功！</div></td>
+                                <td align="center" style="font-size: 0px; padding: 0px; padding-bottom: 19px; word-break: break-word">
+                                  <div style="font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; text-align: center; color: #595959">Ｈello {User name}，<br class="md:hidden" />恭喜你預約成功！</div>
+                                </td>
                               </tr>
                             </table>
                           </div>
@@ -228,7 +241,7 @@
                           <div class="mj-column-per-100 outlook-group-fix" style="font-size: 13px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 100%">
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align: top" width="100%">
                               <tr>
-                                <td align="center" style="font-size: 0px; padding: 0px; padding-bottom: 40px; word-break: break-word"><div style="font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1; text-align: center; color: #434343">（求職攻略將於10月27日統一寄送至信箱）</div></td>
+                                <td align="center" style="font-size: 0px; padding: 0px; padding-bottom: 40px; word-break: break-word"><div style="font-family: Ubuntu, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1; text-align: center; color: #434343">（面試攻略將於10月27日統一寄送至信箱）</div></td>
                               </tr>
                             </table>
                           </div>
@@ -276,7 +289,7 @@
                                   <td style="vertical-align: top; padding-bottom: 10px">
                                     <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                       <tr>
-                                        <td align="center" style="font-size: 0px; padding: 0; word-break: break-word">
+                                        <td align="center" class="qrcode" style="font-size: 0px; padding: 0; word-break: break-word">
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse: collapse; border-spacing: 0px">
                                             <tbody>
                                               <tr>
