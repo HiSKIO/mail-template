@@ -1,0 +1,101 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text align="center" color="#595959" />
+      <mj-section padding-top="0" padding-bottom="0" background-color="#fff" />
+      <mj-body width="634px">
+    </mj-attributes>
+    <mj-style>
+      .shadow {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .max-w-630 {
+        max-width: 630px !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f0f0f0">
+    <mj-wrapper padding="0">
+      <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="15px">
+        <mj-column padding="0">
+          <mj-image src="../images/快速面試/hiskio.png" padding="0" width="138.54px" />
+        </mj-column>
+      </mj-section>
+      <mj-section padding='0px'>
+        <mj-column>
+          <mj-image src="../images/快速面試/cover.png" padding='0px' />
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top='28px' padding-left='44px' padding-right='44px' padding-bottom="40px" border-radius="0 0 6px 6px">
+        <mj-column width='100%'>
+          <mj-text font-size='20px' align='center' padding='0px' padding-bottom='19px' color="#595959">Ｈello {User name}，恭喜你預約成功！</mj-text>
+        </mj-column>
+        <mj-column width='100%' padding-bottom="12px">
+          <mj-image src="../images/快速面試/圖層 3.png" padding="0" width="214px" />
+        </mj-column>
+        <mj-column width='100%'>
+          <mj-text font-size='14px' align='center' padding='0px' padding-bottom='40px' color="#434343">（求職攻略將於10月27日統一寄送至信箱）</mj-text>
+        </mj-column>
+        <mj-column width='100%'>
+          <mj-text font-size='20px' line-height='28px' align='center' padding='0px' padding-bottom='20px' color="#595959" font-weight='bold'>【HiSKIO 2021 快速面試 | 科技職涯起航】即將開跑！</mj-text>
+        </mj-column>
+        <mj-column width='100%'>
+          <mj-text font-size='20px' line-height='28px' align='center' padding='0px' padding-bottom='20px' color="#595959">集結台灣優質科技企業，<br />超過50個百萬年薪的職缺即將登場</mj-text>
+        </mj-column>
+        <mj-column width='100%'>
+          <mj-text font-size='20px' line-height='28px' align='center' padding='0px' padding-bottom='20px' color="#595959">一次多家企業，與未來老闆、主管面對面！<br>讓你在最短的時間內，幫你快速匹配最好的工作。</mj-text>
+        </mj-column>
+        <mj-column width='100%'>
+          <mj-text font-size='20px' line-height='28px' align='center' padding='0px' padding-bottom='20px' color="#595959">10月27日 歡迎報名挑戰！</mj-text>
+        </mj-column>
+        <mj-column width='100%' padding-bottom="10px">
+          <mj-image src="../images/快速面試/EDM.png" padding="0" width="148px" />
+        </mj-column>
+        <mj-column width='100%' padding="0">
+          <mj-button href="#" width='258px' height='30px' padding='0' background-color="#FFA81D" color="#003B5B" border-radius='8px' font-size='20px' line-height='29px' font-weight='bold'>加入Line 讓我們提醒你</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#f0f0f0" padding-top="17px" padding-left="15px" padding-right="15px" padding-bottom="0" css-class="max-w-630">
+        <mj-column>
+          <mj-text align="left" padding="0px" color="#8c8c8c" font-size="14px" line-height="23px"> 以上資訊若有任何問題，請透過 <a href="mailto:support@hiskio.com" style="color: #178fac; text-decoration: none">客服信箱</a> 與我們聯繫，謝謝！如果此信箱非您所有，請直接忽略此信件。 </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="40px" padding-left="15px" padding-right="15px" css-class="max-w-630">
+        <mj-group width="100%">
+          <mj-column width="10%"></mj-column>
+          <mj-column width="20%">
+            <mj-image href="https://www.facebook.com/hiskio" target="_blank" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_fb.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.facebook.com/hiskio" target="_blank" style="text-decoration: none; color: #8c8c8c">粉絲專頁</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_mail.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-image href="https://hiskio.com" target="_blank" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_hi_link.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://hiskio.com" target="_blank" style="text-decoration: none; color: #8c8c8c">官方網站</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-image href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_youtube.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" style="text-decoration: none; color: #8c8c8c">Youtube</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="10%"></mj-column>
+        </mj-group>
+        <mj-group width="100%">
+          <mj-column>
+            <mj-text align="center" padding-top="24px" font-size="14px" color="#8c8c8c" line-height="20px"> 有點意思科技有限公司版權所有，轉載必究 Copyright© HiSKIO </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
