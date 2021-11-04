@@ -75,7 +75,7 @@
           <mj-image src="../images/快速面試/cover.png" padding='0px' />
         </mj-column>
       </mj-section>
-      <mj-section padding-top='31px' padding-bottom="46px" border-radius="0 0 6px 6px" css-class="px-44px md:px-63px">
+      <mj-section padding-top='31px' padding-left="44px" padding-right="44px" padding-bottom="46px" border-radius="0 0 6px 6px">
         <mj-column width='100%'>
           <mj-text font-size='20px' line-height='28px' align='center' padding='0px' padding-bottom='19px' color="#595959">Hello {User name}，<br class="md:hidden">恭喜你預約成功！</mj-text>
         </mj-column>
@@ -88,49 +88,49 @@
         <mj-column width='100%' padding-top="20px" padding-bottom="9px">
           <mj-raw>
             <div style="clear: both;">
-              <div style="float: left; width: 33.33%" class="enterprise">
-                <div class="enterprise-content" style="max-width: 92px">
-                  <img src="../images/快速面試/hiskio-enterprise.png" />
+              <div style="float: left; margin-bottom: 30px; width: 33.33%" class="enterprise">
+                <div class="enterprise-content" style="margin-left: auto; margin-right: auto; max-width: 92px">
+                  <img src="../images/快速面試/hiskio-enterprise.png" style="max-width: 100%;" />
+                </div>
+              </div>
+              <div style="float: left; margin-bottom: 30px; width: 33.33%" class="enterprise">
+                <div class="enterprise-content" style="margin-left: auto; margin-right: auto; max-width: 92px">
+                  <img src="../images/快速面試/生活市集.png" style="max-width: 100%;" />
+                </div>
+              </div>
+              <div style="float: left; margin-bottom: 30px; width: 33.33%" class="enterprise">
+                <div class="enterprise-content" style="margin-left: auto; margin-right: auto; max-width: 92px">
+                  <img src="../images/快速面試/91APP.png" style="max-width: 100%;" />
+                </div>
+              </div>
+              <div style="float: left; margin-bottom: 30px; width: 33.33%" class="enterprise">
+                <div class="enterprise-content" style="margin-left: auto; margin-right: auto; max-width: 92px">
+                  <img src="../images/快速面試/橘子gamania.png" style="max-width: 100%;" />
+                </div>
+              </div>
+              <div style="float: left; margin-bottom: 30px; width: 33.33%" class="enterprise">
+                <div class="enterprise-content" style="margin-left: auto; margin-right: auto; max-width: 92px">
+                  <img src="../images/快速面試/shopline.png" style="max-width: 100%;" />
+                </div>
+              </div>
+              <div style="float: left; margin-bottom: 30px; width: 33.33%" class="enterprise">
+                <div class="enterprise-content" style="margin-left: auto; margin-right: auto; max-width: 92px">
+                  <img src="../images/快速面試/ASUS.png" style="max-width: 100%;" />
                 </div>
               </div>
               <div style="float: left; width: 33.33%" class="enterprise">
-                <div class="enterprise-content" style="max-width: 92px">
-                  <img src="../images/快速面試/生活市集.png" />
+                <div class="enterprise-content" style="margin-left: auto; margin-right: auto; max-width: 92px">
+                  <img src="../images/快速面試/hahow.png" style="max-width: 100%;" />
                 </div>
               </div>
               <div style="float: left; width: 33.33%" class="enterprise">
-                <div class="enterprise-content" style="max-width: 92px">
-                  <img src="../images/快速面試/91APP.png" />
+                <div class="enterprise-content" style="margin-left: auto; margin-right: auto; max-width: 92px">
+                  <img src="../images/快速面試/Titansoft.png" style="max-width: 100%;" />
                 </div>
               </div>
               <div style="float: left; width: 33.33%" class="enterprise">
-                <div class="enterprise-content" style="max-width: 92px">
-                  <img src="../images/快速面試/橘子gamania.png" />
-                </div>
-              </div>
-              <div style="float: left; width: 33.33%" class="enterprise">
-                <div class="enterprise-content" style="max-width: 92px">
-                  <img src="../images/快速面試/shopline.png" />
-                </div>
-              </div>
-              <div style="float: left; width: 33.33%" class="enterprise">
-                <div class="enterprise-content" style="max-width: 92px">
-                  <img src="../images/快速面試/ASUS.png" />
-                </div>
-              </div>
-              <div style="float: left; width: 33.33%" class="enterprise">
-                <div class="enterprise-content" style="max-width: 92px">
-                  <img src="../images/快速面試/hahow.png" />
-                </div>
-              </div>
-              <div style="float: left; width: 33.33%" class="enterprise">
-                <div class="enterprise-content" style="max-width: 92px">
-                  <img src="../images/快速面試/Titansoft.png" />
-                </div>
-              </div>
-              <div style="float: left; width: 33.33%" class="enterprise">
-                <div class="enterprise-content" style="max-width: 92px">
-                  <img src="../images/快速面試/voicetube.png" />
+                <div class="enterprise-content" style="margin-left: auto; margin-right: auto; max-width: 92px">
+                  <img src="../images/快速面試/voicetube.png" style="max-width: 100%;" />
                 </div>
               </div>
             </div>
