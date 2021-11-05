@@ -75,19 +75,26 @@
           <mj-image src="../images/快速面試/cover.png" padding='0px' />
         </mj-column>
       </mj-section>
-      <mj-section padding-top='31px' padding-left="44px" padding-right="44px" padding-bottom="46px" border-radius="0 0 6px 6px">
-        <mj-column width='100%'>
-          <mj-text font-size='20px' line-height='28px' align='center' padding='0px' padding-bottom='19px' color="#595959">Hello {User name}，<br class="md:hidden">恭喜你預約成功！</mj-text>
-        </mj-column>
-        <mj-column width='100%' padding-top="14px" padding-bottom="24px" background-color="#F5F5F5" border-radius="8px">
-          <mj-text font-size='14px' align='center' padding='0px' padding-bottom='4px' color="#595959" font-weight="700">面試攻略連結 ：</mj-text>
-          <mj-text font-size='18px' line-height='25px' align='center' padding='0px' color="#595959" font-weight="500" text-decoration="underline">
-            <a href="https://bit.ly/3GLI3il" style="color: #595959;" target="_blank">https://bit.ly/3GLI3il</a>
-          </mj-text>
-        </mj-column>
-        <mj-column width='100%' padding-top="20px" padding-bottom="9px">
+      <mj-section padding-top='31px' padding-bottom="46px" padding-left="0" padding-right="0" border-radius="0 0 6px 6px">
+        <mj-column width='100%' padding="0" padding-bottom="19px">
           <mj-raw>
-            <div style="clear: both;">
+            <p style="margin: 0; padding: 0 44px; font-size: 20px; line-height: 28px; text-align: center; color: #595959;">Hello {User name}，恭喜你預約成功！</p>
+          </mj-raw>
+        </mj-column>
+        <mj-column width='100%' padding="0">
+          <mj-raw>
+            <div style="padding: 0 44px;">
+              <div style="padding: 14px 0 24px; text-align: center; background-color: #F5F5F5; border-radius: 8px;">
+                <p style="margin: 0; margin-bottom: 4px; font-size: 14px; color: #595959; font-weight:700">面試攻略連結：</p>
+                <a href="https://bit.ly/3GLI3il" style="font-size: 18px; line-height: 25px; color: #595959; font-weight: 500; text-decoration: underline" target="_blank">https://bit.ly/3GLI3il</a>
+              </div>
+
+            </div>
+          </mj-raw>
+        </mj-column>
+        <mj-column width='100%' padding="0" padding-top="20px" padding-bottom="9px">
+          <mj-raw>
+            <div style="padding: 0 44px; clear: both;">
               <div style="float: left; margin-bottom: 30px; width: 33.33%" class="enterprise">
                 <div class="enterprise-content" style="margin-left: auto; margin-right: auto; max-width: 92px">
                   <img src="../images/快速面試/hiskio-enterprise.png" style="max-width: 100%;" />
@@ -139,13 +146,13 @@
         <mj-column width='100%' padding-bottom="49px">
           <mj-text font-size='20px' line-height='29px' align='center' padding='0px' color="#8E8E8E" font-weight='bold'>(持續更新中)</mj-text>
         </mj-column>
-        <mj-column width='100%' padding-bottom="39px">
+        <mj-column width='100%' padding-left="44px" padding-right="44px" padding-bottom="39px">
           <mj-text font-size='20px' line-height='29px' align='center' padding='0px' color="#2278B2" font-weight='bold'>【HiSKIO 2021 快速面試 | 科技職涯起航】即將開跑！</mj-text>
         </mj-column>
-        <mj-column width='100%'>
+        <mj-column width='100%' padding-left="44px" padding-right="44px">
           <mj-text font-size='20px' line-height='29px' align='center' padding='0px' padding-bottom='29px' color="#595959">集結台灣優質科技企業，<br />超過50個百萬年薪的職缺即將登場</mj-text>
         </mj-column>
-        <mj-column width='100%'>
+        <mj-column width='100%' padding-left="44px" padding-right="44px">
           <mj-text font-size='20px' line-height='29px' align='center' padding='0px' padding-bottom='29px' color="#595959">一次多家企業，與未來老闆、主管面對面！<br>讓你在最短的時間內，幫你快速匹配最好的工作。</mj-text>
         </mj-column>
         <mj-column width='100%'>
