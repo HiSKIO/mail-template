@@ -67,12 +67,12 @@
     <mj-wrapper padding="0">
       <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="15px">
         <mj-column padding="0">
-          <mj-image src="../images/快速面試/hiskio.png" padding="0" width="138.54px" />
+          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" padding="0" width="138.54px" />
         </mj-column>
       </mj-section>
       <mj-section padding='0px'>
         <mj-column>
-          <mj-image src="../images/快速面試/cover.png" padding='0px' />
+          <mj-image src="https://assets.f5ezcode.in/edm/interview2-cover.png" padding='0px' />
         </mj-column>
       </mj-section>
       <mj-section padding-top='31px' padding-bottom="46px" padding-left="0" padding-right="0" border-radius="0 0 6px 6px">
@@ -92,11 +92,11 @@
             </div>
           </mj-raw>
         </mj-column>
-        <mj-column width='100%' padding="0" padding-top="20px" padding-bottom="9px">
+        <mj-column width='100%' padding="0" padding-top="36px" padding-bottom="14px">
           <mj-raw>
             <div style="padding: 0 44px;">
               <div style="margin: 0 auto; max-width: 480px;">
-                <img src="../images/快速面試/企業 logo.png" style="display: block; margin: 0 auto; max-width: 100%" />
+                <img src="https://assets.f5ezcode.in/edm/interview2-logo.png" style="display: block; margin: 0 auto; max-width: 100%" />
               </div>
             </div>
           </mj-raw>
@@ -108,16 +108,16 @@
           <mj-text font-size='20px' line-height='29px' align='center' padding='0px' color="#2278B2" font-weight='bold'>【HiSKIO 2021 快速面試 | 科技職涯起航】即將開跑！</mj-text>
         </mj-column>
         <mj-column width='100%' padding-left="44px" padding-right="44px">
-          <mj-text font-size='20px' line-height='29px' align='center' padding='0px' padding-bottom='29px' color="#595959">集結台灣優質科技企業，<br />超過50個百萬年薪的職缺即將登場</mj-text>
+          <mj-text font-size='20px' line-height='29px' align='center' padding='0px' padding-bottom='29px' color="#595959">集結台灣知名優質企業，<br />超過 50 項熱門百萬年薪的職缺等你來挑戰​</mj-text>
         </mj-column>
         <mj-column width='100%' padding-left="44px" padding-right="44px">
-          <mj-text font-size='20px' line-height='29px' align='center' padding='0px' padding-bottom='29px' color="#595959">一次多家企業，與未來老闆、主管面對面！<br>讓你在最短的時間內，幫你快速匹配最好的工作。</mj-text>
+          <mj-text font-size='20px' line-height='29px' align='center' padding='0px' padding-bottom='29px' color="#595959">一次多家企業，與未來老闆、主管面對面！<br>在最短的時間內，幫你快速匹配最好的工作。</mj-text>
         </mj-column>
-        <mj-column width='100%'>
-          <mj-text font-size='20px' line-height='29px' align='center' padding='0px' padding-bottom='30px' color="#595959">歡迎報名挑戰！</mj-text>
+        <mj-column width='100%' padding-left="44px" padding-right="44px">
+          <mj-text font-size='20px' line-height='29px' align='center' padding='0px' padding-bottom='30px' color="#595959">了解工作機會👉 <a href="https://bit.ly/3wyOEbl" target="_blank" style="color: #e34a4a; font-weight: 700; text-decoration: none;">https://bit.ly/3wyOEbl </mj-text>
         </mj-column>
-        <mj-column width='100%'>
-          <mj-image src="../images/快速面試/EDM.png" padding="0" width="148px" css-class="qrcode" />
+        <mj-column width='100%' padding="0" padding-bottom="23px">
+          <mj-image src="https://assets.f5ezcode.in/edm/interview2-EDM.png" padding="0" width="125px" css-class="qrcode" />
         </mj-column>
         <mj-column width='100%' padding="0">
           <mj-button href="#" width='258px' height='34px' padding='0' background-color="#FFA81D" color="#003B5B" border-radius='8px' font-size='20px' line-height='31px' font-weight='bold'>加入Line 讓我們提醒你</mj-button>
