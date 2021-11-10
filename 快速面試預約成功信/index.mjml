@@ -78,7 +78,7 @@
       <mj-section padding-top='31px' padding-bottom="46px" padding-left="0" padding-right="0" border-radius="0 0 6px 6px">
         <mj-column width='100%' padding="0" padding-bottom="19px">
           <mj-raw>
-            <p style="margin: 0; padding: 0 44px; font-size: 20px; line-height: 28px; text-align: center; color: #595959;">Hello {User name}，恭喜你預約成功！</p>
+            <p style="margin: 0; padding: 0 44px; font-size: 20px; line-height: 28px; text-align: center; color: #595959;">Hello {User name}，恭喜領取成功！</p>
           </mj-raw>
         </mj-column>
         <mj-column width='100%' padding="0">
@@ -105,7 +105,7 @@
           <mj-text font-size='20px' line-height='29px' align='center' padding='0px' color="#8E8E8E" font-weight='bold'>(持續更新中)</mj-text>
         </mj-column>
         <mj-column width='100%' padding-left="44px" padding-right="44px" padding-bottom="39px">
-          <mj-text font-size='20px' line-height='29px' align='center' padding='0px' color="#2278B2" font-weight='bold'>【HiSKIO 2021 快速面試 | 科技職涯起航】即將開跑！</mj-text>
+          <mj-text font-size='20px' line-height='29px' align='center' padding='0px' color="#2278B2" font-weight='bold'>【HiSKIO 2022 快速面試 | 科技職涯起航】開跑啦！</mj-text>
         </mj-column>
         <mj-column width='100%' padding-left="44px" padding-right="44px">
           <mj-text font-size='20px' line-height='29px' align='center' padding='0px' padding-bottom='29px' color="#595959">集結台灣知名優質企業，<br />超過 50 項熱門百萬年薪的職缺等你來挑戰​</mj-text>
