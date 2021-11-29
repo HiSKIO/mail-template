@@ -33,9 +33,11 @@
           <mj-raw>
             <div style="background: url('../../images/講師後台/學生繳交作業通知/bg.png') top center / cover #fff; padding: 40px 10% 42px; border-radius: 4px;">
               <h2 style="margin-bottom: 12px; padding-bottom: 12px; text-align: center; font-size: 28px; line-height: 41px; color: #262626; font-weight: 500; border-bottom: 1px solid #595959;">繳交作業通知</h2>
-              <p style="margin-bottom: 24px; font-size: 20px; line-height: 29px; color: #595959;">
-                親愛的 陳湯圓 老師 <br>
-                有人繳交了課程『基礎前端(上)』的作業囉！快去看看吧！
+              <p style="margin-bottom: 30px; font-size: 20px; line-height: 30px; color: #595959;">
+                陳湯圓 講師：
+              </p>
+              <p style="margin-bottom: 40px; font-size: 20px; line-height: 30px; color: #595959;">
+                學生繳交了『<span style="font-weight: 500;">基礎前端(上)</span>』的課程作業
               </p>
               <div style="margin-bottom: 24px; padding: 16px; background-color: #FAFAFA; border-radius: 8px;">
                 <div style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid #8c8c8c;">

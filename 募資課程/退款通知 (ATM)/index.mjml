@@ -5,28 +5,31 @@
       <mj-section background-color="#fff" />
     </mj-attributes>
   </mj-head>
-  <mj-body background-color="#fafafa">
+  <mj-body background-color="#f0f0f0">
     <mj-wrapper padding="12px">
-      <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="36px">
+      <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="36px">
         <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/icon_logo.png" width="99px" />
+          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
         </mj-column>
       </mj-section>
-      <mj-section padding="0px" border-radius="6px 6px 0px 0px">
+      <mj-section border-radius="6px 6px 0px 0px" padding='0px' background-color='#178FAC'>
         <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/coupon-expired-bg.png" width="600px" padding="0px" />
+          <mj-text color='#fff' font-size='30px' padding='18px'>募資失敗退款</mj-text>
         </mj-column>
       </mj-section>
       <mj-section border-radius="0px 0px 6px 6px" padding="40px">
-        <mj-column width="100%">
-          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="30px"> 哈囉～ 小白</mj-text>
-          <mj-text font-size="20px" align="left" padding="0px" line-height="29px">您帳戶裡的部分抵用券將於<span style="color: #e34a4a"> 3 天後 (2020/01/01 23:59)</span>到期，請記得在期限內使用完畢！<br />趕緊用更低的價格購入想要學習的內容吧！</mj-text>
-        </mj-column>
-        <mj-column width="100%">
-          <mj-button width="210px" height="30px" href="https://hiskio.com/account/coupon/available?type=AVAILABLE&page=1" padding="0px" padding-top="30px" background-color="#178FAC" border-radius="8px" font-size="20px">前往我的抵用券</mj-button>
+        <mj-column width='100%'>
+          <mj-text font-size='20px' align='left' padding='0px' padding-bottom='30px'> 您好，小白 </mj-text>
+          <mj-text font-size='20px' align='left' padding='0px' line-height='29px'> 很遺憾告訴您，您購買的<span style='font-weight:500'>『基礎前端(上)』</span>未達成募資人數門檻，請提供以下退款資訊並來信至</mj-text>
+          <mj-text padding='0px' align='left' font-size='20px' line-height='29px' padding-bottom="30px"><a href="mailto:support@hiskio.com" style='text-decoration: underline;color:#178FAC'>support@hiskio.com</a>：</mj-text>
+          <mj-text padding='0px' align='left' font-size='20px' font-weight='500' line-height='29px'> 1. 金融機構代碼 </mj-text>
+          <mj-text padding='0px' align='left' font-size='20px' font-weight='500' line-height='29px'> 2. 分行代碼 </mj-text>
+          <mj-text padding='0px' align='left' font-size='20px' font-weight='500' line-height='29px'> 3. 匯款帳號 </mj-text>
+          <mj-text padding='0px' align='left' font-size='20px' font-weight='500' line-height='29px' padding-bottom="30px"> 4. 戶名 </mj-text>
+          <mj-text padding='0px' align='left' font-size='20px' line-height='29px'>將於期限內退款給您。</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#fafafa" padding="0px" padding-top="8px">
+      <mj-section background-color="#f0f0f0" padding="0px" padding-top="8px">
         <mj-column>
           <mj-text align="left" padding="0px" color="#8c8c8c" font-size="14px" line-height="23px">
             以上資訊若有任何問題，請透過
@@ -34,7 +37,7 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="40px">
+      <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="40px">
         <mj-group width="100%">
           <mj-column width="10%"></mj-column>
 

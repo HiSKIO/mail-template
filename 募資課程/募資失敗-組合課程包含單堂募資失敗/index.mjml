@@ -5,28 +5,24 @@
       <mj-section background-color="#fff" />
     </mj-attributes>
   </mj-head>
-  <mj-body background-color="#fafafa">
+  <mj-body background-color="#f0f0f0">
     <mj-wrapper padding="12px">
-      <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="36px">
+      <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="36px">
         <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/icon_logo.png" width="99px" />
+          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
         </mj-column>
       </mj-section>
-      <mj-section padding="0px" border-radius="6px 6px 0px 0px">
-        <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/coupon-expired-bg.png" width="600px" padding="0px" />
+      <mj-section border-radius='4px 4px 4px 4px' background-size='cover' background-url='../../images/fundraising-completed.png' padding-bottom='30px' padding='40px' padding-left='45px' padding-right='45px'>
+        <mj-column width='100%' border-bottom='1px solid #595959'>
+          <mj-text color='#262626' font-size='28px' padding='0px' padding-bottom='12px' font-weight='500'> 課程募資失敗 </mj-text>
+        </mj-column>
+        <mj-column width='100%'>
+          <mj-text padding='0px' padding-top='30px' padding-bottom='30px' font-size='20px' align='left' line-height='30px'>親愛的 陳湯圓 老師 </mj-text>
+          <mj-text padding='0px' font-size='20px' align='left' line-height='30px'> 你的課程組合<span style='font-weight:500'>『2020 Vue 3 專業職人完成組合 | 入門篇＋進階篇＋加值篇』</span>中包含的募資課程<span style='font-weight:500'>『MultiCharts 程式交易｜從零到一快速上手』</span>未達募資人數門檻。</mj-text>
+          <mj-text padding='0px' font-size='20px' align='left' line-height='30px'>我們將於 7 個工作天後，將該募資失敗的課程款項依照組合包價格，等比例退還給購買此堂課程組合的學生。</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section border-radius="0px 0px 6px 6px" padding="40px">
-        <mj-column width="100%">
-          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="30px"> 哈囉～ 小白</mj-text>
-          <mj-text font-size="20px" align="left" padding="0px" line-height="29px">您帳戶裡的部分抵用券將於<span style="color: #e34a4a"> 3 天後 (2020/01/01 23:59)</span>到期，請記得在期限內使用完畢！<br />趕緊用更低的價格購入想要學習的內容吧！</mj-text>
-        </mj-column>
-        <mj-column width="100%">
-          <mj-button width="210px" height="30px" href="https://hiskio.com/account/coupon/available?type=AVAILABLE&page=1" padding="0px" padding-top="30px" background-color="#178FAC" border-radius="8px" font-size="20px">前往我的抵用券</mj-button>
-        </mj-column>
-      </mj-section>
-      <mj-section background-color="#fafafa" padding="0px" padding-top="8px">
+      <mj-section background-color="#f0f0f0" padding="0px" padding-top="8px">
         <mj-column>
           <mj-text align="left" padding="0px" color="#8c8c8c" font-size="14px" line-height="23px">
             以上資訊若有任何問題，請透過
@@ -34,10 +30,9 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="40px">
+      <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="40px">
         <mj-group width="100%">
           <mj-column width="10%"></mj-column>
-
           <mj-column width="20%">
             <mj-image href="https://www.facebook.com/hiskio" target="_blank" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_fb.png" />
             <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">

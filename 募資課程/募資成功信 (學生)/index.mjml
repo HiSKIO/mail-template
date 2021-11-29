@@ -5,28 +5,28 @@
       <mj-section background-color="#fff" />
     </mj-attributes>
   </mj-head>
-  <mj-body background-color="#fafafa">
+  <mj-body background-color="#f0f0f0">
     <mj-wrapper padding="12px">
-      <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="36px">
+      <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="36px">
         <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/icon_logo.png" width="99px" />
+          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
         </mj-column>
       </mj-section>
-      <mj-section padding="0px" border-radius="6px 6px 0px 0px">
+      <mj-section padding='0px' border-radius='6px 6px 0px 0px'>
         <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/coupon-expired-bg.png" width="600px" padding="0px" />
+          <mj-image src="../../images/fundraising-bg-2.png" width="600px" padding='0px' />
         </mj-column>
       </mj-section>
-      <mj-section border-radius="0px 0px 6px 6px" padding="40px">
-        <mj-column width="100%">
-          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="30px"> 哈囉～ 小白</mj-text>
-          <mj-text font-size="20px" align="left" padding="0px" line-height="29px">您帳戶裡的部分抵用券將於<span style="color: #e34a4a"> 3 天後 (2020/01/01 23:59)</span>到期，請記得在期限內使用完畢！<br />趕緊用更低的價格購入想要學習的內容吧！</mj-text>
+      <mj-section border-radius='0px 0px 6px 6px' padding='40px'>
+        <mj-column width='100%'>
+          <mj-text font-size='20px' align='left' padding='0px' padding-bottom='30px'>哈囉～ 小白</mj-text>
+          <mj-text font-size='20px' align='left' padding='0px' padding-bottom='20px' line-height='30px'> 您購買的募資課程『<span style="font-weight: 500;">MultiCharts 程式交易｜從零到一快速上手</span>』募資成功囉！講師將開始備課，正式開課日時，所有課程內容會上架完成。</mj-text>
         </mj-column>
-        <mj-column width="100%">
-          <mj-button width="210px" height="30px" href="https://hiskio.com/account/coupon/available?type=AVAILABLE&page=1" padding="0px" padding-top="30px" background-color="#178FAC" border-radius="8px" font-size="20px">前往我的抵用券</mj-button>
+        <mj-column width='100%' background-color='#f5f5f5' border-radius='8px'>
+          <mj-text font-size='18px' padding='12px' line-height='30px' align='left'>預計正式開課日期：2020/12/31 12:00</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#fafafa" padding="0px" padding-top="8px">
+      <mj-section background-color="#f0f0f0" padding="0px" padding-top="8px">
         <mj-column>
           <mj-text align="left" padding="0px" color="#8c8c8c" font-size="14px" line-height="23px">
             以上資訊若有任何問題，請透過
@@ -34,7 +34,7 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="40px">
+      <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="40px">
         <mj-group width="100%">
           <mj-column width="10%"></mj-column>
 

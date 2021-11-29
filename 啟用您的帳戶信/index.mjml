@@ -1,0 +1,158 @@
+<mjml>
+  <mj-head>
+
+    <mj-attributes>
+      <mj-section padding-top="0" padding-bottom="0"></mj-section>
+      <mj-all line-height="1.6"></mj-all>
+      <mj-body width="1800px">
+
+    </mj-attributes>
+    <mj-style inline="inline">
+      .link-nostyle {
+        color: inherit;
+        text-decoration: none
+      }
+    </mj-style>
+    <mj-style>
+      @media(min-width:480px) {
+        .title div {
+          font-size: 48px !important;
+          font-weight: bold !important;
+        }
+
+        .title {
+          padding-top: 64px !important;
+        }
+
+        .message div {
+          font-size: 20px !important;
+        }
+
+        .start-journey {
+          padding: 0 0 40px 0 !important;
+        }
+
+        .start-journey div {
+          font-size: 16px !important;
+        }
+
+
+        .logo {
+          padding: 0 !important;
+        }
+
+        .logo img {
+          padding-top: 104px !important;
+          padding-bottom: 40px !important;
+          width: 150px !important;
+        }
+
+        .activate {
+          padding: 0 0 40px 0 !important;
+        }
+
+        .activate table {
+          width: 200px !important;
+        }
+
+        .activate a {
+          font-size: 20px !important;
+        }
+
+        .info div {
+          font-size: 16px !important;
+        }
+
+        .bottom {
+          padding-bottom: 150px !important;
+        }
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      table {
+        border-collapse: separate;
+      }
+
+      .main-width {
+        border-radius: 30px;
+        box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.16);
+      }
+
+      .hi-courses-title {
+        color: #178fac;
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#fafafa">
+    <mj-wrapper padding="27px" background-url="https://edm.hiskio.com/source/5f1f8fd759c53/bg-start-account.png?1597914410253" background-size="cover" background-repeat="no-repeat">
+      <mj-section>
+        <mj-column width="400px">
+          <mj-image css-class="logo" align="center" src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" alt="" width="99px" padding-top="41px" padding-bottom="22px" />
+        </mj-column>
+      </mj-section>
+      <mj-section border-radius="10px">
+        <mj-column width="600px" css-class="main-width" background-color="#fff" border-radius="8px" border-top="9px solid #178fac">
+          <mj-text align="center" padding-bottom="0" font-size="24px" line-height="59px" font-weight="bold" padding-top="32px" css-class="title">
+            啟用您的帳戶
+          </mj-text>
+          <mj-text font-size="16px" line-height="30px" css-class="message" color="#262626" padding-top="32px" padding-bottom="30px">
+            哈囉！Hung Ming Chen
+          </mj-text>
+          <mj-text font-size="16px" line-height="30px" css-class="message" color="#262626" padding-top="0" padding-bottom="26px">
+            歡迎您加入 HiSKIO，點擊下方按鈕啟用帳戶，與我們一起學習。
+          </mj-text>
+          <mj-button css-class="activate" href="#" font-weight="bold" width="160px" background-color="#178fac" padding-top="0" padding-bottom="24px" font-size="16px">
+            啟用帳戶
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0" padding-left="10px" padding-right="10px">
+        <mj-column width="600px" padding="0">
+          <mj-text css-class="info" color="#8c8c8c" padding-left='0' padding-right="0" font-size="14px" padding-top="8px" padding-bottom="40px">
+            以上資訊若有任何問題，請透過 <a href="" style="color:#178fac; text-decoration:none;">客服信箱</a> 與我們聯繫，謝謝！如果此信箱非您所有，請直接忽略此信件。
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-group width="600px">
+          <mj-column width="10%">
+
+          </mj-column>
+          <mj-column>
+            <mj-image href="https://hiskio.com" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1597975150120" />
+            <mj-text padding-left="0" padding-right="0" padding-top="4px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="" class="link-nostyle" width="58px">粉絲專頁</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image href="" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-contact.png?1597975168004" />
+            <mj-text padding-left="0" padding-right="0" padding-top="4px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="" class="link-nostyle">聯絡我們</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image href="https://hiskio.com" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-hiskio-link.png?1597975125788" />
+            <mj-text padding-left="0" padding-right="0" padding-top="4px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://hiskio.com" class="link-nostyle">官方網站</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image href="" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/youtube.png?1597975100376" />
+            <mj-text padding-left="0" padding-right="0" padding-top="4px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="" class="link-nostyle">Youtube</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text align="center" padding-top="8px" padding-bottom="47px" font-size="14px" color="#8c8c8c" css-class="bottom">
+            有點意思科技有限公司版權所有，轉載必究 Copyright© HiSKIO
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
