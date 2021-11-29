@@ -52,19 +52,21 @@
           <mj-image css-class="logo" src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" alt="" width="99px" padding-top="40px" padding-bottom="40px" />
           <mj-image css-class="main-icon" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-purchase-confirmation.png?1597942574236" alt="" width="99.34px" padding-top="0" padding-bottom="29.5px" />
           <mj-text css-class="title" color="#262626" align="center" font-size="40px" font-weight="bold"> 課程購買成功 </mj-text>
-          <mj-text css-class="purchase-success" font-size="18px" color="#262626" align="center" padding-bottom="49px" padding-top="0">恭喜你成功購買，馬上開始課程！</mj-text>
+          <mj-text css-class="purchase-success" font-size="18px" color="#262626" align="center" padding-bottom="49px" padding-top="0">馬上開始學習！</mj-text>
         </mj-column>
       </mj-section>
       <mj-section background-color="#fff" padding-left="28px" padding-right="28px">
         <mj-column css-class='max-layout'>
-          <mj-text font-size="20px" color="#595959" padding-top="40px" padding-bottom="16px" padding-left="0" padding-right="0"> 哈囉～ 小白
-            <br>您已經成功購買HiSKIO的『<span style='color:#262626; font-weight: 500;'>MultiCharts 程式交易｜從零到一快速上手</span>』<span style='color:#262626; font-weight: 500;'>與其他課程</span>，希望你能透過課程獲得你想學習的知識與技能，HISKIO團隊祝福你學習愉快與順利。點擊下方按鈕前往你的課程頁開始學習吧！
+          <mj-text font-size="20px" line-height="30px" color="#595959" padding-top="40px" padding-bottom="30px" padding-left="0" padding-right="0"> 哈囉～ 小白
+          </mj-text>
+          <mj-text font-size="20px" line-height="30px" color="#595959" padding-top="0" padding-bottom="12px" padding-left="0" padding-right="0">
+            您已經成功購買HiSKIO的『<span style='color:#262626; font-weight: 500;'>MultiCharts 程式交易｜從零到一快速上手</span>』<span style='color:#262626; font-weight: 500;'>與其他課程</span>，希望您能獲得更多知識與技能，HISKIO 團隊祝您學習愉快。
           </mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
         <mj-column css-class='max-layout'>
-          <mj-text font-size="20px" color="#262626" padding-left='0px' font-weight="bold" padding-bottom='6px'>課程購買明細</mj-text>
+          <mj-text font-size="20px" color="#262626" padding-left='0px' font-weight="bold" padding-top="0px" padding-bottom='10px'>課程購買明細</mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
@@ -128,12 +130,12 @@
           </mj-raw>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#f0f0f0" padding-left="28px" padding-right="28px" padding-top="32px">
+      <mj-section background-color="#f0f0f0" padding-left="28px" padding-right="28px" padding-top="25px">
         <mj-column css-class='course-layout'>
-          <mj-text font-size="20px" padding-left="0" padding-right="0" color="#595959" font-weight="500">購買了課程『MultiCharts 程式交易｜從零到一快速上手』的學員也購買了這些課程：</mj-text>
+          <mj-text font-size="20px" line-height="26px" padding-left="0" padding-right="0" padding-top="0" padding-bottom="26px" color="#595959" font-weight="500">購買了課程『MultiCharts 程式交易｜從零到一快速上手』的學員也購買了這些課程：</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding-left='28px' padding-top='6px' padding-right='28px' padding-bottom='12px' background-color='#f0f0f0'>
+      <mj-section padding-left='28px' padding-top='0' padding-right='28px' padding-bottom='12px' background-color='#f0f0f0'>
         <mj-group css-class='course-layout max-w-780'>
           <mj-column width="33.33%" padding-left="10px" padding-right="10px" padding-bottom="10px" css-class="course-max">
             <mj-raw>

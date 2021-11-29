@@ -5,28 +5,36 @@
       <mj-section background-color="#fff" />
     </mj-attributes>
   </mj-head>
-  <mj-body background-color="#fafafa">
+  <mj-body background-color="#f0f0f0">
     <mj-wrapper padding="12px">
-      <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="36px">
+      <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="36px">
         <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/icon_logo.png" width="99px" />
+          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
         </mj-column>
       </mj-section>
       <mj-section padding="0px" border-radius="6px 6px 0px 0px">
         <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/coupon-expired-bg.png" width="600px" padding="0px" />
+          <mj-image src="../../images/fundraising-bg-2.png" width="600px" padding="0px" />
         </mj-column>
       </mj-section>
       <mj-section border-radius="0px 0px 6px 6px" padding="40px">
         <mj-column width="100%">
           <mj-text font-size="20px" align="left" padding="0px" padding-bottom="30px"> 哈囉～ 小白</mj-text>
-          <mj-text font-size="20px" align="left" padding="0px" line-height="29px">您帳戶裡的部分抵用券將於<span style="color: #e34a4a"> 3 天後 (2020/01/01 23:59)</span>到期，請記得在期限內使用完畢！<br />趕緊用更低的價格購入想要學習的內容吧！</mj-text>
+          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="30px" line-height="30px">您所關注的募資課程『<span style="font-weight: 500;">MultiCharts 程式交易｜從零到一快速上手</span>』已經正式開課囉！您可以從現在開始上課並獲取完整知識。</mj-text>
+          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="36px" line-height="30px"> 目前已經有 117 位學生加入這堂課，<br /> 如果您還在考慮，您可以：<br /> 1. <a href='按鈕前往 銷售頁,跳出試閱popup
+帶參數/&utm_source=edm&utm_medium=course_completed&utm_campaign=funding_course&utm_term=funding_course_trailer
+'><span style='color:#178FAC;text-decoration:underline;font-weight:500'>前往課程，免費試閱</span></a><br /> 2. <a href='前往銷售頁-課前提問區
+            帶參數/&utm_source=edm&utm_medium=course_completed&utm_campaign=funding_course&utm_term=funding_course_qa'><span style='color:#178FAC;text-decoration:underline;font-weight:500'>前往課前提問區，詢問老師課程相關問題</span></a><br />期待您的加入，和我們一起學習吧！<br />
+          </mj-text>
         </mj-column>
         <mj-column width="100%">
-          <mj-button width="210px" height="30px" href="https://hiskio.com/account/coupon/available?type=AVAILABLE&page=1" padding="0px" padding-top="30px" background-color="#178FAC" border-radius="8px" font-size="20px">前往我的抵用券</mj-button>
+          <mj-button width="210px" height="30px" href="連到
+已經正式開課了，所以連到
+單堂銷售頁-已購課 頁面
+帶參數/??utm_source=edm&utm_medium=course_completed&utm_campaign=funding_course&utm_term=funding_course_completed" padding="0px" background-color="#178FAC" border-radius="8px" font-size="20px">前往試閱</mj-button>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#fafafa" padding="0px" padding-top="8px">
+      <mj-section background-color="#f0f0f0" padding="0px" padding-top="8px">
         <mj-column>
           <mj-text align="left" padding="0px" color="#8c8c8c" font-size="14px" line-height="23px">
             以上資訊若有任何問題，請透過
@@ -34,7 +42,7 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="40px">
+      <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="40px">
         <mj-group width="100%">
           <mj-column width="10%"></mj-column>
 
