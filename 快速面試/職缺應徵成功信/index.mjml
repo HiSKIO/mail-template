@@ -35,19 +35,19 @@
               <h3 style="margin: 0 0 36px; font-size: 36px; line-height: 45px; color: #434343; font-weight: 700;">資深後端開發工程師</h3>
               <div style="margin-bottom: 46px;">
                 <label style="display: inline-block; margin-bottom: 20px; font-size: 16px; line-height: 1; color: #4C7A94;" for="interview-name">*申請人 中文姓名</label>
-                <input id="interview-name" type="text" style="display: block; padding: 0 12px; width: 100%; height: 43px; font-size: 16px; border: 1px solid #bfbfbf; border-radius: 4px; box-sizing: border-box;" />
+                <input id="interview-name" type="text" style="display: block; padding: 0 12px; width: 100%; height: 43px; font-size: 16px; border: 1px solid #bfbfbf; border-radius: 4px; box-sizing: border-box; outline:unset;" readonly />
               </div>
               <div style="margin-bottom: 46px;">
                 <label style="display: inline-block; margin-bottom: 20px; font-size: 16px; line-height: 1; color: #4C7A94;" for="interview-id-number">*身份證字號/護照號碼</label>
-                <input id="interview-id-number" type="text" style="display: block; padding: 0 12px; width: 100%; height: 43px; font-size: 16px; border: 1px solid #bfbfbf; border-radius: 4px; box-sizing: border-box;" />
+                <input id="interview-id-number" type="text" style="display: block; padding: 0 12px; width: 100%; height: 43px; font-size: 16px; border: 1px solid #bfbfbf; border-radius: 4px; box-sizing: border-box; outline:unset;" readonly />
               </div>
               <div style="margin-bottom: 46px;">
                 <label style="display: inline-block; margin-bottom: 20px; font-size: 16px; line-height: 1; color: #4C7A94;" for="interview-email">*申請人 Email</label>
-                <input id="interview-email" type="email" style="display: block; padding: 0 12px; width: 100%; height: 43px; font-size: 16px; border: 1px solid #bfbfbf; border-radius: 4px; box-sizing: border-box;" />
+                <input id="interview-email" type="email" style="display: block; padding: 0 12px; width: 100%; height: 43px; font-size: 16px; border: 1px solid #bfbfbf; border-radius: 4px; box-sizing: border-box; outline:unset;" readonly />
               </div>
               <div style="margin-bottom: 30px;">
                 <label style="display: inline-block; margin-bottom: 20px; font-size: 16px; line-height: 1; color: #4C7A94;" for="interview-phone">*申請人 行動電話</label>
-                <input id="interview-phone" type="tel" style="display: block; padding: 0 12px; width: 100%; height: 43px; font-size: 16px; border: 1px solid #bfbfbf; border-radius: 4px; box-sizing: border-box;" />
+                <input id="interview-phone" type="tel" style="display: block; padding: 0 12px; width: 100%; height: 43px; font-size: 16px; border: 1px solid #bfbfbf; border-radius: 4px; box-sizing: border-box; outline:unset;" readonly />
               </div>
               <div style="margin-bottom: 32px;">
                 <p style="margin: 0; font-size: 16px; line-height: 36px; color: #4C7A94;">*請上傳您的履歷表（.pdf）</p>
@@ -59,7 +59,7 @@
               </div>
               <div style="margin-bottom: 15px;">
                 <label style="display: inline-block; margin-bottom: 20px; font-size: 16px; line-height: 23px; color: #4C7A94;" for="interview-introduction">（選填）請用在 300 個文字左右的篇幅，介紹您自己及為什麼想加入我們公司</label>
-                <textarea id="interview-introduction" style="display: block; padding: 12px; width: 100%; height: 153px; font-size: 16px; border: 1px solid #bfbfbf; border-radius: 4px; box-sizing: border-box;"></textarea>
+                <textarea id="interview-introduction" style="display: block; padding: 12px; width: 100%; height: 153px; font-size: 16px; border: 1px solid #bfbfbf; border-radius: 4px; box-sizing: border-box; outline:unset;" readonly></textarea>
               </div>
               <img src="https://assets.f5ezcode.in/edm/interview3-EDM.png" alt="EDM" style="display: block; margin: 0 auto;" />
             </div>
