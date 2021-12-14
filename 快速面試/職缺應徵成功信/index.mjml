@@ -64,31 +64,31 @@
               <p style="margin: 0 0 64px; padding: 0; text-align: center; font-size: 20px; color: #595959;">感謝您投遞履歷，快來領取您的好禮吧！</p>
               <div style="margin-bottom: 72px;">
                 <h3 style="margin: 0 0 8px; padding: 0 0 0 11.875%; color: #003B5B; font-weight: 700;"><span style="font-size: 22px; line-height: 32px;">好禮</span><span style="margin-left: 6px; margin-right: 17px; font-size: 30px; line-height: 1;">1</span>獨家面試攻略，就像考試前拿到考卷</h3>
-                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; padding: 20px 13.54%; text-align: left; background-color: #F5F5F5; color: #595959; border-radius: 8px;">
-                  <div style="flex-shrink: 0; width: 50%; font-size: 14px; font-weight: 700; white-space: nowrap;">面試攻略連結 ：</div>
-                  <a href="https://bit.ly/3GLI3il" target="_blank" style="flex-shrink: 0; flex-grow: 1; font-size: 18px; line-height: 25px; font-weight: 500; color: #595959;">https://bit.ly/3GLI3il</a>
+                <div style="padding: 20px 13.54%; text-align: left; background-color: #F5F5F5; color: #595959; border-radius: 8px;">
+                  <div style="display: inline-block; min-width: 50%; font-size: 14px; font-weight: 700; white-space: nowrap;">面試攻略連結 ：</div>
+                  <a href="https://bit.ly/3GLI3il" target="_blank" style="font-size: 18px; line-height: 25px; font-weight: 500; color: #595959;">https://bit.ly/3GLI3il</a>
                 </div>
               </div>
               <div style="margin-bottom: 59px;">
                 <h3 style="margin: 0 0 8px; padding: 0 0 0 11.875%; color: #003B5B; font-weight: 700;"><span style="font-size: 22px; line-height: 32px;">好禮</span><span style="margin-left: 6px; margin-right: 17px; font-size: 30px; line-height: 1;">2</span>四大主題學習論壇免費獲取影片</h3>
                 <div style="padding: 20px 13.54%; text-align: left; background-color: #F5F5F5; color: #595959; border-radius: 8px;">
-                  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 10px;">
-                    <div style="flex-shrink: 0; width: 50%; font-size: 14px; font-weight: 700; box-sizing: border-box; white-space: nowrap;">前端領航者論壇：</div>
-                    <a href="https://bit.ly/3s0HvzY" target="_blank" style="flex-shrink: 0; flex-grow: 1; font-size: 18px; line-height: 25px; font-weight: 500; color: #595959; box-sizing: border-box;">https://bit.ly/3s0HvzY</a>
+                  <div style="margin-bottom: 10px;">
+                    <div style="display: inline-block; min-width: 50%; font-size: 14px; font-weight: 700; box-sizing: border-box; white-space: nowrap;">前端領航者論壇：</div>
+                    <a href="https://bit.ly/3s0HvzY" target="_blank" style="font-size: 18px; line-height: 25px; font-weight: 500; color: #595959; box-sizing: border-box;">https://bit.ly/3s0HvzY</a>
                   </div>
-                  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 10px;">
-                    <div style="flex-shrink: 0; width: 50%; font-size: 14px; font-weight: 700; box-sizing: border-box; white-space: nowrap;">後端領航者論壇：</div>
-                    <a href="https://bit.ly/3pDIvaC" target="_blank" style="flex-shrink: 0; flex-grow: 1; font-size: 18px; line-height: 25px; font-weight: 500; color: #595959; box-sizing: border-box;">https://bit.ly/3pDIvaC</a>
+                  <div style="margin-bottom: 10px;">
+                    <div style="display: inline-block; min-width: 50%; font-size: 14px; font-weight: 700; box-sizing: border-box; white-space: nowrap;">後端領航者論壇：</div>
+                    <a href="https://bit.ly/3pDIvaC" target="_blank" style="font-size: 18px; line-height: 25px; font-weight: 500; color: #595959; box-sizing: border-box;">https://bit.ly/3pDIvaC</a>
                   </div>
-                  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 10px;">
-                    <div style="flex-shrink: 0; width: 50%; font-size: 14px; font-weight: 700; box-sizing: border-box; white-space: nowrap;">
+                  <div style="margin-bottom: 10px;">
+                    <div style="display: inline-block; min-width: 50%; font-size: 14px; font-weight: 700; box-sizing: border-box; white-space: nowrap;">
                       <div>資料科學領航者論壇：</div>
                     </div>
-                    <a href="https://bit.ly/3DH3YUY" target="_blank" style="flex-shrink: 0; flex-grow: 1; font-size: 18px; line-height: 25px; font-weight: 500; color: #595959; box-sizing: border-box;">https://bit.ly/3DH3YUY</a>
+                    <a href="https://bit.ly/3DH3YUY" target="_blank" style="font-size: 18px; line-height: 25px; font-weight: 500; color: #595959; box-sizing: border-box;">https://bit.ly/3DH3YUY</a>
                   </div>
-                  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-                    <div style="flex-shrink: 0; width: 50%; font-size: 14px; font-weight: 700; box-sizing: border-box; white-space: nowrap;">DevOps領航者論壇：</div>
-                    <a href="https://bit.ly/3DHiE6J" target="_blank" style="flex-shrink: 0; flex-grow: 1; font-size: 18px; line-height: 25px; font-weight: 500; color: #595959; box-sizing: border-box;">https://bit.ly/3DHiE6J</a>
+                  <div>
+                    <div style="display: inline-block; min-width: 50%; font-size: 14px; font-weight: 700; box-sizing: border-box; white-space: nowrap;">DevOps領航者論壇：</div>
+                    <a href="https://bit.ly/3DHiE6J" target="_blank" style="font-size: 18px; line-height: 25px; font-weight: 500; color: #595959; box-sizing: border-box;">https://bit.ly/3DHiE6J</a>
                   </div>
                 </div>
               </div>
@@ -103,7 +103,7 @@
           </mj-raw>
         </mj-column>
         <mj-column width='100%' padding="0">
-          <mj-button href="#" width='258px' height='34px' padding='0' background-color="#FFA81D" color="#003B5B" border-radius='8px' font-size='20px' line-height='31px' font-weight='bold'>加入Line 獲得更多資訊</mj-button>
+          <mj-button href="https://bit.ly/2YSRGKJ" width='258px' height='34px' padding='0' background-color="#FFA81D" color="#003B5B" border-radius='8px' font-size='20px' line-height='31px' font-weight='bold'>加入Line 獲得更多資訊</mj-button>
         </mj-column>
       </mj-section>
       <mj-section background-color="#f0f0f0" padding-top="17px" padding-left="15px" padding-right="15px" padding-bottom="0" css-class="max-w-630">
