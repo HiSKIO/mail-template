@@ -96,12 +96,16 @@
               <td class="info-title" style="color:#595959; font-size:18px; line-height:26.5px; font-weight:500;">購買內容</td>
             </tr>
             <tr>
-              <td class="info-content" style="color:#8c8c8c; font-size:16px; line-height:26.5px; max-width:424px">打造電商後端職人力：一課全面覆蓋 PHP + Laravel 8 核心技法與求職心法</td>
-              <td class="info-content" style="padding:0; color:#8c8c8c; font-size:16px; line-height:23px; padding-left:50px;" align="right"> NTD 8,290 </td>
+              <td class="info-content" style="color:#8c8c8c; font-size:16px; line-height:26.5px; max-width:200px;">打造電商後端職人力：一課全面覆蓋 PHP + Laravel 8 核心技法與求職心法</td>
+              <td class="info-content" style="padding:0; color:#8c8c8c; font-size:16px; line-height:23px; padding-left:16px;" align="right"> NTD 8,290 </td>
+            </tr>
+            <tr>
+              <td class="info-content" style="color:#eb6767; font-size:16px; line-height:26.5px; max-width:200px;">持續學習</td>
+              <td class="info-content" style="padding:0; color:#eb6767; font-size:16px; line-height:23px; padding-left:16px;" align="right"> -NTD 198</td>
             </tr>
           </mj-table>
-          <mj-divider border-width="1px" border-color="#d9d9d9" padding-top="0" padding-bottom="0" padding-left="27px" padding-right="23px" />
-          <mj-text css-class="info-content" align="right" padding-top="17px" padding-bottom="25px" padding-right="24.24px" font-size="18px" line-height="26px" color="#8c8c8c">總金額 NTD <span class="info-title" style="font-bold:500;">8,290</span>
+          <mj-divider border-width="1px" border-color="#d9d9d9" padding-top="0" padding-bottom="0" padding-left="24px" padding-right="24px" />
+          <mj-text css-class="info-content" align="right" padding-top="16px" padding-bottom="24px" padding-right="24px" font-size="16px" line-height="26px" color="#8c8c8c">總金額 NTD <span class="info-title" style="font-bold:500;">8,290</span>
           </mj-text>
         </mj-column>
       </mj-section>
