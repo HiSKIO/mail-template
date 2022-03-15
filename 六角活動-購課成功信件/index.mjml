@@ -86,7 +86,7 @@
               <td class="info-title" style="color:#595959;font-size:16px;font-weight:bold;"> 付款方式 </td>
             </tr>
             <tr>
-              <td class="info-content" style="color:#8c8c8c;font-size:14px"> 信用卡分3期 </td>
+              <td class="info-content" style="color:#8c8c8c;font-size:16px;"> 信用卡分3期 </td>
             </tr>
           </mj-table>
           <mj-table padding="24px">
@@ -94,12 +94,16 @@
               <td class="info-title" style="color:#595959;font-size:16px;font-weight:bold;"> 購買內容 </td>
             </tr>
             <tr>
-              <td class="info-content" style="color:#8c8c8c;font-size:14px;max-width:200px">打造前端職人力：JavaScript + Vue3 + Nuxt.js（贈書一本）</td>
-              <td class="info-content" style="padding:0;color:#8c8c8c;font-size:14px;padding-left:16px;" align="right"> NTD 8,290 </td>
+              <td class="info-content" style="color:#8c8c8c;max-width:200px;font-size:16px;">打造前端職人力：JavaScript + Vue3 + Nuxt.js（贈書一本）</td>
+              <td class="info-content" style="padding:0;color:#8c8c8c;padding-left:16px;font-size:16px;" align="right"> NTD 8,290 </td>
+            </tr>
+            <tr>
+              <td class="info-content" style="color:#eb6767;max-width:200px;font-size:16px;">持續學習</td>
+              <td class="info-content" style="padding:0;color:#eb6767;padding-left:16px;font-size:16px;" align="right">-NTD 198</td>
             </tr>
           </mj-table>
-          <mj-divider border-width="1px" border-color="#d9d9d9" padding-top="0" padding-bottom="0" padding-left="16px" padding-right="16px" />
-          <mj-text css-class="info-content" align="right" padding-top="16px" padding-bottom="16px" padding-right="16px" font-size="14px" color="#595959"> 總金額 NTD<span class="info-title"> 8,290</span>
+          <mj-divider border-width="1px" border-color="#d9d9d9" padding-top="0" padding-bottom="0" padding-left="24px" padding-right="24px" />
+          <mj-text css-class="info-content" align="right" padding-top="16px" padding-bottom="24px" padding-right="24px" color="#595959" font-size="16px"> 總金額 NTD<span class="info-title"> 8,290</span>
           </mj-text>
         </mj-column>
       </mj-section>
