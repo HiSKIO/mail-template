@@ -226,6 +226,14 @@
                 NTD 1,200
               </td>
             </tr>
+            <tr>
+              <td class="eighteen highlight" width="80px" color="#db625d" style="color:#eb6767;padding:0;font-size:16px;font-weight:bold;">
+                錢包退款
+              </td>
+              <td class="eighteen highlight warning-color" style="color:#eb6767;padding:0;font-size:16px;font-weight:bold;">
+                NTD 500
+              </td>
+            </tr>
           </mj-table>
         </mj-column>
         <mj-column width="600px" padding-bottom="24px" padding-top="16px">
