@@ -173,7 +173,7 @@
           <mj-table font-size="16px" css-class="detail" padding-top="0" padding-bottom="24px" padding-left="20px" padding-right="20px">
             <tr>
               <td width="80px" style="color:#262626; font-size:16px;" class="info-text info-title-padding">退款方式</td>
-              <td style="color:#262626; font-size:16px;font-weight:bold;" class="info-text">網路ATM</td>
+              <td style="color:#262626; font-size:16px;font-weight:bold;" class="info-text">信用卡刷退、我的錢包退款</td>
             </tr>
             <tr>
               <td width="80px" style="color:#262626; font-size:16px;" class="info-text info-title-padding">退款帳號</td>
