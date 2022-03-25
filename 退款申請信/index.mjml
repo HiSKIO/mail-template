@@ -69,7 +69,7 @@
       .bottom {
         padding-bottom: 47px !important;
       }
-    </mj-style>
+    </mj-style>  
     <mj-style>
       @media (min-width:480px) {
         .title div {
@@ -87,13 +87,8 @@
         }
 
         .info-text {
-          font-size: 18px !important;
+          font-size: 16px !important;
         }
-
-        .info-title-padding {
-          width: 90px !important;
-        }
-
 
         .logo {
           padding: 0 !important;
@@ -169,19 +164,40 @@
           </mj-text>
           <mj-text font-size="16px" line-height="30px" css-class="message" color="#595959" padding-top="0" padding-bottom="20px">
             以下是您的退款資訊：
-          </mj-text>
-          <mj-table font-size="16px" css-class="detail" padding-top="0" padding-bottom="24px" padding-left="20px" padding-right="20px">
+          </mj-text>         
+          <mj-table css-class="detail" padding-top="0" padding-bottom="24px" padding-left="20px" padding-right="20px">
             <tr>
-              <td width="80px" style="color:#262626; font-size:16px;" class="info-text info-title-padding">退款方式</td>
-              <td style="color:#262626; font-size:16px;font-weight:bold;" class="info-text">信用卡刷退、我的錢包退款</td>
+              <td style="color:#8C8C8C; font-size:14px; padding-bottom:4px;" class="info-text">退款方式</td>
             </tr>
             <tr>
-              <td width="80px" style="color:#262626; font-size:16px;" class="info-text info-title-padding">退款帳號</td>
-              <td style="color:#262626; font-size:16px;font-weight:bold;" class="info-text">888-16091086082343</td>
+              <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">退款至銀行帳戶</td>
+            </tr>            
+            <tr>
+              <td style="color:#8C8C8C; font-size:14px; padding-bottom:4px;" class="info-text">退款原因</td>
             </tr>
             <tr>
-              <td width="80px" style="color:#262626;font-size:16px;" class="info-text info-title-padding">退款理由</td>
-              <td style="color:#262626;font-size:16px;font-weight:bold;" class="info-text">買錯課買錯課買錯課買錯課買錯課</td>
+              <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">商品內容與期望不同</td>
+            </tr>
+            <!-- Use Wallet Start -->            
+            <tr>
+              <td style="color:#8C8C8C; font-size:14px; padding-bottom:4px;" class="info-text">退款至銀行帳戶</td>
+            </tr>
+            <tr>
+              <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">NT$999,999</td>
+            </tr>            
+            <tr>
+              <td style="color:#8C8C8C; font-size:14px; padding-bottom:4px;" class="info-text">退款至我的錢包</td>
+            </tr>
+            <tr>
+              <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">NT$50</td>
+            </tr>
+            <!-- Use Wallet End -->
+            <!-- Sum Up Below -->              
+            <tr>
+              <td style="color:#8C8C8C; font-size:14px; padding-top:10px; padding-bottom:4px; border-top: 1pt solid #D9D9D9;" class="info-text">退款總計</td>
+            </tr>                 
+            <tr>
+              <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">NT$1,000,049</td>
             </tr>
           </mj-table>
           <mj-button css-class="activate" href="https://hiskio.com" font-weight="bold" width="210px" background-color="#178fac" padding-top="0" padding-bottom="24px" font-size="16px">
