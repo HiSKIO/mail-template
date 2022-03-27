@@ -132,10 +132,8 @@
       table {
         border-collapse: separate;
       }
-
       .main-width {
         border-radius: 30px;
-        box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.16);
       }
 
       .hi-courses-title {
@@ -200,14 +198,14 @@
               <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">NT$1,000,049</td>
             </tr>
           </mj-table>
-          <mj-button css-class="activate" href="https://hiskio.com" font-weight="bold" width="210px" background-color="#178fac" padding-top="0" padding-bottom="24px" font-size="16px">
+          <mj-button css-class="activate" href="https://hiskio.com" font-weight="bold" width="210px" background-color="#178fac" padding-top="0" padding-bottom="24px" font-size="16px" border-radius="8px">
             查看申請紀錄
           </mj-button>
         </mj-column>
       </mj-section>
       <mj-section>
         <mj-column width="600px" padding="0">
-          <mj-text css-class="info" color="#8c8c8c" padding-left='0' padding-right="0" font-size="14px" padding-top="8px" padding-bottom="40px">
+          <mj-text css-class="info" color="#8c8c8c" padding-left='0' padding-right="0" font-size="14px" padding-top="40px" padding-bottom="40px">
             以上資訊若有任何問題，請透過 <a href="" style="color:#178fac; text-decoration:none;">客服信箱</a> 與我們聯繫，謝謝！如果此信箱非您所有，請直接忽略此信件。
           </mj-text>
         </mj-column>
