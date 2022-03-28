@@ -255,15 +255,15 @@
 
           </mj-column>
           <mj-column>
-            <mj-image href="https://hiskio.com" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1597975150120" />
+            <mj-image href="https://www.facebook.com/hiskio" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1597975150120" />
             <mj-text padding-left="0" padding-right="0" padding-top="4px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
-              <a href="" class="link-nostyle" width="58px">粉絲專頁</a>
+              <a href="https://www.facebook.com/hiskio" class="link-nostyle" width="58px">粉絲專頁</a>
             </mj-text>
           </mj-column>
           <mj-column>
-            <mj-image href="" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-contact.png?1597975168004" />
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-contact.png?1597975168004" />
             <mj-text padding-left="0" padding-right="0" padding-top="4px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
-              <a href="" class="link-nostyle">聯絡我們</a>
+              <a href="mailto:support@hiskio.com" class="link-nostyle">聯絡我們</a>
             </mj-text>
           </mj-column>
           <mj-column>
@@ -273,9 +273,9 @@
             </mj-text>
           </mj-column>
           <mj-column>
-            <mj-image href="" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/youtube.png?1597975100376" />
+            <mj-image href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/youtube.png?1597975100376" />
             <mj-text padding-left="0" padding-right="0" padding-top="4px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
-              <a href="" class="link-nostyle">Youtube</a>
+              <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" class="link-nostyle">Youtube</a>
             </mj-text>
           </mj-column>
         </mj-group>
