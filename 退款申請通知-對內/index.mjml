@@ -1,0 +1,92 @@
+<mjml>
+  <mj-head>
+
+    <mj-attributes>
+      <mj-section padding-top="0" padding-bottom="0"></mj-section>
+      <mj-all line-height="1.6"></mj-all>
+      <mj-body width="1800px">
+    </mj-attributes>
+    <mj-style inline="inline">
+      .main-width {
+        border-radius: 10px;
+        box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.16);
+      }
+    </mj-style>
+    <mj-style>
+      @media(min-width:480px) {
+        .title div {
+          font-size: 20px !important;
+          font-weight: 500 !important;
+        }
+
+        .message div {
+          font-size: 16px !important;
+          font-weight: 400 !important;
+        }
+
+        .bottom {
+          padding-bottom: 150px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#fafafa">
+    <mj-wrapper padding="27px" background-color="#fafafa">
+      <mj-section>
+        <mj-column width="400px">
+          <mj-image css-class="logo" align="center" src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" alt="" width="99px" padding-top="41px" padding-bottom="22px" />
+        </mj-column>
+      </mj-section>
+      <mj-section border-radius="10px">
+        <mj-column css-class="main-width" width="600px" background-color="#fff" border-radius="3px" border-top="3px solid #178fac">
+          <mj-text font-size="20px" line-height="29px" font-weight="bold" padding="20px" css-class="title">
+            會員退款通知
+          </mj-text>
+          <mj-divider border-color="#D9D9D9" border-width="1px" padding="0px"></mj-divider>
+          <mj-table padding="20px" font-size="16px" css-class="message" color="#262626" line-height="16px">
+            <tr>
+              <td style="width: 50px; padding-right: 20px">
+                <img width="50px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-hiskio-link.png?1597975125788" />
+              </td>
+              <td>
+                HiSKIO 客服團隊
+              </td>
+            </tr>
+          </mj-table>                             
+          <mj-text padding="20px" padding-top="0px" font-size="16px" line-height="26px" css-class="message" color="#595959">
+            garyng05 已申請退款商品『輕鬆上雲端 - AWS 網站建置術』
+          </mj-text>
+          <mj-text padding="0px 20px" font-size="16px" line-height="26px" css-class="message" color="#595959">
+            以下為退款明細：
+          </mj-text>
+          <mj-text padding="20px" font-size="16px" css-class="message" color="#595959" line-height="16px">
+            <p>會員帳號：gary.ng＠gmail.com</p>
+            <p>商品名稱：輕鬆上雲端 - AWS 網站建置術</p>
+            <p>退款方式：退款至銀行帳戶</p>
+            <p>退款申請時間：2022-03-14 14:13:25</p>
+            <p>退款原因：商品內容與期望不同</p>
+            <p>訂單交易碼：220314MpJI</p>
+          </mj-text>
+          <mj-divider border-color="#D9D9D9" border-width="1px" padding="0px 20px"></mj-divider>
+          <mj-text padding="20px" font-size="16px" css-class="message" color="#595959" line-height="16px">
+            <!-- if 無使用錢包折抵 -->
+            <p>退款至銀行帳戶：NT$999,999</p>
+            <p>退款至我的錢包：NT$50</p>
+            <p>退款總計：NT$1,000,049</p>
+            <!-- else 使用錢包折抵 
+            <p>退款總計：NT$1,000,049</p>
+            <p>*** 系統已將退款金額入帳至該會員「我的錢包」 ***</p>
+            -->
+          </mj-text>                              
+        </mj-column>
+      </mj-section>      
+      <mj-section padding="0" padding-left="10px" padding-right="10px">
+        <mj-column width="600px" padding="0">
+          <mj-text align="center" css-class="bottom" color="#8c8c8c" padding-left='0' padding-right="0" font-size="14px" padding-top="20px" padding-bottom="64px">
+            *** 此信件為 HiSKIO 內部自動發送 ***
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
