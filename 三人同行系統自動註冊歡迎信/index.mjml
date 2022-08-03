@@ -92,21 +92,21 @@
         <mj-column width="100%">
           <mj-text line-height="24px" font-size="16px" font-weight="500" padding="0" padding-bottom="6px" color="#262626">哈囉！{使用者名稱}</mj-text>
           <mj-text line-height="26px" padding="0px" color="#262626">您的帳號已經成功加入{課程名稱} 的多人同行方案。以下是您的 HISKIO 登入 ID 與臨時密碼</mj-text>
-          <mj-text line-height="26px" padding="0px" color="#E34A4A">HISKIO 登入 ID：{帳戶ID}</mj-text>
+          <mj-text line-height="26px" padding="0px" padding-top="16px" color="#E34A4A">HISKIO 登入 ID：{帳戶ID}</mj-text>
           <mj-text line-height="26px" padding="0px" color="#E34A4A">臨時密碼：{臨時密碼}</mj-text>
-          <mj-text line-height="26px" padding="0px" color="#262626">請使用它登入 HiSKIO 進行學習，您將可以隨時在「帳號設定」中重新設定密碼。</mj-text>
-          <mj-text line-height="24px" padding-top="16px" padding-bottom="11px" color="#262626">此外，我們也給予您註冊好禮！</mj-text>
+          <mj-text line-height="26px" padding="0px" padding-top="16px" color="#262626">請使用它登入 HiSKIO 進行學習，您將可以隨時在「帳號設定」中重新設定密碼。</mj-text>
+          <mj-text line-height="24px" padding-top="14px" padding-bottom="12px" color="#262626">此外，我們也給予您註冊好禮！</mj-text>
           <mj-text color="#308eac" font-weight="500" padding-top="0px" font-size="20px" line-height="28px">註冊好禮<br /> </mj-text>
-          <mj-text padding-top="11px" text-decoration="none" line-height="24px">1. <a href="https://codefree.hiskio.com/" style="text-decoration: underline; color:#262626; box-shadow:none">Codefree 喝一杯咖啡，輕鬆學程式</a> - 學習期限 30 天</span> </mj-text>
+          <mj-text padding-top="12px" text-decoration="none" line-height="24px">1. <a href="https://codefree.hiskio.com/" style="text-decoration: underline; color:#262626; box-shadow:none">Codefree 喝一杯咖啡，輕鬆學程式</a> - 學習期限 30 天</span> </mj-text>
           <mj-text padding-top="0px" text-decoration="none" line-height="24px">2. 天瓏網路書店購書優惠代碼－YZ34P2R（滿 500 折 50 元） </mj-text>
-          <mj-text padding-top="20px">
+          <mj-text padding-top="12px">
             <span style="text-decoration: none; box-shadow: none;">
               <span style=" border: 2px solid #FFA81D ; border-radius: 4px ; width: 117px ; padding: 4px; display:block; text-decoration: none;">
                 <span style="font-size: 18px; line-height: 24px; color: #ffa81d; border: 2px dotted #FFA81D; display:block; text-align: center; padding-top:8px; padding-bottom:8px">YZ34P2R</span>
               </span>
             </span>
           </mj-text>
-          <mj-text padding-top="12px" color="#308eac" font-weight="500" font-size="20px" line-height="28px">關於 HiSKIO，我們想讓您知道</mj-text>
+          <mj-text padding-top="24px" color="#308eac" font-weight="500" font-size="20px" line-height="28px">關於 HiSKIO，我們想讓您知道</mj-text>
           <mj-text line-height="26px" padding-top="8px">1. HiSKIO 有 14 大程式領域的專業內容，例如：網頁前端、後端、人工智慧、程式交易等，任您挑選！</mj-text>
           <mj-text line-height="26px" padding-top="0px">2.擁有獨家建置的 online coding 學習環境，您將能從做中學，學中做！ </mj-text>
           <mj-text line-height="26px" padding-top="0px">3.提供豐富的課後資源，包含： </mj-text>
@@ -192,7 +192,7 @@
           </mj-column>
         </mj-group>
       </mj-section>
-      <mj-section padding="24px" padding-top='40px' background-color="#fff" padding-bottom="58px" border-radius="0 0 10px 10px">
+      <mj-section padding="24px" padding-top='40px' background-color="#fff" padding-bottom="40px" border-radius="0 0 10px 10px">
         <mj-column width="100%">
           <mj-button font-size="20px" height="32px" width="210px" border-radius="8px" background-color="#178fac" text-decoration="none" href="https://hiskio.com/?utm_source=edm&utm_medium=event&utm_campaign=welecome_letter&utm_term=welecome_letter_20201116" color="#fff" font-size="16px"> 前往 HiSKIO </mj-button>
         </mj-column>
