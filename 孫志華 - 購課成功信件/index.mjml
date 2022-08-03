@@ -111,7 +111,13 @@
       </mj-section>
       <mj-section padding-left='28px' padding-right='28px' background-color='#fff'>
         <mj-column css-class='max-layout' padding-top="40px" padding-bottom="47px">
-          <mj-button href='https://hiskio.com/account/courses/continue?utm_source=edm&utm_medium=purchase_completed&utm_campaign=camp' height='32px' font-size='20px' padding="0" background-color="#178fac" color="#fff" border-radius='8px' width="210px">開始學習</mj-button>
+          <mj-table padding="0">
+            <tr>
+              <td>
+                <a href="https://hiskio.com/account/courses/continue?utm_source=edm&utm_medium=purchase_completed&utm_campaign=camp" style="display: block; text-decoration: none; width: 210px; margin-left: auto; margin-right: auto; font-size: 20px; line-height: 52px; border-radius: 8px; background-color: #178fac; color: #fff; text-align: center;">開始學習</a>
+              </td>
+            </tr>
+          </mj-table>
         </mj-column>
       </mj-section>
       <mj-section padding-top="0px" padding-left='28px' padding-right='28px' padding-bottom="61px" background-color='#fff'>
