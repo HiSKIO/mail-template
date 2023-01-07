@@ -72,13 +72,6 @@
         }
       }
     </mj-style>
-    <mj-style>
-      @media (max-width:500px) {
-        .layout {
-          width: 100% !important;
-        }
-      }
-    </mj-style>
   </mj-head>
   <mj-body width="600px" background-color="#fff7eb" css-class="body-padding">
     <!-- Company Header -->
@@ -90,118 +83,66 @@
       </mj-section>
       <mj-section background-color="#fff" padding="24px" css-class="box-shadow">
         <mj-column width="100%">
-          <mj-text line-height="24px" font-size="16px" font-weight="500" padding="0" padding-bottom="8px"> 哈囉！XX </mj-text>
-          <mj-text line-height="25px" padding-top="0"> 歡迎您成為 HiSKIO 會員 。 在這裡，您可以與 30 位以上的專業講師交流，並且隨時提問、獲得解答，或加入講師的專屬社群，獲取更多專業知識及第一手資訊。我們也將幫助您有效提升專業程式技能。 </mj-text>
-          <mj-text padding-top="8px"> 此外，我們也給予您註冊好禮！ </mj-text>
-          <mj-text color="#308eac" font-weight="500" padding-top="24px" font-size="20px" line-height="28px">註冊好禮<br /> </mj-text>
-          <mj-text padding-top="11px" text-decoration="none">1. <a href="https://codefree.hiskio.com/" style="text-decoration: underline;color:#262626;box-shadow:none">Codefree 喝一杯咖啡，輕鬆學程式</a> - 學習期限 30 天</span> </mj-text>
-          <mj-text padding-top="4px" text-decoration="none">2. 天瓏網路書店購書優惠代碼－YZ34P2R（滿 500 折 50 元） </mj-text>
-          <mj-text padding-top="16px">
-            <span style="text-decoration: none; box-shadow: none;">
-              <span style=" border: 2px solid #FFA81D ; border-radius: 4px ; width: 117px ; padding: 2px ;display:block; text-decoration: none ;">
-                <span style="font-size: 20px; color: #ffa81d;border: 2px dotted #FFA81D;display:block;text-align: center;padding-top:8px;padding-bottom:8px">YZ34P2R</span>
-              </span>
-            </span>
+          <mj-text line-height="24px" font-size="16px" font-weight="500" padding="0" padding-bottom="20px"> 哈囉！XX </mj-text>
+          <mj-text line-height="25px" padding-top="0" padding-bottom="29px">歡迎您成為 HiSKIO 會員 。 在這裡，您可以與上百位專業講師交流，隨時提問、獲得解答。從程式技能到職場思維，從線上課程、直播到電子書。<br>
+            在HiSKIO，隨時隨地都可以學習，實現專業職人的夢想。<br>
+            現在只要完成任務，就可以獲得好禮！
           </mj-text>
-          <mj-text padding-top="32px" color="#308eac" font-weight="500" font-size="20px" line-height="28px"> 關於 HiSKIO，我們想讓您知道 </mj-text>
-          <mj-text line-height="25px" padding-top="8px"> 1. HiSKIO 有 14 大程式領域的專業內容，例如：網頁前端、後端、人工智慧、程式交易等，任您挑選！ <br /> </mj-text>
-          <mj-text line-height="25px" padding-top="8px"> 2.擁有獨家建置的 online coding 學習環境，您將能從做中學，學中做！ </mj-text>
-          <mj-text line-height="25px" padding-top="8px"> 3.提供豐富的課後資源，包含： </mj-text>
+          <mj-text color="#308eac" font-weight="500" font-size="20px" line-height="28px" padding-bottom="10px">▌註冊好禮</mj-text>
+          <mj-text line-height="26px" padding="0px" padding-bottom="21px" color="#262626">完成帳戶驗證及填寫問卷即可獲得 <span style="color: #ffa81d;">NT$300</span> 元抵用券</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding-left="20px" padding-right="20px" background-color="#fff">
-        <mj-group width="100%" background-color="#fafafa">
-          <mj-column width="50%" css-class="layout">
-            <mj-table padding-top='20px' padding-bottom="10px" padding-left="25px" padding-right="25px">
-              <tr>
-                <td style="display:flex;justify-content:center; align-items:center;">
-                  <a href="https://www.facebook.com/hiskio" style="margin-right:10px">
-                    <img src="https://assets.f5ezcode.in/edm/icon_fb.png" width="40px" style="display: inline-block;padding-right:8px;
-  vertical-align: middle;" /></a>
-                  <mj-text style="flex: 1 1 0%">
-                    <a href="https://www.facebook.com/hiskio" style="line-height:40px; text-decoration: none;font-size:14px;color:#595959">HiSKIO 嗨 程式技能</a>
-                  </mj-text>
-                </td>
-              </tr>
-            </mj-table>
-          </mj-column>
-          <mj-column width="50%" css-class="layout">
-            <mj-table padding-top='20px' padding-bottom="10px" padding-left="25px" padding-right="25px">
-              <tr>
-                <td style="display:flex;justify-content:center; align-items:center;">
-                  <a href="https://www.facebook.com/hilivecode" style="margin-right:20px">
-                    <img src="https://assets.f5ezcode.in/edm/icon-program-learn.png" width="40px" style="display: inline-block;
-  vertical-align: middle;" /></a>
-                  <mj-text style="flex: 1 1 0%"> <a href="https://www.facebook.com/hilivecode" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">Hi直播學程式</a></mj-text>
-                </td>
-              </tr>
-            </mj-table>
-          </mj-column>
-        </mj-group>
-        <mj-group width="100%" background-color="#fafafa">
-          <mj-column width="50%" css-class="layout">
-            <mj-table padding-top='10px' padding-bottom="10px" padding-left="25px" padding-right="25px">
-              <tr>
-                <td style="display:flex;justify-content:center; align-items:center;">
-                  <a href="https://liff.line.me/1655597980-8jvMLEvZ" style="margin-right:10px">
-                    <img src="https://assets.f5ezcode.in/edm/line.png" width="40px" style="display: inline-block;padding-right:8px;
-  vertical-align: middle;" /></a>
-                  <mj-text style="flex: 1 1 0%">
-                    <a href="https://liff.line.me/1655597980-8jvMLEvZ" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">Line 官方帳號</a>
-                  </mj-text>
-                </td>
-              </tr>
-            </mj-table>
-          </mj-column>
-          <mj-column width="50%" css-class="layout">
-            <mj-table padding-top='10px' padding-bottom="10px" padding-left="25px" padding-right="25px">
-              <tr>
-                <td style="display:flex;justify-content:center; align-items:center;">
-                  <a href="https://www.facebook.com/groups/406460463268219" style="margin-right:20px">
-                    <img src="https://assets.f5ezcode.in/edm/icon-program-don.png" width="40px" style="display: inline-block; vertical-align: middle;" /></a>
-                  <mj-text style="flex: 1 1 0%"> <a href="https://www.facebook.com/groups/406460463268219" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">FB 社團 程式丼起來</a></mj-text>
-                </td>
-              </tr>
-            </mj-table>
-          </mj-column>
-        </mj-group>
-        </mj-group>
-        <mj-group width="100%" background-color="#fafafa">
-          <mj-column width="50%" css-class="layout">
-            <mj-table padding-top='10px' padding-bottom="20px" padding-left="25px" padding-right="25px">
-              <tr>
-                <td style="display:flex;justify-content:center; align-items:center;">
-                  <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" style="margin-right:10px">
-                    <img src="https://assets.f5ezcode.in/edm/icon_youtube.png" width="40px" style="display: inline-block;padding-right:8px;
-  vertical-align: middle;" /></a>
-                  <mj-text style="flex: 1 1 0%">
-                    <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">YouTube HiSKIO</a>
-                  </mj-text>
-                </td>
-              </tr>
-            </mj-table>
-          </mj-column>
-          <mj-column width="50%" css-class="layout">
-            <mj-table padding-top='10px' padding-bottom="20px" padding-left="25px" padding-right="25px">
-              <tr>
-                <td style="display:flex;justify-content:center; align-items:center;">
-                  <a style="margin-right:20px" href="https://codefree.hiskio.com/">
-                    <img src="https://assets.f5ezcode.in/edm/codefree.png" width="40px" style="display: inline-block; vertical-align: middle;" /></a>
-                  <mj-text style="flex: 1 1 0%"> <a href="https://codefree.hiskio.com/" style="line-height:40px;text-decoration: none;font-size:14px;color:#595959">Codefree 輕鬆學程式</a></mj-text>
-                </td>
-              </tr>
-            </mj-table>
-          </mj-column>
-        </mj-group>
-      </mj-section>
-      <mj-section padding="24px" padding-top='40px' background-color="#fff" padding-bottom="46px">
+      <mj-section padding="24px" padding-top='0' background-color="#fff" padding-bottom="35px">
         <mj-column width="100%">
-          <mj-button font-size="20px" height="32px" width="210px" border-radius="10px 10px 10px 10px" background-color="#178fac" text-decoration="none" href="https://hiskio.com/?utm_source=edm&utm_medium=event&utm_campaign=welecome_letter&utm_term=welecome_letter_20201116" color="#fff" font-size="16px"> 前往 HiSKIO </mj-button>
+          <mj-button font-size="20px" height="32px" width="210px" border-radius="10px 10px 10px 10px" background-color="#178fac" text-decoration="none" href="https://hiskio.com/?utm_source=edm&utm_medium=event&utm_campaign=welecome_letter&utm_term=welecome_letter_20201116" color="#fff" font-size="16px">立即前往</mj-button>
         </mj-column>
+      </mj-section>
+      <mj-section padding="0px" padding-bottom="26px" background-color="#fff">
+        <mj-group width="100%">
+          <mj-column width="33%">
+            <mj-table padding="0px">
+              <tr>
+                <td>
+                  <a href="https://www.facebook.com/hiskio" style="display: block; text-decoration: none; text-align: center;">
+                    <img src="https://assets.f5ezcode.in/edm/icon_fb.png" width="40px" style="display: inline-block; vertical-align: middle;" />
+                    <br />
+                    <span style="padding-top: 6px; font-size:14px; color:#8C8C8C; vertical-align: middle;">粉絲專頁</span>
+                  </a>
+                </td>
+              </tr>
+            </mj-table>
+          </mj-column>
+          <mj-column width="33%">
+            <mj-table padding="0px">
+              <tr>
+                <td>
+                  <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" style="display: block; text-decoration: none; text-align: center;">
+                    <img src="https://assets.f5ezcode.in/edm/icon_youtube.png" width="40px" style="display: inline-block; vertical-align: middle;" />
+                    <br />
+                    <span style="padding-top: 6px; font-size:14px; color:#8C8C8C; vertical-align: middle;">YouTube</span>
+                  </a>
+                </td>
+              </tr>
+            </mj-table>
+          </mj-column>
+          <mj-column width="33%">
+            <mj-table padding="0px">
+              <tr>
+                <td>
+                  <a href="https://liff.line.me/1655597980-8jvMLEvZ" style="display: block; text-decoration: none; text-align: center;">
+                    <img src="https://assets.f5ezcode.in/edm/line.png" width="40px" style="display: inline-block; vertical-align: middle;" />
+                    <br />
+                    <span style="padding-top: 6px; font-size:14px; color:#8C8C8C; vertical-align: middle;">Line</span>
+                  </a>
+                </td>
+              </tr>
+            </mj-table>
+          </mj-column>
+        </mj-group>
       </mj-section>
       <mj-section>
         <mj-column width="100%" padding="0">
-          <mj-text css-class="info" color="#8c8c8c" padding-left="0" padding-right="0" font-size="14px" padding-top="8px" padding-bottom="40px"> 以上資訊若有任何問題，請透過 <a href="mailto:support@hiskio.com" style="color: #178fac; text-decoration: none">客服信箱</a> 與我們聯繫，謝謝！如果此信箱非您所有，請直接忽略此信件。 </mj-text>
+          <mj-text css-class="info" color="#8c8c8c" padding-left="0" padding-right="0" font-size="14px" padding-top="16px" padding-bottom="40px"> 以上資訊若有任何問題，請透過 <a href="mailto:support@hiskio.com" style="color: #178fac; text-decoration: none">客服信箱</a> 與我們聯繫，謝謝！如果此信箱非您所有，請直接忽略此信件。 </mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
