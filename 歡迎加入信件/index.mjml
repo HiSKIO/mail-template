@@ -89,7 +89,7 @@
             現在只要完成任務，就可以獲得好禮！
           </mj-text>
           <mj-text color="#308eac" font-weight="500" font-size="20px" line-height="28px" padding-bottom="10px">▌註冊好禮</mj-text>
-          <mj-text line-height="26px" padding="0px" padding-bottom="21px" color="#262626">完成帳戶驗證及填寫問卷即可獲得 <span style="color: #ffa81d;">NT$300</span> 元抵用券</mj-text>
+          <mj-text line-height="26px" padding="0px" padding-bottom="21px" color="#262626">完成帳戶驗證及填寫問卷即可獲得 <span style="color: #ffa81d;">NT$600</span> 元抵用券</mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding="24px" padding-top='0' background-color="#fff" padding-bottom="35px">

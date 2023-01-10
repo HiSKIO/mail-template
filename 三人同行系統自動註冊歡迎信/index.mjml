@@ -89,7 +89,7 @@
           <mj-text line-height="26px" padding="0px" color="#E34A4A">臨時密碼：{臨時密碼}</mj-text>
           <mj-text line-height="26px" padding="0px" padding-top="16px" padding-bottom="32px" color="#262626">請使用它登入 HiSKIO 進行學習，您將可以隨時在「帳號設定」中重新設定密碼。此外，現在只要完成任務，就可以獲得好禮！</mj-text>
           <mj-text color="#308eac" font-weight="500" padding-top="0px" padding-bottom="10px" font-size="20px" line-height="28px">▌註冊好禮<br /> </mj-text>
-          <mj-text line-height="26px" padding="0px" padding-bottom="29px" color="#262626">完成帳戶驗證及填寫問卷即可獲得 <span style="color: #ffa81d;">NT$300</span> 元抵用券</mj-text>
+          <mj-text line-height="26px" padding="0px" padding-bottom="29px" color="#262626">完成帳戶驗證及填寫問卷即可獲得 <span style="color: #ffa81d;">NT$600</span> 元抵用券</mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding="24px" padding-top='40px' background-color="#fff" padding-bottom="35px" border-radius="0 0 10px 10px">
