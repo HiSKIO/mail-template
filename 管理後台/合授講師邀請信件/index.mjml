@@ -12,7 +12,7 @@
           <mj-image src="../../images/hiskio.png" width="138px" />
         </mj-column>
       </mj-section>
-      <mj-section border-radius='4px 4px 4px 4px' background-size='cover' background-url='../../images/fundraising-completed.png' padding-top="40px" padding-left="60px" padding-right="60px" padding-bottom='60px'>
+      <mj-section border-radius='4px 4px 4px 4px' background-size='cover' background-url='https://cdn.hiskio.com/edm/bg_teachersmail_high.png' padding-top="40px" padding-left="60px" padding-right="60px" padding-bottom='60px'>
         <mj-column width='100%' border-bottom='1px solid #595959'>
           <mj-text color='#262626' font-size='28px' line-height="41px" padding='0px' padding-bottom='12px' font-weight='500'>合授老師邀請信</mj-text>
         </mj-column>
