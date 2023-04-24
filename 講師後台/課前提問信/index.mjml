@@ -197,7 +197,7 @@
           <mj-image css-class="logo" src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" alt="" width="99px" padding-top="40px" padding-bottom="32px" />
         </mj-column>
       </mj-section>
-      <mj-section css-class="main-width box-shadow" padding="22px" border-radius="10px" background-url="https://edm.hiskio.com/source/5f1f8fd759c53/bg-get-question.png?1598000454735" background-size="120% 110%">
+      <mj-section css-class="main-width box-shadow" padding="22px" border-radius="10px" background-url="https://cdn.hiskio.com/edm/bg_teachersmail_600x659.png">
         <mj-column width="544px">
           <mj-text font-size="28px" line-height="41px" align="center" padding-left="0" padding-right="0" font-weight="bold" css-class="title" color="#262626" padding-top="24px" padding-bottom="16px">
             課前提問

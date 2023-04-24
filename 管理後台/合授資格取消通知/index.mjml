@@ -3,6 +3,7 @@
     <mj-attributes>
       <mj-text align="center" color="#595959" />
       <mj-section background-color="#fff" />
+      <mj-body width="624px">
     </mj-attributes>
   </mj-head>
   <mj-body background-color="#f0f0f0">
@@ -12,7 +13,7 @@
           <mj-image src="../../images/hiskio.png" width="138px" />
         </mj-column>
       </mj-section>
-      <mj-section border-radius='4px 4px 4px 4px' background-size='cover' background-url='../../images/管理後台/bg-teachersmail.png' padding-top="40px" padding-left="60px" padding-right="60px" padding-bottom='50px'>
+      <mj-section border-radius='4px 4px 4px 4px' background-size='cover' background-url='https://cdn.hiskio.com/edm/bg_teachersmail_600x276.png' padding-top="40px" padding-left="60px" padding-right="60px" padding-bottom='50px'>
         <mj-column width='100%' border-bottom='1px solid #595959'>
           <mj-text color='#262626' font-size='28px' line-height="41px" padding='0px' padding-bottom='12px' font-weight='500'>合授資格取消通知</mj-text>
         </mj-column>
