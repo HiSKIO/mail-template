@@ -1,5 +1,6 @@
 .vscode
 .env
-output
+output/mjml
+output/translations
 node_modules
 .DS_Store
