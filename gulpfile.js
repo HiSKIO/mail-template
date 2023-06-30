@@ -9,6 +9,9 @@ const rename = require("gulp-rename");
 const reload = browserSync.reload;
 const fs = require("fs");
 const fetch = require("node-fetch");
+const puppeteer = require("puppeteer");
+const tap = require("gulp-tap");
+
 require("dotenv").config();
 
 const argv = require("minimist")(process.argv.slice(2));
@@ -28,21 +31,20 @@ const basePaths = {
   translatedStringsDest: "./output/translations/",
   emailsOutputDest: "./output/emails/",
   prodReadyEmailsDest: "./output/prod/emails/",
+  screenshotDest: "./output/screenshots/",
 };
 const paths = {
   mjml: {
-    src: basePaths.src + "templates/*/*.mjml",
+    src: basePaths.src + "templates/**/*.mjml",
     dest: basePaths.mjmlOutputDest,
-    includes: basePaths.src + "includes/*/*.mjml",
+    includes: basePaths.src + "includes/**/*.mjml",
   },
   i18n: {
-    emailsSrc: basePaths.mjmlOutputDest + "*/*.html", // result of mjml
-    emailSubjectsSrc: basePaths.subjectsSrc + "*/*.html", // email template subjects
+    emailsSrc: basePaths.mjmlOutputDest + "**/*.html", // result of mjml
+    emailSubjectsSrc: basePaths.subjectsSrc + "**/*.html", // email template subjects
     languagesSrc: basePaths.translatedStringsDest, // downloaded from localize
     dest: basePaths.emailsOutputDest, // final emails
-  },
-  lokalise: {
-    dest: basePaths.translatedStringsDest,
+    screenshotsSrc: basePaths.screenshotDest,
   },
   prodDest: basePaths.prodReadyEmailsDest,
 };
@@ -83,11 +85,14 @@ function buildMjmlToHtmlAndMinify() {
 }
 
 function generateLocalizedEmails() {
+  // {{ trans('mails.Hi-calendars-1') }}
+  const regex = /{{ ?trans\('([\w\-.]+)'\) ?}}/g;
   return gulp
     .src([paths.i18n.emailsSrc])
     .pipe(
       i18n({
         langDir: paths.i18n.languagesSrc,
+        langRegExp: regex,
       })
     )
     .pipe(gulp.dest(paths.i18n.dest));
@@ -138,7 +143,7 @@ async function downloadTranslationsFromPhrase() {
  * Task will group localized templates of content and subject in one folder per email type.
  */
 function groupEmailTemplatesByFolders() {
-  return gulp.src(paths.i18n.dest + "*/*.html").pipe(gulp.dest(paths.prodDest));
+  return gulp.src(paths.i18n.dest + "**/*.html").pipe(gulp.dest(paths.prodDest));
 }
 
 /**
@@ -171,3 +176,27 @@ gulp.task("generate-localized-emails", generateLocalizedEmails);
 // gulp.task('translate', uploadTranslationsToLokalise);
 
 gulp.task("folders", groupEmailTemplatesByFolders);
+
+function generateScreenShots() {
+  return gulp.src(paths.i18n.dest + "**/*.html").pipe(
+    tap(async (file) => {
+      try {
+        const filename = path.basename(file.basename, ".html") + ".png";
+        const exportPath = `${path.dirname(file.path)}/${filename}`;
+        console.log(exportPath);
+        const browser = await puppeteer.launch({ headless: true });
+        const page = await browser.newPage();
+        await page.goto("file://" + file.path, { waitUntil: "networkidle0" });
+        await page.screenshot({ path: exportPath, fullPage: true });
+        await browser.close();
+      } catch (err) {
+        console.log(err);
+      }
+    })
+  );
+}
+
+gulp.task("screenshots", generateScreenShots);
+
+// TODO. 將靜態檔案自動上傳到 AWS S3 上面並且替換成 cloudfront 的路徑
+// TODO. 希望可已將 ${{}}$ 的語法替換成 {{ trans('') }}，這樣可以讓後端直接拿來使用！

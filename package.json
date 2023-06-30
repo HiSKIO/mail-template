@@ -10,8 +10,10 @@
     "gulp-html-i18n": "0.15.0",
     "gulp-mjml": "3.0.0",
     "gulp-rename": "1.4.0",
+    "gulp-tap": "^2.0.0",
     "minimist": "1.2.3",
     "mjml": "4.3.1",
-    "node-fetch": "^2.6.6"
+    "node-fetch": "^2.6.6",
+    "puppeteer": "^14.4"
   }
 }
