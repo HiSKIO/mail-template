@@ -12,26 +12,36 @@
           <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
         </mj-column>
       </mj-section>
-      <mj-section padding='0px' border-radius='6px 6px 0px 0px'>
+      <mj-section padding="0px" border-radius="6px 6px 0px 0px">
         <mj-column>
-          <mj-image src="../images/header-review-invitation.png" width="600px" padding='0px' />
+          <mj-image src="../images/header-review-invitation.png" width="600px" padding="0px" />
         </mj-column>
       </mj-section>
-      <mj-section padding-top="0" padding-bottom="0" padding-left='35px' padding-right="35px">
+      <mj-section padding-top="0" padding-bottom="0" padding-left="35px" padding-right="35px">
         <mj-column>
-          <mj-image src="../images/coins.png" padding='0px' />
+          <mj-image src="../images/coins.png" padding="0px" />
         </mj-column>
       </mj-section>
-      <mj-section border-radius='0px 0px 6px 6px' padding-top='40px' padding-bottom="36px" padding-left="60px" padding-right="60px">
-        <mj-column width='100%'>
-          <mj-text font-size='20px' align='left' padding='0px' line-height='29px' color="#262626">哈囉～ 小白恭喜你獲得<span style="font-weight: 700;">『黃金投資時代』活動的第二重好禮！</span>Tony 老師累積多年法人交易室的經驗，精心設計了這些投資心法，我們最晚將於 2021/6/21 23:59 前確認您無退款，並將您獲得的好禮寄送至您的信箱，謝謝！</mj-text>
+      <mj-section
+        border-radius="0px 0px 6px 6px"
+        padding-top="40px"
+        padding-bottom="36px"
+        padding-left="60px"
+        padding-right="60px">
+        <mj-column width="100%">
+          <mj-text font-size="20px" align="left" padding="0px" line-height="29px" color="#262626"
+            >哈囉～ 小白恭喜你獲得<span style="font-weight: 700">『黃金投資時代』活動的第二重好禮！</span>Tony
+            老師累積多年法人交易室的經驗，精心設計了這些投資心法，我們最晚將於 2021/6/21 23:59
+            前確認您無退款，並將您獲得的好禮寄送至您的信箱，謝謝！</mj-text
+          >
         </mj-column>
       </mj-section>
       <mj-section background-color="#f0f0f0" padding="0px" padding-top="8px">
         <mj-column>
           <mj-text align="left" padding="0px" color="#8c8c8c" font-size="14px" line-height="23px">
             以上資訊若有任何問題，請透過
-            <a href="mailto:support@hiskio.com" style="color: #178fac; text-decoration: none">客服信箱</a> 與我們聯繫，謝謝！如果此信箱非您所有，請直接忽略此信件。
+            <a href="mailto:support@hiskio.com" style="color: #178fac; text-decoration: none">客服信箱</a>
+            與我們聯繫，謝謝！如果此信箱非您所有，請直接忽略此信件。
           </mj-text>
         </mj-column>
       </mj-section>
@@ -40,27 +50,76 @@
           <mj-column width="10%"></mj-column>
 
           <mj-column width="20%">
-            <mj-image href="https://www.facebook.com/hiskio" target="_blank" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_fb.png" />
-            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
-              <a href="https://www.facebook.com/hiskio" target="_blank" style="text-decoration: none; color: #8c8c8c">粉絲專頁</a>
+            <mj-image
+              href="https://www.facebook.com/hiskio"
+              target="_blank"
+              padding="0"
+              width="37px"
+              src="icon_fb.png" />
+            <mj-text
+              padding-left="0"
+              padding-right="0"
+              padding-top="8px"
+              padding-bottom="8px"
+              font-size="14px"
+              align="center"
+              color="#8c8c8c">
+              <a href="https://www.facebook.com/hiskio" target="_blank" style="text-decoration: none; color: #8c8c8c"
+                >粉絲專頁</a
+              >
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_mail.png" />
-            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+            <mj-image
+              href="mailto:support@hiskio.com"
+              padding="0"
+              width="37px"
+              src="https://assets.f5ezcode.in/edm/icon_mail.png" />
+            <mj-text
+              padding-left="0"
+              padding-right="0"
+              padding-top="8px"
+              padding-bottom="8px"
+              font-size="14px"
+              align="center"
+              color="#8c8c8c">
               <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image href="https://hiskio.com" target="_blank" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_hi_link.png" />
-            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+            <mj-image href="https://hiskio.com" target="_blank" padding="0" width="37px" src="icon_hi_link.png" />
+            <mj-text
+              padding-left="0"
+              padding-right="0"
+              padding-top="8px"
+              padding-bottom="8px"
+              font-size="14px"
+              align="center"
+              color="#8c8c8c">
               <a href="https://hiskio.com" target="_blank" style="text-decoration: none; color: #8c8c8c">官方網站</a>
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_youtube.png" />
-            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
-              <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" style="text-decoration: none; color: #8c8c8c">Youtube</a>
+            <mj-image
+              href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg"
+              target="_blank"
+              padding="0"
+              width="37px"
+              src="icon_youtube.png" />
+            <mj-text
+              padding-left="0"
+              padding-right="0"
+              padding-top="8px"
+              padding-bottom="8px"
+              font-size="14px"
+              align="center"
+              color="#8c8c8c">
+              <a
+                href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg"
+                target="_blank"
+                style="text-decoration: none; color: #8c8c8c"
+                >Youtube</a
+              >
             </mj-text>
           </mj-column>
           <mj-column width="10%"></mj-column>

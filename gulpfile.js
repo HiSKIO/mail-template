@@ -11,6 +11,15 @@ const fs = require("fs");
 const fetch = require("node-fetch");
 const puppeteer = require("puppeteer");
 const tap = require("gulp-tap");
+const rewriteImagePath = require("gulp-rewrite-image-path");
+
+// AWS PUBLISH
+const awspublish = require("gulp-awspublish");
+const cloudfront = require("gulp-cloudfront-invalidate-aws-publish");
+const parallelize = require("concurrent-transform");
+
+// gulp-html-beautify
+const htmlbeautify = require("gulp-html-beautify");
 
 require("dotenv").config();
 
@@ -70,7 +79,12 @@ function server(done) {
 }
 
 function buildMjmlToHtml() {
-  return gulp.src(paths.mjml.src).pipe(mjml()).pipe(gulp.dest(paths.mjml.dest));
+  const beautifyOptions = {
+    indentSize: 4,
+    end_with_newline: true,
+    max_preserve_newlines: 0,
+  };
+  return gulp.src(paths.mjml.src).pipe(mjml()).pipe(htmlbeautify(beautifyOptions)).pipe(gulp.dest(paths.mjml.dest));
 }
 
 // prod only task
@@ -101,10 +115,12 @@ function generateLocalizedEmails() {
 function watch() {
   gulp
     .watch([paths.mjml.src, paths.i18n.emailSubjectsSrc])
-    .on("change", gulp.series(buildMjmlToHtml, generateLocalizedEmails, reload));
-  gulp.watch(paths.mjml.includes).on("change", gulp.series(buildMjmlToHtml, generateLocalizedEmails, reload));
+    .on("change", gulp.series(buildMjmlToHtml, generateLocalizedEmails, rewrite, reload));
+
+  gulp.watch(paths.mjml.includes).on("change", gulp.series(buildMjmlToHtml, generateLocalizedEmails, rewrite, reload));
 }
 
+/** 下載 phrase 多語系檔 */
 async function downloadTranslationsFromPhrase() {
   ["zh-TW", "zh-CN", "en"].forEach(async (locale) => {
     url = new URL(`https://api.phrase.com/v2/projects/${PHRASE_API_PROJECT_ID}/locales/${locale}/download`);
@@ -139,6 +155,103 @@ async function downloadTranslationsFromPhrase() {
   });
 }
 
+/** 產生縮圖 */
+function generateScreenShots() {
+  return gulp.src(paths.i18n.dest + "**/*.html").pipe(
+    tap(async (file) => {
+      try {
+        const filename = path.basename(file.basename, ".html") + ".png";
+        const exportPath = `${path.dirname(file.path)}/${filename}`;
+        const browser = await puppeteer.launch({ headless: true });
+        const page = await browser.newPage();
+        await page.goto("file://" + file.path, { waitUntil: "networkidle0" });
+        await page.screenshot({ path: exportPath, fullPage: true });
+        await browser.close();
+      } catch (err) {
+        console.log(err);
+      }
+    })
+  );
+}
+
+/** 將 output/emails 圖片連結替換成 cloudfront_url */
+function rewrite() {
+  if (process.env.AWS_CLOUDFRONT_URL) {
+    let g = gulp.src(paths.i18n.dest + "*/**");
+
+    g = g.pipe(rewriteImagePath({ path: `${process.env.AWS_CLOUDFRONT_URL}` }));
+
+    g = g.pipe(gulp.dest(paths.i18n.dest));
+
+    return g;
+  }
+}
+
+/** 將素材上傳到 aws s3 */
+function upload() {
+  // TODO. 將靜態檔案自動上傳到 AWS S3 上面並且替換成 cloudfront 的路徑
+  const config = {
+    // Required
+    params: {
+      Bucket: process.env.AWS_BUCKET_NAME,
+    },
+    credentials: {
+      accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+      secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+      signatureVersion: "v3",
+    },
+
+    // Optional
+    deleteOldVersions: false, // NOT FOR PRODUCTION
+    distribution: process.env.AWS_CLOUDFRONT, // CloudFront distribution ID
+    region: process.env.AWS_DEFAULT_REGION,
+    headers: {
+      "Cache-Control": "max-age=315360000, no-transform, public",
+    },
+
+    // Sensible Defaults - gitignore these Files and Dirs
+    distDir: "emails/images",
+    indexRootPath: true,
+    cacheFileName: ".awspublish",
+    concurrentUploads: 10,
+    wait: true, // wait for CloudFront invalidation to complete (about 30-60 seconds)
+  };
+  // create a new publisher using S3 options
+  // http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#constructor-property
+  const publisher = awspublish.create(config);
+
+  let g = gulp.src("./" + config.distDir + "/**");
+
+  g = g.pipe(
+    rename(function (path) {
+      path.dirname = path.dirname === "." ? "mails" : "mails/" + path.dirname;
+    })
+  );
+
+  // publisher will add Content-Length, Content-Type and headers specified above
+  // If not specified it will set x-amz-acl to public-read by default
+  g = g.pipe(parallelize(publisher.publish(config.headers, { noAcl: true }), config.concurrentUploads));
+
+  // Invalidate CDN
+  if (config.distribution) {
+    console.log("Configured with CloudFront distribution");
+    g = g.pipe(cloudfront(config));
+  } else {
+    console.log("No CloudFront distribution configured - skipping CDN invalidation");
+  }
+
+  // Delete removed files
+  if (config.deleteOldVersions) {
+    g = g.pipe(publisher.sync());
+  }
+  // create a cache file to speed up consecutive uploads
+  // g = g.pipe(publisher.cache());
+  // print upload updates to console
+  g = g.pipe(awspublish.reporter());
+
+  return g;
+}
+
 /**
  * Task will group localized templates of content and subject in one folder per email type.
  */
@@ -146,11 +259,19 @@ function groupEmailTemplatesByFolders() {
   return gulp.src(paths.i18n.dest + "**/*.html").pipe(gulp.dest(paths.prodDest));
 }
 
+// 執行步驟
+gulp.task("download-translations", downloadTranslationsFromPhrase);
+gulp.task("build-mjml-to-html", buildMjmlToHtml);
+gulp.task("generate-localized-emails", generateLocalizedEmails);
+gulp.task("upload", upload);
+gulp.task("rewrite", rewrite);
+gulp.task("screenshots", generateScreenShots);
+
 /**
  * Task will build mjml templates.
  * On mjml changes will rebuild mjml and apply translations if any.
  */
-gulp.task("default", gulp.series(buildMjmlToHtml, generateLocalizedEmails, gulp.parallel(server, watch)));
+gulp.task("default", gulp.series(buildMjmlToHtml, generateLocalizedEmails, rewrite, gulp.parallel(server, watch)));
 
 /**
  * Task will:
@@ -167,36 +288,3 @@ gulp.task(
     groupEmailTemplatesByFolders
   )
 );
-
-gulp.task("download-translations", downloadTranslationsFromPhrase);
-
-gulp.task("generate-localized-emails", generateLocalizedEmails);
-
-// Will be needed only for upload translation automation.
-// gulp.task('translate', uploadTranslationsToLokalise);
-
-gulp.task("folders", groupEmailTemplatesByFolders);
-
-function generateScreenShots() {
-  return gulp.src(paths.i18n.dest + "**/*.html").pipe(
-    tap(async (file) => {
-      try {
-        const filename = path.basename(file.basename, ".html") + ".png";
-        const exportPath = `${path.dirname(file.path)}/${filename}`;
-        console.log(exportPath);
-        const browser = await puppeteer.launch({ headless: true });
-        const page = await browser.newPage();
-        await page.goto("file://" + file.path, { waitUntil: "networkidle0" });
-        await page.screenshot({ path: exportPath, fullPage: true });
-        await browser.close();
-      } catch (err) {
-        console.log(err);
-      }
-    })
-  );
-}
-
-gulp.task("screenshots", generateScreenShots);
-
-// TODO. 將靜態檔案自動上傳到 AWS S3 上面並且替換成 cloudfront 的路徑
-// TODO. 希望可已將 ${{}}$ 的語法替換成 {{ trans('') }}，這樣可以讓後端直接拿來使用！

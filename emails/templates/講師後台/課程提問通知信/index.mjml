@@ -61,25 +61,25 @@
         <mj-group width="100%" css-class='max-layout'>
           <mj-column width="10%"></mj-column>
           <mj-column width="20%">
-            <mj-image href="https://www.facebook.com/hiskio" target="_blank" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_fb.png" />
+            <mj-image href="https://www.facebook.com/hiskio" target="_blank" padding="0" width="37px" src="icon_fb.png" />
             <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="https://www.facebook.com/hiskio" target="_blank" style="text-decoration: none; color: #8c8c8c">粉絲專頁</a>
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_mail.png" />
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="icon_mail.png" />
             <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image href="https://hiskio.com" target="_blank" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_hi_link.png" />
+            <mj-image href="https://hiskio.com" target="_blank" padding="0" width="37px" src="icon_hi_link.png" />
             <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="https://hiskio.com" target="_blank" style="text-decoration: none; color: #8c8c8c">官方網站</a>
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_youtube.png" />
+            <mj-image href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" padding="0" width="37px" src="icon_youtube.png" />
             <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" style="text-decoration: none; color: #8c8c8c">Youtube</a>
             </mj-text>

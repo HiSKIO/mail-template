@@ -6,71 +6,20 @@
       <mj-body />
     </mj-attributes>
     <mj-style>
-      .box-shadow a,
-      .box-shadow p {
-        box-shadow: 0 4px 6px hsla(0, 0%, 46%, 0.2), 0 1px 3px hsla(0, 0%, 46%, 0.2);
-      }
+      .box-shadow a, .box-shadow p { box-shadow: 0 4px 6px hsla(0, 0%, 46%, 0.2), 0 1px 3px hsla(0, 0%, 46%, 0.2); }
     </mj-style>
     <mj-style inline="inline">
-      .body-padding {
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-        padding-bottom: 50px !important;
-      }
-
-      .table-border {
-        border: 1px solid #189fac !important;
-      }
-
-      .tag-border div {
-        border: 2px dotted #FFA81D !important;
-        border-radius: 4px !important;
-        width: 120px !important;
-        padding: 10px !important;
-        text-decoration: none !important;
-      }
+      .body-padding { padding-left: 10px !important; padding-right: 10px !important; padding-bottom: 50px !important; }
+      .table-border { border: 1px solid #189fac !important; } .tag-border div { border: 2px dotted #FFA81D !important;
+      border-radius: 4px !important; width: 120px !important; padding: 10px !important; text-decoration: none
+      !important; }
     </mj-style>
     <mj-style>
-      @media (min-width:480px) {
-        .logo-padding {
-          padding-bottom: 50px !important;
-        }
-
-        .hero {
-          width: 100% !important;
-          height: 100% !important;
-        }
-
-        .hero-title div {
-          font-size: 28px !important;
-        }
-
-        .logo td {
-          width: 140px !important;
-        }
-
-        .logo-text {
-          padding-left: 25px !important;
-          padding-right: 25px !important;
-        }
-
-        .logo-text div {
-          font-size: 16px !important;
-        }
-
-        .btn-text a {
-          font-size: 20px !important;
-        }
-
-        .table-border {
-          border: 1px solid #189fac !important;
-          width: 200px !important;
-        }
-
-        table {
-          border-collapse: collapse;
-        }
-      }
+      @media (min-width:480px) { .logo-padding { padding-bottom: 50px !important; } .hero { width: 100% !important;
+      height: 100% !important; } .hero-title div { font-size: 28px !important; } .logo td { width: 140px !important; }
+      .logo-text { padding-left: 25px !important; padding-right: 25px !important; } .logo-text div { font-size: 16px
+      !important; } .btn-text a { font-size: 20px !important; } .table-border { border: 1px solid #189fac !important;
+      width: 200px !important; } table { border-collapse: collapse; } }
     </mj-style>
   </mj-head>
   <mj-body width="600px" background-color="#fff7eb" css-class="body-padding">
@@ -78,26 +27,77 @@
     <mj-wrapper background-color="#fff7eb" padding-top="62px">
       <mj-section css-class="hero" border-radius="6px 6px 0 0">
         <mj-column css-class="hero-padding" vertical-align="middle">
-          <mj-image css-class="hero-logo" src="https://assets.f5ezcode.in/edm/tenlong-background.png" width="800px" alt="" border-radius="10px 10px 0 0" />
+          <mj-image
+            css-class="hero-logo"
+            src="https://assets.f5ezcode.in/edm/tenlong-background.png"
+            width="800px"
+            alt=""
+            border-radius="10px 10px 0 0" />
         </mj-column>
       </mj-section>
       <mj-section background-color="#fff" padding="24px" padding-bottom="20px" css-class="box-shadow">
         <mj-column width="100%">
-          <mj-text line-height="24px" font-size="16px" font-weight="500" padding="0" padding-bottom="6px" color="#262626">哈囉！{使用者名稱}</mj-text>
-          <mj-text line-height="26px" padding="0px" color="#262626">您的帳號已經成功加入{課程名稱} 的多人同行方案。以下是您的 HISKIO 登入 ID 與臨時密碼</mj-text>
-          <mj-text line-height="26px" padding="0px" padding-top="16px" color="#E34A4A">HISKIO 登入 ID：{帳戶ID}</mj-text>
+          <mj-text
+            line-height="24px"
+            font-size="16px"
+            font-weight="500"
+            padding="0"
+            padding-bottom="6px"
+            color="#262626"
+            >哈囉！{使用者名稱}</mj-text
+          >
+          <mj-text line-height="26px" padding="0px" color="#262626"
+            >您的帳號已經成功加入{課程名稱} 的多人同行方案。以下是您的 HISKIO 登入 ID 與臨時密碼</mj-text
+          >
+          <mj-text line-height="26px" padding="0px" padding-top="16px" color="#E34A4A"
+            >HISKIO 登入 ID：{帳戶ID}</mj-text
+          >
           <mj-text line-height="26px" padding="0px" color="#E34A4A">臨時密碼：{臨時密碼}</mj-text>
-          <mj-text line-height="26px" padding="0px" padding-top="16px" padding-bottom="32px" color="#262626">請使用它登入 HiSKIO 進行學習，您將可以隨時在「帳號設定」中重新設定密碼。此外，現在只要完成任務，就可以獲得好禮！</mj-text>
-          <mj-text color="#308eac" font-weight="500" padding-top="0px" padding-bottom="10px" font-size="20px" line-height="28px">▌註冊好禮<br /> </mj-text>
-          <mj-text line-height="26px" padding="0px" padding-bottom="29px" color="#262626">完成帳戶驗證及填寫問卷即可獲得 <span style="color: #ffa81d;">NT$600</span> 元抵用券</mj-text>
+          <mj-text line-height="26px" padding="0px" padding-top="16px" padding-bottom="32px" color="#262626"
+            >請使用它登入 HiSKIO
+            進行學習，您將可以隨時在「帳號設定」中重新設定密碼。此外，現在只要完成任務，就可以獲得好禮！</mj-text
+          >
+          <mj-text
+            color="#308eac"
+            font-weight="500"
+            padding-top="0px"
+            padding-bottom="10px"
+            font-size="20px"
+            line-height="28px"
+            >▌註冊好禮<br />
+          </mj-text>
+          <mj-text line-height="26px" padding="0px" padding-bottom="29px" color="#262626"
+            >完成帳戶驗證及填寫問卷即可獲得 <span style="color: #ffa81d">NT$600</span> 元抵用券</mj-text
+          >
         </mj-column>
       </mj-section>
-      <mj-section padding="24px" padding-top='40px' background-color="#fff" padding-bottom="35px" border-radius="0 0 10px 10px">
+      <mj-section
+        padding="24px"
+        padding-top="40px"
+        background-color="#fff"
+        padding-bottom="35px"
+        border-radius="0 0 10px 10px">
         <mj-column width="100%">
           <mj-table padding="0px">
             <tr>
               <td>
-                <a href="https://hiskio.com/?utm_source=edm&utm_medium=event&utm_campaign=welecome_letter&utm_term=welecome_letter_20201116" style="display: block; text-decoration: none; width: 210px; margin-left: auto; margin-right: auto; font-size: 20px; line-height: 52px; border-radius: 8px; background-color: #178fac; color: #fff; text-align: center;">立即前往</a>
+                <a
+                  href="https://hiskio.com/?utm_source=edm&utm_medium=event&utm_campaign=welecome_letter&utm_term=welecome_letter_20201116"
+                  style="
+                    display: block;
+                    text-decoration: none;
+                    width: 210px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    font-size: 20px;
+                    line-height: 52px;
+                    border-radius: 8px;
+                    background-color: #178fac;
+                    color: #fff;
+                    text-align: center;
+                  "
+                  >立即前往</a
+                >
               </td>
             </tr>
           </mj-table>
@@ -109,10 +109,14 @@
             <mj-table padding="0px">
               <tr>
                 <td>
-                  <a href="https://www.facebook.com/hiskio" style="display: block; text-decoration: none; text-align: center;">
-                    <img src="https://assets.f5ezcode.in/edm/icon_fb.png" width="40px" style="display: inline-block; vertical-align: middle;" />
+                  <a
+                    href="https://www.facebook.com/hiskio"
+                    style="display: block; text-decoration: none; text-align: center">
+                    <img src="icon_fb.png" width="40px" style="display: inline-block; vertical-align: middle" />
                     <br />
-                    <span style="padding-top: 6px; font-size:14px; color:#8c8c8c; vertical-align: middle;">粉絲專頁</span>
+                    <span style="padding-top: 6px; font-size: 14px; color: #8c8c8c; vertical-align: middle"
+                      >粉絲專頁</span
+                    >
                   </a>
                 </td>
               </tr>
@@ -122,10 +126,14 @@
             <mj-table padding="0px">
               <tr>
                 <td>
-                  <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" style="display: block; text-decoration: none; text-align: center;">
-                    <img src="https://assets.f5ezcode.in/edm/icon_youtube.png" width="40px" style="display: inline-block; vertical-align: middle;" />
+                  <a
+                    href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg"
+                    style="display: block; text-decoration: none; text-align: center">
+                    <img src="icon_youtube.png" width="40px" style="display: inline-block; vertical-align: middle" />
                     <br />
-                    <span style="padding-top: 6px; font-size:14px; color:#8c8c8c; vertical-align: middle;">YouTube</span>
+                    <span style="padding-top: 6px; font-size: 14px; color: #8c8c8c; vertical-align: middle"
+                      >YouTube</span
+                    >
                   </a>
                 </td>
               </tr>
@@ -135,10 +143,15 @@
             <mj-table padding="0px">
               <tr>
                 <td>
-                  <a href="https://liff.line.me/1655597980-8jvMLEvZ" style="display: block; text-decoration: none; text-align: center;">
-                    <img src="https://assets.f5ezcode.in/edm/line.png" width="40px" style="display: inline-block; vertical-align: middle;" />
+                  <a
+                    href="https://liff.line.me/1655597980-8jvMLEvZ"
+                    style="display: block; text-decoration: none; text-align: center">
+                    <img
+                      src="https://assets.f5ezcode.in/edm/line.png"
+                      width="40px"
+                      style="display: inline-block; vertical-align: middle" />
                     <br />
-                    <span style="padding-top: 6px; font-size:14px; color:#8c8c8c; vertical-align: middle;">Line</span>
+                    <span style="padding-top: 6px; font-size: 14px; color: #8c8c8c; vertical-align: middle">Line</span>
                   </a>
                 </td>
               </tr>
@@ -148,7 +161,19 @@
       </mj-section>
       <mj-section>
         <mj-column width="100%" padding="0">
-          <mj-text css-class="info" color="#8c8c8c" padding-left="0" padding-right="0" font-size="16px" line-height="24px" padding-top="33px" padding-bottom="40px"> 以上資訊若有任何問題，請透過 <a href="mailto:support@hiskio.com" style="color: #178fac; text-decoration: none">客服信箱</a> 與我們聯繫，謝謝！如果此信箱非您所有，請直接忽略此信件。 </mj-text>
+          <mj-text
+            css-class="info"
+            color="#8c8c8c"
+            padding-left="0"
+            padding-right="0"
+            font-size="16px"
+            line-height="24px"
+            padding-top="33px"
+            padding-bottom="40px">
+            以上資訊若有任何問題，請透過
+            <a href="mailto:support@hiskio.com" style="color: #178fac; text-decoration: none">客服信箱</a>
+            與我們聯繫，謝謝！如果此信箱非您所有，請直接忽略此信件。
+          </mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
