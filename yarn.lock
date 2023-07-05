@@ -2369,6 +2369,15 @@ gulp-cloudfront-invalidate-aws-publish@^1.0.0:
     plugin-error "1.0.x"
     through2 "2.0.x"
 
+gulp-html-beautify@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gulp-html-beautify/-/gulp-html-beautify-1.0.1.tgz#2834c6f77669605726eee55e3205f63074b7a152"
+  integrity sha512-XbWWDcPQGvdBttEpuhNwBbOpOTR8l+K7/pJLKDLPcdZDCqo+sWvXTUqgYGFJu2Ax1sIiN9uvoM4fwJjgeRtZxQ==
+  dependencies:
+    js-beautify "^1.5.10"
+    rcloader "^0.1.4"
+    through2 "^2.0.0"
+
 gulp-html-i18n@0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/gulp-html-i18n/-/gulp-html-i18n-0.15.0.tgz#c6af62357b5781ce3abee6d79af569e5de7907b2"
@@ -3144,7 +3153,7 @@ jmespath@0.16.0:
   resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.16.0.tgz#b15b0a85dfd4d930d43e69ed605943c802785076"
   integrity sha512-9FzQjJ7MATs1tSpnco1K6ayiYE3figslrXA72G2HQ/n76RzvYlofyi5QM+iX4YRs/pu3yzxlVQSST23+dMDknw==
 
-js-beautify@^1.6.14:
+js-beautify@^1.5.10, js-beautify@^1.6.14:
   version "1.14.8"
   resolved "https://registry.yarnpkg.com/js-beautify/-/js-beautify-1.14.8.tgz#e0c570c15b5445b006de6d9a3e70fb62f9e408e9"
   integrity sha512-4S7HFeI9YfRvRgKnEweohs0tgJj28InHVIj4Nl8Htf96Y6pHg3+tJrmo4ucAM9f7l4SHbFI3IvFAZ2a1eQPbyg==
@@ -3469,6 +3478,11 @@ lodash.chunk@^4.2.0:
   resolved "https://registry.yarnpkg.com/lodash.chunk/-/lodash.chunk-4.2.0.tgz#66e5ce1f76ed27b4303d8c6512e8d1216e8106bc"
   integrity sha512-ZzydJKfUHJwHa+hF5X66zLFCBrWn5GeF28OHEr4WVWtNDXlQ/IjWKPBiikqKo2ne0+v6JgCgJ0GzJp8k8bHC7w==
 
+lodash.clonedeep@^4.3.2:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==
+
 lodash.defaults@^4.0.1:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
@@ -3643,6 +3657,11 @@ lodash.values@~2.4.1:
   integrity sha512-fQwubKvj2Nox2gy6YnjFm8C1I6MIlzKUtBB+Pj7JGtloGqDDL5CPRr4DUUFWPwXWwAl2k3f4C3Aw8H1qAPB9ww==
   dependencies:
     lodash.keys "~2.4.1"
+
+lodash@^3.0.1:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+  integrity sha512-9mDDwqVIma6OZX79ZlDACZl8sBm0TEnkf99zV3iMA4GzkIT/9hiqP5mY0HoT1iNLCrKc/R1HByV+yJfRWVJryQ==
 
 lodash@^4.17.10, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.2, lodash@^4.17.21, lodash@^4.17.4:
   version "4.17.21"
@@ -5274,6 +5293,21 @@ raw-body@^2.3.2:
     http-errors "2.0.0"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
+
+rcfinder@^0.1.6:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/rcfinder/-/rcfinder-0.1.9.tgz#f3e80f387ddf9ae80ae30a4100329642eae81115"
+  integrity sha512-rhSo812VIVaX7cxl33KkllHRwfLvjZL3lQedWEpQ27YlMFKZbFZsiVdCcQn/Z0FauLWxIpKrNREGuHbJFSi0Lw==
+  dependencies:
+    lodash.clonedeep "^4.3.2"
+
+rcloader@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/rcloader/-/rcloader-0.1.4.tgz#d0c902f0444983a2ee5a6907937c6a79ca704509"
+  integrity sha512-yO55pqRfpdrXV5JhgSNSH+OIu0webqeBGlxmzT1fL1qckiqoRoPBtYkKT7pALsKFPZoE5ZZnRCyEUnC1z/xEcg==
+  dependencies:
+    lodash "^3.0.1"
+    rcfinder "^0.1.6"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
