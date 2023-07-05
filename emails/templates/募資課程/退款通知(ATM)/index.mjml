@@ -9,7 +9,7 @@
     <mj-wrapper padding="12px">
       <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="36px">
         <mj-column>
-          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
+          <mj-image src="hiskio-logo.png" width="99px" />
         </mj-column>
       </mj-section>
       <mj-section border-radius="6px 6px 0px 0px" padding="0px" background-color="#178FAC">
@@ -84,11 +84,7 @@
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image
-              href="mailto:support@hiskio.com"
-              padding="0"
-              width="37px"
-              src="https://assets.f5ezcode.in/edm/icon_mail.png" />
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="icon_mail.png" />
             <mj-text
               padding-left="0"
               padding-right="0"

@@ -23,7 +23,7 @@
     <mj-wrapper background-color="#FAFAFA" padding='0px'>
       <mj-section>
         <mj-column css-class="max-layout">
-          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" alt="logo" width="138px" padding-top="64px" padding-bottom="40px" align="center" />
+          <mj-image src="hiskio-logo.png" alt="logo" width="138px" padding-top="64px" padding-bottom="40px" align="center" />
         </mj-column>
       </mj-section>
       <mj-section>

@@ -47,9 +47,9 @@
   </mj-head>
   <mj-body>
     <mj-wrapper background-color="#FAFAFA" padding='0px'>
-      <mj-section background-url='https://edm.hiskio.com/source/5f1f8fd759c53/bg-buy-success.png?1597942268234' background-size="cover" background-repeat="no-repeat">
+      <mj-section background-url='bg-buy-success.png' background-size="cover" background-repeat="no-repeat">
         <mj-column>
-          <mj-image css-class="logo" src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" alt="" width="99px" padding-top="40px" padding-bottom="40px" />
+          <mj-image css-class="logo" src="hiskio-logo.png" alt="" width="99px" padding-top="40px" padding-bottom="40px" />
           <mj-image css-class="main-icon" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-purchase-confirmation.png?1597942574236" alt="" width="99.34px" padding-top="0" padding-bottom="29.5px" />
           <mj-text css-class="title" color="#262626" align="center" font-size="40px" font-weight="bold"> 課程購買成功 </mj-text>
           <mj-text css-class="purchase-success" font-size="18px" color="#262626" align="center" padding-bottom="49px" padding-top="0">馬上開始學習！</mj-text>
@@ -124,7 +124,7 @@
                 <br />
                 立即掃描 QRCode，或手機點擊按鈕加入綁定吧！
               </p>
-              <img src="../images/購買課程成功/qrcode.png" alt="qrcode" style="display: block; margin: 0 auto 40px;">
+              <img src="購買課程成功/qrcode.png" alt="qrcode" style="display: block; margin: 0 auto 40px;">
               <a href="https://lin.ee/nBCVdCD" target="_blank" style="display: block; margin: 0 auto; width: 210px; text-align: center; font-size: 20px; line-height: 53px; background-color: #178FAC; color: white; font-weight: 500; border-radius: 8px; text-decoration: none;">前往綁定</a>
             </div>
           </mj-raw>
@@ -143,7 +143,7 @@
                 <div style="background-image: url(https://thumbnails.f5ezcode.in/eyJidWNrZXQiOiJjZG4uaGlza2lvLmNvbSIsImtleSI6ImNvdXJzZXNcL2VnbWE3ZG1tZm5ieG1saiIsImVkaXRzIjp7IndlYnAiOnsicXVhbGl0eSI6MTAwfSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjMwMH19fQ==); background-size: 100%; background-position: top; background-repeat: no-repeat; padding-top: 59.82%; border-top-left-radius: 6px; border-top-right-radius: 6px;">
                 </div>
                 <div style="padding:12px 10px; font-size:16px;color:#8c8c8c;">
-                  <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="17px" style="display: inline-block; vertical-align: text-top;" />
+                  <img src="icon-star.png" width="17px" style="display: inline-block; vertical-align: text-top;" />
                   <span style="display: inline-block; line-height: 1;">5.0 (97)</span>
                   <div style="float: right;">
                     <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-student.png?1597976433825" width="22px" style="display: inline-block;" />
@@ -168,7 +168,7 @@
                 <div style="background-image: url(https://edm.hiskio.com/source/5f1f8fd759c53/course.png?1598268543723); background-size: 100%; background-position: top; background-repeat: no-repeat; padding-top: 59.82%; border-top-left-radius: 6px; border-top-right-radius: 6px;">
                 </div>
                 <div style="padding:12px 10px; font-size:16px;color:#8c8c8c;">
-                  <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="17px" style="display: inline-block; vertical-align: text-top;" />
+                  <img src="icon-star.png" width="17px" style="display: inline-block; vertical-align: text-top;" />
                   <span style="display: inline-block; line-height: 1;">5.0 (97)</span>
                   <div style="float: right;">
                     <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-student.png?1597976433825" width="22px" style="display: inline-block;" />
@@ -193,7 +193,7 @@
                 <div style="background-image: url(https://thumbnails.f5ezcode.in/eyJidWNrZXQiOiJjZG4uaGlza2lvLmNvbSIsImtleSI6ImNvdXJzZXNcLzcwMC9jb3Zlci9cdTYzZDBcdTUzNDdcdTdhMGJcdTVmMGZcdThhMmRcdThhMDhcdTVlMmJcdTc2ODRcdTk3NjJcdThhNjZcdTUyOWJcdWZmNWMxODlcdTkwNTNcdTk3NjJcdThhNjZcdTk4NGNcdTc2ZWVcdTgyMDdcdTg5ZTNcdTdiNTQgXHU3YjJjXHU1MTZkXHU3MjQ4LmpwZyIsImVkaXRzIjp7IndlYnAiOnsicXVhbGl0eSI6MTAwfSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjMwMH19fQ==); background-size: contain; background-position: top; background-repeat: no-repeat; padding-top: 59.82%; border-top-left-radius: 6px; border-top-right-radius: 6px;">
                 </div>
                 <div style="padding:12px 10px; font-size:16px;color:#8c8c8c;">
-                  <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="17px" style="display: inline-block; vertical-align: text-top;" />
+                  <img src="icon-star.png" width="17px" style="display: inline-block; vertical-align: text-top;" />
                   <span style="display: inline-block; line-height: 1;">5.0 (97)</span>
                   <div style="float: right;">
                     <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-student.png?1597976433825" width="22px" style="display: inline-block;" />

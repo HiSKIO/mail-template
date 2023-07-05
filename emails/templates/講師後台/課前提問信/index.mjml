@@ -194,7 +194,7 @@
     <mj-wrapper padding="28px" background-color="#fafafa">
       <mj-section>
         <mj-column width="400px">
-          <mj-image css-class="logo" src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" alt="" width="99px" padding-top="40px" padding-bottom="32px" />
+          <mj-image css-class="logo" src="hiskio-logo.png" alt="" width="99px" padding-top="40px" padding-bottom="32px" />
         </mj-column>
       </mj-section>
       <mj-section css-class="main-width box-shadow" padding="22px" border-radius="10px" background-url="https://cdn.hiskio.com/edm/bg_teachersmail_600x659.png">

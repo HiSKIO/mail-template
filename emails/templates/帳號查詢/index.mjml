@@ -10,7 +10,7 @@
     <mj-wrapper padding="12px">
       <mj-section background-color="#f0f0f0" padding-top="64px" padding-bottom="40px">
         <mj-column>
-          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="138px" />
+          <mj-image src="hiskio-logo.png" width="138px" />
         </mj-column>
       </mj-section>
       <mj-section background-color="#f0f0f0" padding="0">
@@ -25,7 +25,7 @@
                     <h3 style="margin: 0 0 0 auto; padding-right: 21px; max-width: 106px; font-size: 20px; line-height: 29px; color: #262626; font-weight: 400; white-space: nowrap;">社群綁定</h3>
                   </div>
                   <div style="float: left; width: 50%;">
-                    <img src="../images/帳號查詢/facebook.png" alt="facebook" />
+                    <img src="帳號查詢/facebook.png" alt="facebook" />
                   </div>
                 </li>
                 <li style="margin-bottom: 15px; overflow: hidden;">
@@ -60,10 +60,10 @@
                   </div>
                   <div style="float: left; width: 50%;">
                     <div style="font-size: 20px; line-height: 29px; color: #8C8C8C;">Not bound yet</div>
-                    <!-- <img src="../images/帳號查詢/facebook.png" alt="facebook" />
-                    <img src="../images/帳號查詢/google.png" alt="google" />
-                    <img src="../images/帳號查詢/github.png" alt="github" />
-                    <img src="../images/帳號查詢/linkin.png" alt="linkin" /> -->
+                    <!-- <img src="帳號查詢/facebook.png" alt="facebook" />
+                    <img src="帳號查詢/google.png" alt="google" />
+                    <img src="帳號查詢/github.png" alt="github" />
+                    <img src="帳號查詢/linkin.png" alt="linkin" /> -->
                   </div>
                 </li>
                 <li style="margin-bottom: 15px; overflow: hidden;">
@@ -114,7 +114,7 @@
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_mail.png" />
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="icon_mail.png" />
             <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
             </mj-text>

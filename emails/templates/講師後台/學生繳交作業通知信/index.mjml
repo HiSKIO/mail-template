@@ -25,7 +25,7 @@
     <mj-wrapper background-color="#FAFAFA" padding='0px'>
       <mj-section>
         <mj-column css-class="max-layout">
-          <mj-image src="../../images/hiskio.png" alt="logo" width="138px" padding-top="64px" padding-bottom="42px" align="center" />
+          <mj-image src="hiskio.png" alt="logo" width="138px" padding-top="64px" padding-bottom="42px" align="center" />
         </mj-column>
       </mj-section>
       <mj-section>
@@ -45,7 +45,7 @@
                   <p style="font-size: 16px; line-height: 65px; color: #262626;">我的網頁試做1</p>
                 </div>
                 <div style="clear: both;">
-                  <div style="display: inline-block; margin-right: 8px; width: 48px; height: 48px; background: url('../../images/講師後台/課程公告信/avatar.png') center / cover; vertical-align: bottom;"></div>
+                  <div style="display: inline-block; margin-right: 8px; width: 48px; height: 48px; background: url('講師後台/課程公告信/avatar.png') center / cover; vertical-align: bottom;"></div>
                   <p style="display: inline-block; font-size: 20px; line-height: 48px; color: #8c8c8c;">小白</p>
                   <p style="float: right; font-size: 16px; line-height: 48px; color: #bfbfbf;">2020/12/13</p>
                 </div>

@@ -12,12 +12,12 @@
     <mj-wrapper padding="0">
       <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="15px">
         <mj-column padding="0">
-          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" padding="0" width="138.54px" />
+          <mj-image src="hiskio-logo.png" padding="0" width="138.54px" />
         </mj-column>
       </mj-section>
       <mj-section padding='0px'>
         <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/interview4-cover.png" padding='0px' />
+          <mj-image src="interview4-cover.png" padding='0px' />
         </mj-column>
       </mj-section>
       <mj-section padding-top='31px' padding-bottom="46px" padding-left="0" padding-right="0" border-radius="0 0 6px 6px">
@@ -98,7 +98,7 @@
                   每週將公佈得獎名單，請持續關注 <a href="https://www.facebook.com/hiskio" target="_blank" style="text-decoration: underline; color: #595959">HiSKIO 粉絲專頁</a>！
                 </div>
               </div>
-              <img src="https://assets.f5ezcode.in/edm/interview3-EDM.png" alt="EDM" style="display: block; margin: 0 auto;" />
+              <img src="interview3-EDM.png" alt="EDM" style="display: block; margin: 0 auto;" />
             </div>
           </mj-raw>
         </mj-column>

@@ -30,7 +30,7 @@
     <mj-wrapper background-color="#FAFAFA" padding='0px'>
       <mj-section>
         <mj-column css-class="max-layout">
-          <mj-image src="../../images/hiskio.png" alt="logo" width="138px" padding-top="64px" padding-bottom="42px" align="center" />
+          <mj-image src="hiskio.png" alt="logo" width="138px" padding-top="64px" padding-bottom="42px" align="center" />
         </mj-column>
       </mj-section>
       <mj-section>

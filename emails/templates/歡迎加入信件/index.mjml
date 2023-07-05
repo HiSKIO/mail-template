@@ -29,7 +29,7 @@
         <mj-column css-class="hero-padding" vertical-align="middle">
           <mj-image
             css-class="hero-logo"
-            src="https://assets.f5ezcode.in/edm/tenlong-background.png"
+            src="tenlong-background.png"
             width="800px"
             alt=""
             border-radius="10px 10px 0 0" />
@@ -113,10 +113,7 @@
                   <a
                     href="https://liff.line.me/1655597980-8jvMLEvZ"
                     style="display: block; text-decoration: none; text-align: center">
-                    <img
-                      src="https://assets.f5ezcode.in/edm/line.png"
-                      width="40px"
-                      style="display: inline-block; vertical-align: middle" />
+                    <img src="line.png" width="40px" style="display: inline-block; vertical-align: middle" />
                     <br />
                     <span style="padding-top: 6px; font-size: 14px; color: #8c8c8c; vertical-align: middle">Line</span>
                   </a>

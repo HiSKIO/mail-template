@@ -89,7 +89,7 @@
     <mj-wrapper padding="27px" background-url="https://edm.hiskio.com/source/5f1f8fd759c53/bg-start-account.png?1597914410253" background-size="cover" background-repeat="no-repeat">
       <mj-section>
         <mj-column width="400px">
-          <mj-image css-class="logo" align="center" src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" alt="" width="99px" padding-top="41px" padding-bottom="22px" />
+          <mj-image css-class="logo" align="center" src="hiskio-logo.png" alt="" width="99px" padding-top="41px" padding-bottom="22px" />
         </mj-column>
       </mj-section>
       <mj-section border-radius="10px">

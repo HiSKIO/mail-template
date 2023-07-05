@@ -10,7 +10,7 @@
     <mj-wrapper padding="12px">
       <mj-section background-color="#f0f0f0" padding-top="9px" padding-bottom="27px">
         <mj-column>
-          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="200px" />
+          <mj-image src="hiskio-logo.png" width="200px" />
         </mj-column>
       </mj-section>
       <mj-section background-color="#f0f0f0" padding="0">
@@ -20,7 +20,7 @@
               <h2 style="margin:0; padding: 24px 19px 12px; font-size: 16px; line-height: 18px; font-weight: bold; border-bottom: 1px solid #EEEEEE;">HiSKIO 講師每期分潤通知</h2>
               <div style="padding: 31px 33px 50px 19px;">
                 <div style="margin-bottom: 13px;">
-                  <img src="../../../images/管理後台/分潤通知/avatar.png" alt="avatar" width="50" height="50" style="margin-right: 20px; vertical-align: middle;" />
+                  <img src="../管理後台/分潤通知/avatar.png" alt="avatar" width="50" height="50" style="margin-right: 20px; vertical-align: middle;" />
                   <div style="display: inline-block; line-height: 17px; color: #000000;">HiSKIO 說：</div>
                 </div>
                 <p style="margin-top: 0; margin-bottom: 20px; line-height: 17px;">Hi [Name] 老師 您好:</p>
@@ -66,7 +66,7 @@
             </mj-text>
           </mj-column>
           <mj-column width="25%">
-            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_mail.png" />
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="icon_mail.png" />
             <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
             </mj-text>

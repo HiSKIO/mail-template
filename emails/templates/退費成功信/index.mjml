@@ -178,7 +178,7 @@
     <mj-wrapper padding-top="0" padding-bottom="0" background-url="https://edm.hiskio.com/source/5f1f8fd759c53/bg-refund-conformation.png?1597989937931" background-size="cover" background-repeat="no-repeat">
       <mj-section>
         <mj-column width="400px" padding-bottom="76px">
-          <mj-image css-class="logo" src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" alt="" width="99px" padding-top="41px" padding-bottom="32px" />
+          <mj-image css-class="logo" src="hiskio-logo.png" alt="" width="99px" padding-top="41px" padding-bottom="32px" />
           <mj-image css-class="hand" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-refund-success.png?1597989815870" alt="" width="86px" padding-top="0" padding-bottom="16px" />
           <mj-text css-class="title" padding-top="0" padding-bottom="0" color="#262626" align="center" font-size="24px" line-height="59px" font-weight="bold">
             退款成功

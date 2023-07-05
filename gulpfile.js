@@ -157,21 +157,28 @@ async function downloadTranslationsFromPhrase() {
 
 /** 產生縮圖 */
 function generateScreenShots() {
-  return gulp.src(paths.i18n.dest + "**/*.html").pipe(
-    tap(async (file) => {
-      try {
+  const files = [];
+  return gulp
+    .src(paths.i18n.dest + "**/*.html")
+    .pipe(
+      tap((file) => {
+        files.push(file);
+      })
+    )
+    .on("end", async () => {
+      const browser = await puppeteer.launch({ headless: true });
+      const page = await browser.newPage();
+
+      for (let i = 0, len = files.length; i < len; i++) {
+        const file = files[i];
         const filename = path.basename(file.basename, ".html") + ".png";
         const exportPath = `${path.dirname(file.path)}/${filename}`;
-        const browser = await puppeteer.launch({ headless: true });
-        const page = await browser.newPage();
         await page.goto("file://" + file.path, { waitUntil: "networkidle0" });
         await page.screenshot({ path: exportPath, fullPage: true });
-        await browser.close();
-      } catch (err) {
-        console.log(err);
       }
-    })
-  );
+
+      await browser.close();
+    });
 }
 
 /** 將 output/emails 圖片連結替換成 cloudfront_url */

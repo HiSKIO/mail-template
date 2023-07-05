@@ -9,12 +9,12 @@
     <mj-wrapper padding="12px">
       <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="36px">
         <mj-column>
-          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
+          <mj-image src="hiskio-logo.png" width="99px" />
         </mj-column>
       </mj-section>
       <mj-section padding='0px' border-radius='6px 6px 0px 0px'>
         <mj-column>
-          <mj-image src="https://edm.hiskio.com/edm/front-end-guide.png" width="600px" padding='0px' />
+          <mj-image src="front-end-guide.png" width="600px" padding='0px' />
         </mj-column>
       </mj-section>
       <mj-section border-radius='0px 0px 6px 6px' padding='40px' padding-left='60px' padding-right='60px'>
@@ -26,7 +26,7 @@
           <mj-text font-size='18px' padding-bottom='20px' padding-top='20px' align='center'>論壇日期：2020/04/28 (三) 20:00 ~ 22:30 </span></mj-text>
         </mj-column>
         <mj-column width='100%'>
-          <mj-image src="https://edm.hiskio.com/edm/frot-end-guide-qrcode.png" width="148px" padding-top='24px' padding-bottom='24px'/>
+          <mj-image src="frot-end-guide-qrcode.png" width="148px" padding-top='24px' padding-bottom='24px'/>
           
         </mj-column>
         <mj-column width='100%'>
@@ -48,7 +48,7 @@
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_mail.png" />
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="icon_mail.png" />
             <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
             </mj-text>

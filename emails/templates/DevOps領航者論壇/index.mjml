@@ -5,11 +5,11 @@
       <mj-section background-color="#fff" />
     </mj-attributes>
     <mj-style>
-      .coupon { background-image: url('../images/DevOps領航者論壇/coupon.png'); background-position: center;
-      background-size: contain; background-repeat: no-repeat; padding: 4px 20px 4px 30px; box-sizing: border-box; }
-      .coupon-title { margin: 0; font-size: 13px; line-height: 1; color: #595959; } .coupon-code { margin: 0; font-size:
-      18px; line-height: 1; color: #4C7A94; font-weight: 700; } .coupon-tenlong-logo { float: right; width: 80px;
-      height: 29.26829px; } .coupon-divider { clear: both; padding: 6px 0; width: 181px; } .coupon-tenlong { margin: 0;
+      .coupon { background-image: url('DevOps領航者論壇/coupon.png'); background-position: center; background-size:
+      contain; background-repeat: no-repeat; padding: 4px 20px 4px 30px; box-sizing: border-box; } .coupon-title {
+      margin: 0; font-size: 13px; line-height: 1; color: #595959; } .coupon-code { margin: 0; font-size: 18px;
+      line-height: 1; color: #4C7A94; font-weight: 700; } .coupon-tenlong-logo { float: right; width: 80px; height:
+      29.26829px; } .coupon-divider { clear: both; padding: 6px 0; width: 181px; } .coupon-tenlong { margin: 0;
       font-size: 14px; line-height: 1; color: #595959; } .coupon-description { margin: 0; font-size: 13px; line-height:
       13.5px; color: #8c8c8c; } .coupon-limit { float: left; margin: 0; font-size: 13px; line-height: 20px; color:
       #8c8c8c; } .coupon-btn { float: right; display: inline-block; width: 118px; text-align: center; font-size: 16px;
@@ -26,12 +26,12 @@
     <mj-wrapper padding="12px">
       <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="36px">
         <mj-column>
-          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
+          <mj-image src="hiskio-logo.png" width="99px" />
         </mj-column>
       </mj-section>
       <mj-section padding="0px" border-radius="6px 6px 0px 0px">
         <mj-column>
-          <mj-image src="../images/DevOps領航者論壇/banner.png" width="600px" padding="0px" />
+          <mj-image src="DevOps領航者論壇/banner.png" width="600px" padding="0px" />
         </mj-column>
       </mj-section>
       <mj-section
@@ -151,7 +151,7 @@
             color="#595959"
             >4. 為了讓講者在分享過程中更加順暢，請務必確保您個人的視訊和麥克風功能處於關閉狀態。</mj-text
           >
-          <mj-image src="../images/DevOps領航者論壇/qrcode.png" width="145px" padding-top="0" padding-bottom="12px" />
+          <mj-image src="DevOps領航者論壇/qrcode.png" width="145px" padding-top="0" padding-bottom="12px" />
         </mj-column>
         <mj-column width="100%" padding-bottom="64px">
           <mj-button
@@ -176,7 +176,7 @@
                   <h3 class="coupon-title">折扣碼</h3>
                   <p class="coupon-code">HIEXPERT50</p>
                 </div>
-                <img src="../images/DevOps領航者論壇/tenlong_logo.png" class="coupon-tenlong-logo" />
+                <img src="DevOps領航者論壇/tenlong_logo.png" class="coupon-tenlong-logo" />
               </div>
               <div class="coupon-divider">
                 <div style="height: 0; border-width: 1px 0 0; border-style: dashed; border-color: #c4e6ef"></div>

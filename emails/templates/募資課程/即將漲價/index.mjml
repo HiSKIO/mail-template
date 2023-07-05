@@ -9,12 +9,12 @@
     <mj-wrapper padding="12px">
       <mj-section background-color="#f0f0f0" padding-top="40px" padding-bottom="36px">
         <mj-column>
-          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" width="99px" />
+          <mj-image src="hiskio-logo.png" width="99px" />
         </mj-column>
       </mj-section>
       <mj-section padding="0px" border-radius="6px 6px 0px 0px">
         <mj-column>
-          <mj-image src="../../images/fundraising-bg.png" width="600px" padding="0px" />
+          <mj-image src="fundraising-bg.png" width="600px" padding="0px" />
         </mj-column>
       </mj-section>
       <mj-section border-radius="0px 0px 6px 6px" padding="40px">

@@ -9,7 +9,7 @@
     <mj-wrapper padding="12px">
       <mj-section background-color="#f0f0f0" padding-top="64px" padding-bottom="40px">
         <mj-column>
-          <mj-image src="../../images/hiskio.png" width="138px" />
+          <mj-image src="hiskio.png" width="138px" />
         </mj-column>
       </mj-section>
       <mj-section

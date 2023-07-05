@@ -15,12 +15,12 @@
     <mj-wrapper padding="0">
       <mj-section background-color="#f0f0f0" padding-top="64px" padding-bottom="38px">
         <mj-column padding="0">
-          <mj-image src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" padding="0" width="138.54px" />
+          <mj-image src="hiskio-logo.png" padding="0" width="138.54px" />
         </mj-column>
       </mj-section>
       <mj-section padding='0px'>
         <mj-column>
-          <mj-image src="../images/促銷信件/cover.png" padding='0px' />
+          <mj-image src="促銷信件/cover.png" padding='0px' />
         </mj-column>
       </mj-section>
       <mj-section padding-top='40px' padding-right='40px' padding-bottom='40px' padding-left='40px' border-radius="0 0 6px 6px" css-class="main">
@@ -49,7 +49,7 @@
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_mail.png" />
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="icon_mail.png" />
             <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
             </mj-text>

@@ -59,9 +59,9 @@
   </mj-head>
   <mj-body>
     <mj-wrapper background-color="#e7f4f7" padding='0px'>
-      <mj-section background-url='https://edm.hiskio.com/source/5f1f8fd759c53/bg-buy-success.png?1597942268234' background-size="cover" background-repeat="no-repeat">
+      <mj-section background-url='bg-buy-success.png' background-size="cover" background-repeat="no-repeat">
         <mj-column>
-          <mj-image css-class="logo" src="https://edm.hiskio.com/source/5f1f8fd759c53/hiskio-logo.png?1597982977600" alt="" width="99px" padding-top="40px" padding-bottom="32px" />
+          <mj-image css-class="logo" src="hiskio-logo.png" alt="" width="99px" padding-top="40px" padding-bottom="32px" />
           <mj-image css-class="main-icon" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-purchase-confirmation.png?1597942574236" alt="" width="51.9px" padding-top="0" padding-bottom="13px" />
           <mj-text css-class="title" color="#262626" align="center" font-size="24px" font-weight="bold"> 課程購買成功 </mj-text>
           <mj-text css-class="purchase-success" font-size="16px" color="#262626" align="center" padding-bottom="33px" padding-top="0">恭喜你成為前 100 名購買者，選擇你想要的書吧！</mj-text>
@@ -156,7 +156,7 @@
                     <tr>
                       <td width="90px" style="font-size:14px;color:#8c8c8c;display: inline-block;
   padding-left:12px;padding:10px">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="16px" style="display: inline-block;
+                        <img src="icon-star.png" width="16px" style="display: inline-block;
   vertical-align: middle;" />
                         <span style="display: inline-block"> 5.0 (97)</span>
                       </td>
@@ -209,7 +209,7 @@
                     <tr>
                       <td width="90px" style="font-size:14px;color:#8c8c8c;display: inline-block;
   padding-left:12px;padding:10px">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="16px" style="display: inline-block;
+                        <img src="icon-star.png" width="16px" style="display: inline-block;
   vertical-align: middle;" />
                         <span style="display: inline-block; 
   vertical-align: middle;"> 5.0 (97)</span>
@@ -266,7 +266,7 @@
                     <tr>
                       <td width="90px" style="font-size:14px;color:#8c8c8c;display: inline-block;
   padding-left:12px;padding:10px">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="16px" style="display: inline-block;
+                        <img src="icon-star.png" width="16px" style="display: inline-block;
   vertical-align: middle;" />
                         <span style="display: inline-block; 
   vertical-align: middle;"> 5.0 (97)</span>

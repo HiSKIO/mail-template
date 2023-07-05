@@ -9,16 +9,12 @@
     <mj-wrapper padding="12px">
       <mj-section background-color="#fafafa" padding-top="40px" padding-bottom="36px">
         <mj-column>
-          <mj-image src="https://assets.f5ezcode.in/edm/codeFree-logo.png" width="138px" />
+          <mj-image src="codefree-logo.png" width="138px" />
         </mj-column>
       </mj-section>
       <mj-section padding="0px" border-radius="6px 6px 0px 0px">
         <mj-column>
-          <mj-image
-            src="https://assets.f5ezcode.in/edm/code-free-hiskiomember.png"
-            width="600px"
-            padding="0px"
-            padding-top="40px" />
+          <mj-image src="code-free-hiskiomember.png" width="600px" padding="0px" padding-top="40px" />
         </mj-column>
       </mj-section>
       <mj-section border-radius="0px 0px 6px 6px" padding="20px" padding-top="68px">
@@ -78,11 +74,7 @@
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image
-              href="mailto:support@hiskio.com"
-              padding="0"
-              width="37px"
-              src="https://assets.f5ezcode.in/edm/icon_mail.png" />
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="icon_mail.png" />
             <mj-text
               padding-left="0"
               padding-right="0"

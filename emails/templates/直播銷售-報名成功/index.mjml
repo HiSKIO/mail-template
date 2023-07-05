@@ -63,9 +63,9 @@
   </mj-head>
   <mj-body>
     <mj-wrapper background-color="#e7f4f7" padding='0px'>
-      <mj-section background-url='https://edm.hiskio.com/source/5f1f8fd759c53/bg-buy-success.png?1597942268234' background-size="cover" background-repeat="no-repeat">
+      <mj-section background-url='bg-buy-success.png' background-size="cover" background-repeat="no-repeat">
         <mj-column>
-          <mj-image css-class="logo" src="../images/hiskio.png" alt="" width="138px" padding-top="60px" padding-bottom="41px" />
+          <mj-image css-class="logo" src="hiskio.png" alt="" width="138px" padding-top="60px" padding-bottom="41px" />
           <mj-image css-class="main-icon" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-purchase-confirmation.png?1597942574236" alt="" width="99.34px" padding-top="0" padding-bottom="29.5px" />
           <mj-text css-class="title" padding-bottom="56px" color="#262626" align="center" font-size="40px" line-height="58px" font-weight="bold">課程報名成功</mj-text>
         </mj-column>
@@ -149,7 +149,7 @@
                     <tr>
                       <td width="90px" style="font-size:14px;color:#8c8c8c;display: inline-block;
   padding-left:12px;padding:10px">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="16px" style="display: inline-block;
+                        <img src="icon-star.png" width="16px" style="display: inline-block;
   vertical-align: middle;" />
                         <span style="display: inline-block"> 5.0 (97)</span>
                       </td>
@@ -203,7 +203,7 @@
                     <tr>
                       <td width="90px" style="font-size:14px;color:#8c8c8c;display: inline-block;
   padding-left:12px;padding:10px">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="16px" style="display: inline-block;
+                        <img src="icon-star.png" width="16px" style="display: inline-block;
   vertical-align: middle;" />
                         <span style="display: inline-block; 
   vertical-align: middle;"> 5.0 (97)</span>
@@ -262,7 +262,7 @@
                     <tr>
                       <td width="90px" style="font-size:14px;color:#8c8c8c;display: inline-block;
   padding-left:12px;padding:10px">
-                        <img src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-star.png?1597948906343" width="16px" style="display: inline-block;
+                        <img src="icon-star.png" width="16px" style="display: inline-block;
   vertical-align: middle;" />
                         <span style="display: inline-block; 
   vertical-align: middle;"> 5.0 (97)</span>
@@ -310,7 +310,7 @@
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="https://assets.f5ezcode.in/edm/icon_mail.png" />
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="icon_mail.png" />
             <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
             </mj-text>
