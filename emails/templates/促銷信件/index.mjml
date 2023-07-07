@@ -1,0 +1,92 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text align="center" color="#595959" />
+      <mj-section padding-top="0" padding-bottom="0" background-color="#fff" />
+      <mj-body width="600px">
+    </mj-attributes>
+    <mj-style inline="inline">
+      .main {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f0f0f0">
+    <mj-wrapper padding="0">
+      <mj-section background-color="#f0f0f0" padding-top="64px" padding-bottom="38px">
+        <mj-column padding="0">
+          <mj-image src="hiskio-logo.png" padding="0" width="138.54px" />
+        </mj-column>
+      </mj-section>
+      <mj-section padding='0px'>
+        <mj-column>
+          <mj-image src="促銷信件/cover.png" padding='0px' />
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top='40px' padding-right='40px' padding-bottom='40px' padding-left='40px' border-radius="0 0 6px 6px" css-class="main">
+        <mj-column width='100%' padding="0" padding-bottom="40px">
+          <mj-raw>
+            <p style="margin: 0; font-size: 20px; line-height: 30px; color: #595959;">Hi ，【圖解 AWS：打造分散式雲端架構，流量再高也頂住！】這堂課即將在明天（11/03）結束募資囉！
+              <br><br>
+              已經超過 260 人加入這堂課程了，你還在等什麼？
+              <br><br>
+              ▍你也有面臨過這 5 種棘手的情況嗎？
+              <br>
+              不同於其他堂課只是單獨介紹服務，本堂課還帶你整合 5 項 AWS 服務，做出『訂票系統架構』</p>
+          </mj-raw>
+        </mj-column>
+        <mj-column width='100%' padding="0">
+          <mj-button href="#" width='210px' height='30px' padding='0' background-color="#FFA81D" color="#fff" border-radius='8px' font-size='20px' line-height='30px' font-weight='500'>立即加入</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#f0f0f0" padding-top="30px" padding-bottom="19px" padding-left="0" padding-right="0" text-align="center">
+        <mj-group width="100%">
+          <mj-column width="10%"></mj-column>
+          <mj-column width="20%">
+            <mj-image href="https://www.facebook.com/hiskio" target="_blank" padding="0" width="37px" src="icon_fb.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.facebook.com/hiskio" target="_blank" style="text-decoration: none; color: #8c8c8c">粉絲專頁</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="icon_mail.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-image href="https://hiskio.com" target="_blank" padding="0" width="37px" src="icon_hi_link.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://hiskio.com" target="_blank" style="text-decoration: none; color: #8c8c8c">官方網站</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-image href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" padding="0" width="37px" src="icon_youtube.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" style="text-decoration: none; color: #8c8c8c">Youtube</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="10%"></mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding="0" padding-bottom="20px" background-color="#f0f0f0">
+        <mj-column width='100%' padding="0">
+          <mj-raw>
+            <p style="margin: 0; padding: 0 0 20px; text-align: center;font-size: 16px; line-height: 24px; color: #595959;">
+              以上資訊若有任何問題，請透過 <a href="mailto:support@hiskio.com" style="color: #178fac; text-decoration: none">客服信箱</a> 與我們聯繫，謝謝！<br>
+              如果此信箱非您所有，請直接忽略此信件。
+            </p>
+            <div style="text-align: center;">
+              <a href="" style="font-size: 14px; line-height: 21px ;color: #178FAC; text-decoration: underline;">取消訂閱請點此</a>
+            </div>
+          </mj-raw>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#f0f0f0" padding="0" padding-bottom="120px">
+        <mj-column width='100%' padding="0">
+          <mj-text align="center" padding="0" font-size="14px" line-height="20px" color="#8c8c8c"> 有點意思科技有限公司版權所有，轉載必究 Copyright© HiSKIO </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

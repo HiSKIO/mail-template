@@ -1,0 +1,279 @@
+<mjml>
+  <mj-head>
+
+    <mj-attributes>
+      <mj-section padding-top="0" padding-bottom="0"></mj-section>
+      <mj-all line-height="1.6"></mj-all>
+      <mj-body width="1800px">
+    </mj-attributes>
+    <mj-style inline="inline">
+      .link-nostyle {
+        color: inherit !important;
+        text-decoration: none
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      .warning-color {
+        color: #eb6767 !important;
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      .emphasize-color {
+        color: #262626 !important;
+        font-weight: bold !important;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .activate a {
+        width: 128px !important;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .top-row {
+        padding: 20px 0;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .student-icon {
+        padding-top: 0px !important;
+        padding-bottom: 16px !important;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .teacher-name {
+        padding-left: 8px !important;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .main-width td {
+        border-radius: 6px !important;
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      .date {
+        font-size: 14px !important;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .teacher-padding {
+        padding-bottom: 0px !important;
+        padding-left: 16px !important;
+        padding-top: 0 !important;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .detail {
+        background-color: #f5f5f5 !important;
+        padding: 0 20px 20px 20px !important;
+        border-radius: 8px !important;
+      }
+    </mj-style>
+    <mj-style>
+      @media (min-width:480px) {
+        .title div {
+          font-size: 38px !important;
+          font-weight: bold !important;
+        }
+
+        .title {
+          padding-top: 40px !important;
+          padding-bottom: 13px !important;
+        }
+
+        .message {
+          font-size: 20px !important;
+          padding-bottom: 24px !important;
+          padding-top: 40px !important;
+        }
+
+        .date {
+          font-size: 16px !important;
+          padding-left: 0px !important;
+        }
+
+        .container-adjust div {
+          padding-top: 0 !important;
+          padding-bottom: 0 !important;
+        }
+
+        .logo {
+          padding: 0 !important;
+        }
+
+        .logo img {
+          padding-top: 104px !important;
+          padding-bottom: 40px !important;
+          width: 150px !important;
+        }
+
+
+        .teacher-profile {
+          width: 57px !important;
+          height: 57px !important;
+        }
+
+        .teacher-feedback {
+          padding-left: 105px !important;
+          padding-top: 8px !important;
+        }
+
+        .teacher-feedback div {
+          font-size: 20px !important;
+        }
+
+        .teacher-padding {
+          padding-left: 32px !important;
+        }
+
+        .teacher-name {
+          padding-left: 16px !important;
+          padding-bottom: 0 !important;
+        }
+
+        .inform-adjust {
+          padding-left: 30px !important;
+          padding-bottom: 30px;
+        }
+
+        .inform-adjust div {
+
+          font-size: 20px !important;
+        }
+
+        .twenty {
+          font-size: 20px !important;
+        }
+
+        .activate {
+          padding: 24px 0 40px 0 !important;
+        }
+
+        .activate table {
+          width: 210px !important;
+        }
+
+        .activate a {
+          font-size: 20px !important;
+          width: 160px !important;
+        }
+
+        .bottom {
+          padding-bottom: 150px !important;
+        }
+
+        .main-width {
+          width: 600px;
+        }
+
+        .info div {
+          font-size: 16px !important;
+        }
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      table {
+        border-collapse: separate;
+      }
+
+      .main-width {
+        border-radius: 30px;
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16);
+      }
+
+      .hi-courses-title {
+        color: #178fac;
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body>
+    <mj-wrapper padding="28px" background-color="#fafafa">
+      <mj-section>
+        <mj-column width="400px">
+          <mj-image css-class="logo" src="hiskio-logo.png" alt="" width="99px" padding-top="40px" padding-bottom="32px" />
+        </mj-column>
+      </mj-section>
+      <mj-section css-class="main-width box-shadow" padding="22px" border-radius="10px" background-url="https://cdn.hiskio.com/edm/bg_teachersmail_600x659.png">
+        <mj-column width="544px">
+          <mj-text font-size="28px" line-height="41px" align="center" padding-left="0" padding-right="0" font-weight="bold" css-class="title" color="#262626" padding-top="24px" padding-bottom="16px">
+            課前提問
+          </mj-text>
+          <mj-divider border-width="1px" padding-top="0" padding-bottom="0"></mj-divider>
+          <mj-text css-class="inform-adjust" font-size="16px" line-height="30px" padding-bottom="30px" padding-top="12px" padding-right="0" padding-left="0" color="#595959">
+            陳湯圓 講師：
+          </mj-text>
+          <mj-text css-class="inform-adjust" font-size="16px" line-height="30px" padding-bottom="20px" padding-top="0" padding-right="0" padding-left="0" color="#595959">
+            有學生在<span style="font-weight:bold;">『基礎前端(上)』</span>提問
+          </mj-text>
+        </mj-column>
+        <mj-column css-class="container-adjust" width="520px" background-color="#fafafa" width="400px" padding-top="16px" padding-bottom="16px" border-radius="8px">
+          <mj-table css-class="teacher-padding">
+            <tr>
+              <td width="44px" class="teacher-profile">
+                <image src="../image/icon-contact.png" alt="" width="44px" class="teacher-profile" />
+              </td>
+              <td class="teacher-name twenty" style="color:#8c8c8c;font-size:16px;">
+                陳湯圓 老師<br> <span class="date">2020/12/13</span>
+              </td>
+            </tr>
+          </mj-table>
+          <mj-text font-size="16px" padding-top="16px" padding-left="16px" padding-right="16px" padding-bottom="0" color="#595959" css-class="teacher-feedback">請問老師關於第二章第一段的1:01有提到將原有的邊框再加上邊框想要請問這個東做實際上該如何操作呢？謝謝</mj-text>
+        </mj-column>
+        <mj-column width="554px">
+          <mj-button css-class="activate" href="https://hiskio.com" font-weight="bold" width="210px" background-color="#178fac" padding-top="24px" padding-bottom="24px" font-size="16px">
+            去回覆
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column width="600px" padding="0">
+          <mj-text css-class="info" color="#8c8c8c" padding-left='0' padding-right="0" font-size="14px" padding-top="8px" padding-bottom="40px">
+            以上資訊若有任何問題，請透過 <a href="" style="color:#178fac; text-decoration:none;">客服信箱</a> 與我們聯繫，謝謝！如果此信箱非您所有，請直接忽略此信件。
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="8px">
+        <mj-group width="600px">
+          <mj-column width="10%">
+
+          </mj-column>
+          <mj-column>
+            <mj-image href="https://hiskio.com" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1597975150120" />
+            <mj-text padding-left="0" padding-right="0" font-size="14px" align="center" color="#8c8c8c">
+              <a href="" class="link-nostyle" width="58px">粉絲專頁</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image href="" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-contact.png?1597975168004" />
+            <mj-text padding-left="0" padding-right="0" font-size="14px" align="center" color="#8c8c8c">
+              <a href="" class="link-nostyle">聯絡我們</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image href="https://hiskio.com" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-hiskio-link.png?1597975125788" />
+            <mj-text padding-left="0" padding-right="0" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://hiskio.com" class="link-nostyle">官方網站</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image href="" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/youtube.png?1597975100376" />
+            <mj-text padding-left="0" padding-right="0" font-size="14px" align="center" color="#8c8c8c">
+              <a href="" class="link-nostyle"> Youtube</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text align="center" padding-top="8px" padding-bottom="47px" font-size="14px" color="#8c8c8c" css-class="bottom">
+            <p>有點意思科技有限公司版權所有，轉載必究 Copyright© HiSKIO</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

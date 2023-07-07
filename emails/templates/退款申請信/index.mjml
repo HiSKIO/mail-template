@@ -1,0 +1,253 @@
+<mjml>
+  <mj-head>
+
+    <mj-attributes>
+      <mj-section padding-top="0" padding-bottom="0"></mj-section>
+      <mj-all line-height="1.6"></mj-all>
+      <mj-body width="1800px">
+    </mj-attributes>
+    <mj-style inline="inline">
+      .link-nostyle {
+        color: inherit !important;
+        text-decoration: none
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      .warning-color {
+        color: #eb6767 !important;
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      .emphasize-color {
+        color: #262626 !important;
+        font-weight: bold !important;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .adjust-icon div {
+        width: 80% !important;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .adjust-text td {
+        width: 30px !important;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .link {
+        text-decoration: none !important;
+        color: #178fac !important;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .activate a {
+        width: 128px !important;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .top-row {
+        padding: 20px 0;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .title {
+        background-color: #178fac !important;
+        border-top-left-radius: 8px !important;
+        border-top-right-radius: 8px !important;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .detail table {
+        background-color: #f5f5f5 !important;
+        padding: 16px 16px 16px 16px !important;
+        border-radius: 8px !important;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .bottom {
+        padding-bottom: 47px !important;
+      }
+    </mj-style>  
+    <mj-style>
+      @media (min-width:480px) {
+        .title div {
+          font-size: 30px !important;
+          font-weight: bold !important;
+        }
+
+        .title {
+          padding-top: 17px !important;
+          padding-bottom: 17px !important;
+        }
+
+        .message div {
+          font-size: 20px !important;
+        }
+
+        .info-text {
+          font-size: 16px !important;
+        }
+
+        .logo {
+          padding: 0 !important;
+        }
+
+        .logo img {
+          padding-top: 104px !important;
+          padding-bottom: 40px !important;
+          width: 150px !important;
+        }
+
+        .test th {
+          padding: 199px !important;
+        }
+
+
+        .activate {
+          padding: 0 0 40px 0 !important;
+        }
+
+        .activate table {
+          width: 210px !important;
+        }
+
+        .activate a {
+          font-size: 20px !important;
+          width: 160px !important;
+        }
+
+        .info div {
+          font-size: 16px !important;
+        }
+
+        .bottom {
+          padding-bottom: 150px !important;
+        }
+      }
+    </mj-style>
+
+    <mj-style>
+      table {
+        border-collapse: separate;
+      }
+      .main-width {
+        border-radius: 30px;
+      }
+
+      .hi-courses-title {
+        color: #178fac;
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#fafafa">
+    <mj-wrapper padding="27px" background-color="#fafafa">
+      <mj-section>
+        <mj-column width="400px">
+          <mj-image css-class="logo" src="hiskio-logo.png" alt="" width="99px" padding-top="41px" padding-bottom="22px" />
+        </mj-column>
+      </mj-section>
+      <mj-section border-radius="10px">
+        <mj-column width="600px" css-class="main-width" background-color="#fff" border-radius="8px">
+          <mj-text color="white" align="center" padding-bottom="8px" font-size="18px" font-weight="bold" padding-top="8px" css-class="title">
+            已收到您的退款申請
+          </mj-text>
+          <mj-text font-size="16px" line-height="30px" css-class="message" color="#595959" padding-top="40px" padding-bottom="0">
+            您好，小白
+          </mj-text>
+          <mj-text font-size="16px" line-height="30px" css-class="message" color="#595959" padding-top="30px" padding-bottom="0">
+            很遺憾收到你對課程<span style="font-weight:bold;color:#262626;">『基礎前端(上)』</span>的退款申請，我們將於 30天內儘速審核並退款，請耐心等候。若有任何問題歡迎來信<a href="" class="link">support@hiskio.com</a>，我們將儘速為您解答，謝謝。
+          </mj-text>
+          <mj-text font-size="16px" line-height="30px" css-class="message" color="#595959" padding-top="0" padding-bottom="20px">
+            以下是您的退款資訊：
+          </mj-text>         
+          <mj-table css-class="detail" padding-top="0" padding-bottom="24px" padding-left="20px" padding-right="20px">
+            <tr>
+              <td style="color:#8C8C8C; font-size:14px; padding-bottom:4px;" class="info-text">退款方式</td>
+            </tr>
+            <tr>
+              <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">退款至銀行帳戶</td>
+            </tr>            
+            <tr>
+              <td style="color:#8C8C8C; font-size:14px; padding-bottom:4px;" class="info-text">退款原因</td>
+            </tr>
+            <tr>
+              <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">商品內容與期望不同</td>
+            </tr>
+            <!-- Use Wallet Start -->            
+            <tr>
+              <td style="color:#8C8C8C; font-size:14px; padding-bottom:4px;" class="info-text">退款至銀行帳戶</td>
+            </tr>
+            <tr>
+              <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">NT$999,999</td>
+            </tr>            
+            <tr>
+              <td style="color:#8C8C8C; font-size:14px; padding-bottom:4px;" class="info-text">退款至我的錢包</td>
+            </tr>
+            <tr>
+              <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">NT$50</td>
+            </tr>
+            <!-- Use Wallet End -->
+            <!-- Sum Up Below -->              
+            <tr>
+              <td style="color:#8C8C8C; font-size:14px; padding-top:10px; padding-bottom:4px; border-top: 1pt solid #D9D9D9;" class="info-text">退款總計</td>
+            </tr>                 
+            <tr>
+              <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">NT$1,000,049</td>
+            </tr>
+          </mj-table>
+          <mj-button css-class="activate" href="https://hiskio.com" font-weight="bold" width="210px" background-color="#178fac" padding-top="0" padding-bottom="24px" font-size="16px" border-radius="8px">
+            查看申請紀錄
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="600px" padding="0">
+          <mj-text css-class="info" color="#8c8c8c" padding-left='0' padding-right="0" font-size="14px" padding-top="40px" padding-bottom="40px">
+            以上資訊若有任何問題，請透過 <a href="" style="color:#178fac; text-decoration:none;">客服信箱</a> 與我們聯繫，謝謝！如果此信箱非您所有，請直接忽略此信件。
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-group width="600px">
+          <mj-column width="10%">
+
+          </mj-column>
+          <mj-column>
+            <mj-image href="https://www.facebook.com/hiskio" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1597975150120" />
+            <mj-text padding-left="0" padding-right="0" padding-top="4px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.facebook.com/hiskio" class="link-nostyle" width="58px">粉絲專頁</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-contact.png?1597975168004" />
+            <mj-text padding-left="0" padding-right="0" padding-top="4px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="mailto:support@hiskio.com" class="link-nostyle">聯絡我們</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image href="https://hiskio.com" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-hiskio-link.png?1597975125788" />
+            <mj-text padding-left="0" padding-right="0" padding-top="4px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://hiskio.com" class="link-nostyle">官方網站</a>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/youtube.png?1597975100376" />
+            <mj-text padding-left="0" padding-right="0" padding-top="4px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" class="link-nostyle">Youtube</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text align="center" padding-top="8px" font-size="14px" color="#8c8c8c" css-class="bottom">
+            有點意思科技有限公司版權所有，轉載必究 Copyright© HiSKIO
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

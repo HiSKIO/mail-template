@@ -1,1 +1,7 @@
 .vscode
+.env
+output/mjml
+output/translations
+node_modules
+.DS_Store
+.awspublish

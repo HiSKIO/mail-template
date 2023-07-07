@@ -1,0 +1,101 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-section padding-top="0" padding-bottom="0"></mj-section>
+      <mj-all padding-top="0" padding-bottom="0" padding-left="0" padding-right="0"></mj-all>
+      <mj-column padding-left="15px" padding-right="15px"></mj-column>
+      <mj-body width="1920px">
+    </mj-attributes>
+    <mj-style>
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .max-layout {
+        max-width: 630px;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper background-color="#FAFAFA" padding='0px'>
+      <mj-section>
+        <mj-column css-class="max-layout">
+          <mj-image src="hiskio.png" alt="logo" width="138px" padding-top="64px" padding-bottom="42px" align="center" />
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column css-class='max-layout'>
+          <mj-raw>
+            <div style="background: url(https://cdn.hiskio.com/edm/bg_teachersmail_600x659.png) top center / cover #fff; padding: 40px 10% 42px; border-radius: 4px;">
+              <h2 style="margin-bottom: 12px; padding-bottom: 12px; text-align: center; font-size: 28px; line-height: 41px; color: #262626; font-weight: 500; border-bottom: 1px solid #595959;">繳交作業通知</h2>
+              <p style="margin-bottom: 30px; font-size: 20px; line-height: 30px; color: #595959;">
+                陳湯圓 講師：
+              </p>
+              <p style="margin-bottom: 40px; font-size: 20px; line-height: 30px; color: #595959;">
+                學生繳交了『<span style="font-weight: 500;">基礎前端(上)</span>』的課程作業
+              </p>
+              <div style="margin-bottom: 24px; padding: 16px; background-color: #FAFAFA; border-radius: 8px;">
+                <div style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid #8c8c8c;">
+                  <div style="float: left; margin-right: 16px; width: 115px; height: 65px; border-radius: 5px; background: url('') center / cover #FFDDDD; vertical-align: bottom;"></div>
+                  <p style="font-size: 16px; line-height: 65px; color: #262626;">我的網頁試做1</p>
+                </div>
+                <div style="clear: both;">
+                  <div style="display: inline-block; margin-right: 8px; width: 48px; height: 48px; background: url('講師後台/課程公告信/avatar.png') center / cover; vertical-align: bottom;"></div>
+                  <p style="display: inline-block; font-size: 20px; line-height: 48px; color: #8c8c8c;">小白</p>
+                  <p style="float: right; font-size: 16px; line-height: 48px; color: #bfbfbf;">2020/12/13</p>
+                </div>
+                <p style="clear: both; margin-top: 6px; padding-left: 56px; font-size: 20px; line-height: 29px; color: #262626;">老師你好！這是我自己發想的健身app作業中的幾個畫面，請給我一些建議、或可以改善的方法。因為有些地方我覺得我寫得太複雜了</p>
+              </div>
+              <a href="" target="_blank" style="display: block; margin: 0 auto; width: 210px; height: 50px; text-align: center; text-decoration: none; font-size: 20px; line-height: 50px; background-color: #178FAC; color: #fff; border-radius: 8px; font-weight: 500;">去回覆作業</a>
+              <div>
+          </mj-raw>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="6px">
+        <mj-column css-class='max-layout'>
+          <mj-text align="left" padding="0" color="#8c8c8c" font-size="16px" line-height="23px"> 以上資訊若有任何問題，請透過 <a href="mailto:support@hiskio.com" style="color: #178fac; text-decoration: none">客服信箱</a> 與我們聯繫，謝謝！如果此信箱非您所有，請直接忽略此信件。 </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="40px" padding-bottom="40px">
+        <mj-group width="100%" css-class='max-layout'>
+          <mj-column width="10%"></mj-column>
+          <mj-column width="20%">
+            <mj-image href="https://www.facebook.com/hiskio" target="_blank" padding="0" width="37px" src="icon_fb.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.facebook.com/hiskio" target="_blank" style="text-decoration: none; color: #8c8c8c">粉絲專頁</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="icon_mail.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-image href="https://hiskio.com" target="_blank" padding="0" width="37px" src="icon_hi_link.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://hiskio.com" target="_blank" style="text-decoration: none; color: #8c8c8c">官方網站</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-image href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" padding="0" width="37px" src="icon_youtube.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" style="text-decoration: none; color: #8c8c8c">Youtube</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="10%"></mj-column>
+        </mj-group>
+        <mj-group width="100%">
+          <mj-column>
+            <mj-text align="center" padding-top="24px" font-size="14px" color="#8c8c8c" line-height="20px"> 有點意思科技有限公司版權所有，轉載必究 Copyright© HiSKIO </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
