@@ -52,7 +52,7 @@
         }
 
         .activate table {
-          width: 200px !important;
+          width: 210px !important;
         }
 
         .activate a {
@@ -97,13 +97,16 @@
           <mj-text align="center" padding-bottom="0" font-size="24px" line-height="59px" font-weight="bold" padding-top="32px" css-class="title">
             啟用您的帳戶
           </mj-text>
-          <mj-text font-size="16px" line-height="30px" css-class="message" color="#262626" padding-top="32px" padding-bottom="30px">
+          <mj-text font-size="16px" line-height="29px" css-class="message" color="#262626" padding-top="33px" padding-bottom="29px" padding-left="60px" padding-right="60px">
             哈囉！Hung Ming Chen
           </mj-text>
-          <mj-text font-size="16px" line-height="30px" css-class="message" color="#262626" padding-top="0" padding-bottom="26px">
+          <mj-text font-size="16px" line-height="29px" css-class="message" color="#262626" padding-top="0" padding-bottom="58px" padding-left="60px" padding-right="60px">
+            帳號 : 1234qwer
+          </mj-text>
+          <mj-text font-size="16px" line-height="29px" css-class="message" color="#262626" padding-top="0" padding-bottom="8px" padding-left="60px" padding-right="60px">
             歡迎您加入 HiSKIO，點擊下方按鈕啟用帳戶，與我們一起學習。
           </mj-text>
-          <mj-button css-class="activate" href="#" font-weight="bold" width="160px" background-color="#178fac" padding-top="0" padding-bottom="24px" font-size="16px">
+          <mj-button css-class="activate" href="#" font-weight="bold" width="160px" background-color="#178fac" padding-top="0" padding-bottom="24px" font-size="16px" border-radius="8px">
             啟用帳戶
           </mj-button>
         </mj-column>
