@@ -2,6 +2,11 @@
   "name": "mjml-localise-emails",
   "version": "0.0.1",
   "author": "Dmitry Bogomolov",
+  "scripts": {
+    "dev": "gulp",
+    "upload": "gulp upload",
+    "screen": "gulp screenshots"
+  },
   "dependencies": {
     "browser-sync": "^2.26",
     "concurrent-transform": "^1.0.0",
