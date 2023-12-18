@@ -1,0 +1,80 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text align="center" color="#595959" />
+      <mj-body width="624px" background-color="#FAFAFA">
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper padding="12px">
+      <mj-section padding-top="42px" padding-bottom="25px">
+        <mj-column>
+          <mj-image src="hiskio-logo.png" width="138px" />
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px" border-radius="6px 6px 0px 0px">
+        <mj-column>
+          <mj-image src="furndraising-finalpriceraise-bg.png" width="600px" padding="0px" />
+        </mj-column>
+      </mj-section>
+      <mj-section border-radius="0px 0px 6px 6px" padding-top="40px" padding-left="60px" padding-right="60px" padding-bottom="53px" background-color="#fff">
+        <mj-column width="100%">
+          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="29px"> 哈囉～ 小白</mj-text>
+          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="40px" line-height="29px">
+            您已取消訂閱『<span style="font-weight: 500">bundle名稱｜方案名稱</span>
+            』，訂閱服務即將在 <span style="color: #eb6767; font-weight: 500">3 天後 (2020/01/01 00:00)</span> 結束！若您還需要繼續學習，請前往恢復訂閱。</mj-text>
+        </mj-column>
+        <mj-column width="100%">
+          <mj-button width="210px" height="50px" href="https://hiskio.com" padding="0px" background-color="#178FAC" border-radius="8px" font-size="20px" font-weight="500">恢復訂閱</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px" padding-top="30px">
+        <mj-column>
+          <mj-text align="left" padding="0px" color="#8c8c8c" font-size="14px" line-height="23px">
+            以上資訊若有任何問題，請透過
+            <a href="mailto:support@hiskio.com" style="color: #178fac; text-decoration: none">客服信箱</a>
+            與我們聯繫，謝謝！如果此信箱非您所有，請直接忽略此信件。
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="40px" padding-bottom="40px">
+        <mj-group width="100%">
+          <mj-column width="10%"></mj-column>
+
+          <mj-column width="20%">
+            <mj-image href="https://www.facebook.com/hiskio" target="_blank" padding="0" width="37px" src="icon_fb.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.facebook.com/hiskio" target="_blank" style="text-decoration: none; color: #8c8c8c">粉絲專頁</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="icon_mail.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-image href="https://hiskio.com" target="_blank" padding="0" width="37px" src="icon_hi_link.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://hiskio.com" target="_blank" style="text-decoration: none; color: #8c8c8c">官方網站</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-image href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" padding="0" width="37px" src="icon_youtube.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" style="text-decoration: none; color: #8c8c8c">Youtube</a>
+            </mj-text>
+          </mj-column>
+          <mj-column width="10%"></mj-column>
+        </mj-group>
+        <mj-group width="100%">
+          <mj-column>
+            <mj-text align="center" padding-top="24px" font-size="14px" color="#8c8c8c" line-height="20px">
+              有點意思科技有限公司版權所有，轉載必究 Copyright© HiSKIO
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
