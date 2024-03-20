@@ -1,0 +1,49 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text align="center" color="#595959" />
+      <mj-section background-color="#fff" />
+      <mj-body width="624px">
+    </mj-attributes>
+    <mj-style>
+      .main {
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+        border-top: 6px solid #178FAC;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f0f0f0">
+    <mj-wrapper padding="12px">
+      <mj-section background-color="#f0f0f0" padding-top="64px" padding-bottom="29px">
+        <mj-column>
+          <mj-image src="hiskio.png" width="200px" height="34px" />
+        </mj-column>
+      </mj-section>
+      <mj-section border-radius='6px' background-color="#fff" padding="0" css-class="main">
+        <mj-column width='100%' border-bottom="1px solid #bfbfbf">
+          <mj-text color='#262626' font-size='16px' line-height="28px" padding-top="24px" padding-bottom="24px" padding-left="20px" padding-right="20px" align="left">HiSKIO 講師請款通知</mj-text>
+        </mj-column>
+        <mj-column width='100%' padding-top="24px" padding-left="20px" padding-right="20px" padding-bottom="56px">
+          <mj-raw padding>
+            <div style="margin-bottom: 36px;">
+              <img src="管理後台/分潤通知/avatar.png" width="50" height="50" style="margin-right: 20px; vertical-align: bottom;" />
+              <div style="display: inline-block; font-size: 16px; line-height: 50px;">HiSKIO 說：</div>
+            </div>
+            <p style="margin-top: 0; margin-bottom: 28px; font-size: 16px; line-height: 28px;">John Liu[暱稱] 老師已於 2024/02/20 22:17[請款日期] 請款</p>
+            <ul style="margin-top: 0; margin-bottom: 68px; padding: 0; list-style: none; font-size: 16px; line-height: 28px; color: #262626;">
+              <li style="margin: 0;">請款編號：4891[請款編號]</li>
+              <li style="margin: 0;">真實性名：劉奕為[真實姓名]</li>
+              <li style="margin: 0;">請款金額：NT$11,450[請款金額]</li>
+              <li style="margin: 0;">類別：個人戶[類別]</li>
+            </ul>
+            <div style="text-align: center;">
+              <a href="https://admin.urskio.com/finances/applies?tab=UNPROCESSED&sort=DESC" target="_black" style="display: inline-block; padding: 8px 16px; font-size: 16px; line-height: 24px; background-color: #178FAC; color: #fff; border-radius: 4px; text-decoration: none;">前往請款申請</a>
+            </div>
+          </mj-raw>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
