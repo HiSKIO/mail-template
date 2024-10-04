@@ -20,24 +20,10 @@
       <mj-section border-radius="0px 0px 6px 6px" padding="20px" padding-top="68px">
         <mj-column width="100%">
           <mj-text font-size="20px" align="left" padding="0px" padding-bottom="5px">嗨，小白！</mj-text>
-          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="30px" line-height="29px"
-            >您已成功推薦好友加入 Codefree，您的<span style="color: #e34a4a">推薦獎勵 10 天 學習期限</span
-            >已幫您累計。繼續邀請更多的好友以增加更多學習天數吧！</mj-text
-          >
+          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="30px" line-height="29px">您已成功推薦好友加入 Codefree，您的<span style="color: #e34a4a">推薦獎勵 10 天 學習期限</span>已幫您累計。繼續邀請更多的好友以增加更多學習天數吧！</mj-text>
         </mj-column>
         <mj-column width="100%">
-          <mj-button
-            width="210px"
-            height="50px"
-            href=""
-            padding="0px"
-            padding-top="10px"
-            padding-bottom="36px"
-            background-color="#17547F"
-            border-radius="8px"
-            font-size="20px"
-            >前往 Codefree</mj-button
-          >
+          <mj-button width="210px" height="50px" href="" padding="0px" padding-top="10px" padding-bottom="36px" background-color="#17547F" border-radius="8px" font-size="20px">前往 Codefree</mj-button>
         </mj-column>
       </mj-section>
       <mj-section background-color="#fafafa" padding="0px" padding-top="8px">
@@ -54,72 +40,27 @@
           <mj-column width="10%"></mj-column>
 
           <mj-column width="20%">
-            <mj-image
-              href="https://www.facebook.com/hiskio"
-              target="_blank"
-              padding="0"
-              width="37px"
-              src="icon_fb.png" />
-            <mj-text
-              padding-left="0"
-              padding-right="0"
-              padding-top="8px"
-              padding-bottom="8px"
-              font-size="14px"
-              align="center"
-              color="#8c8c8c">
-              <a href="https://www.facebook.com/hiskio" target="_blank" style="text-decoration: none; color: #8c8c8c"
-                >粉絲專頁</a
-              >
+            <mj-image href="https://www.facebook.com/profile.php?id=61566172929164" target="_blank" padding="0" width="37px" src="icon_fb.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.facebook.com/profile.php?id=61566172929164" target="_blank" style="text-decoration: none; color: #8c8c8c">粉絲專頁</a>
             </mj-text>
           </mj-column>
           <mj-column width="20%">
             <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="icon_mail.png" />
-            <mj-text
-              padding-left="0"
-              padding-right="0"
-              padding-top="8px"
-              padding-bottom="8px"
-              font-size="14px"
-              align="center"
-              color="#8c8c8c">
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
             </mj-text>
           </mj-column>
           <mj-column width="20%">
             <mj-image href="https://hiskio.com" target="_blank" padding="0" width="37px" src="icon_hi_link.png" />
-            <mj-text
-              padding-left="0"
-              padding-right="0"
-              padding-top="8px"
-              padding-bottom="8px"
-              font-size="14px"
-              align="center"
-              color="#8c8c8c">
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="https://hiskio.com" target="_blank" style="text-decoration: none; color: #8c8c8c">官方網站</a>
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image
-              href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg"
-              target="_blank"
-              padding="0"
-              width="37px"
-              src="icon_youtube.png" />
-            <mj-text
-              padding-left="0"
-              padding-right="0"
-              padding-top="8px"
-              padding-bottom="8px"
-              font-size="14px"
-              align="center"
-              color="#8c8c8c">
-              <a
-                href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg"
-                target="_blank"
-                style="text-decoration: none; color: #8c8c8c"
-                >Youtube</a
-              >
+            <mj-image href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" padding="0" width="37px" src="icon_youtube.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" style="text-decoration: none; color: #8c8c8c">Youtube</a>
             </mj-text>
           </mj-column>
           <mj-column width="10%"></mj-column>
