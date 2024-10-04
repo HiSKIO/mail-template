@@ -21,30 +21,13 @@
         <mj-column width="100%">
           <mj-text font-size="20px" align="left" color="#262626" padding="0px" padding-bottom="20px">Hi 小白！</mj-text>
           <mj-text font-size="20px" align="left" padding="0px" color="#262626" padding-bottom="20px" line-height="29px">
-            在學習前端技能的路上，你是不是猶如誤入叢林的小白兔，找不到學習的方向與資源呢？</mj-text
-          >
-          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="20px" color="#262626" line-height="29px"
-            >別擔心！我們幫你準備了前端新手必備的學習地圖，讓你可以一目了然清楚知道自己的學習路徑。</mj-text
-          >
-          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="20px" color="#262626" line-height="29px"
-            >不只如此，地圖上更囊括了我們精心整理的各項學習資源，讓你按圖索驥一步步朝前端開發者前進。</mj-text
-          >
-          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="30px" color="#262626" line-height="29px"
-            >立即點選下方按鈕，將好康資源帶回家吧！</mj-text
-          >
+            在學習前端技能的路上，你是不是猶如誤入叢林的小白兔，找不到學習的方向與資源呢？</mj-text>
+          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="20px" color="#262626" line-height="29px">別擔心！我們幫你準備了前端新手必備的學習地圖，讓你可以一目了然清楚知道自己的學習路徑。</mj-text>
+          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="20px" color="#262626" line-height="29px">不只如此，地圖上更囊括了我們精心整理的各項學習資源，讓你按圖索驥一步步朝前端開發者前進。</mj-text>
+          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="30px" color="#262626" line-height="29px">立即點選下方按鈕，將好康資源帶回家吧！</mj-text>
         </mj-column>
         <mj-column width="100%">
-          <mj-button
-            width="200px"
-            height="50px"
-            href="前往募資課程銷售頁/?utm_source=edm&utm_medium=raise&utm_campaign=funding_course&utm_term=funding_course_raise"
-            padding="0px"
-            background-color="#178FAC"
-            border-radius="8px"
-            font-size="20px"
-            href="#"
-            >一鍵領取</mj-button
-          >
+          <mj-button width="200px" height="50px" href="前往募資課程銷售頁/?utm_source=edm&utm_medium=raise&utm_campaign=funding_course&utm_term=funding_course_raise" padding="0px" background-color="#178FAC" border-radius="8px" font-size="20px" href="#">一鍵領取</mj-button>
         </mj-column>
       </mj-section>
       <mj-section background-color="#f0f0f0" padding="0px" padding-top="8px">
@@ -60,72 +43,27 @@
         <mj-group width="100%">
           <mj-column width="10%"></mj-column>
           <mj-column width="20%">
-            <mj-image
-              href="https://www.facebook.com/hiskio"
-              target="_blank"
-              padding="0"
-              width="37px"
-              src="icon_fb.png" />
-            <mj-text
-              padding-left="0"
-              padding-right="0"
-              padding-top="8px"
-              padding-bottom="8px"
-              font-size="14px"
-              align="center"
-              color="#8c8c8c">
-              <a href="https://www.facebook.com/hiskio" target="_blank" style="text-decoration: none; color: #8c8c8c"
-                >粉絲專頁</a
-              >
+            <mj-image href="https://www.facebook.com/profile.php?id=61566172929164" target="_blank" padding="0" width="37px" src="icon_fb.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.facebook.com/profile.php?id=61566172929164" target="_blank" style="text-decoration: none; color: #8c8c8c">粉絲專頁</a>
             </mj-text>
           </mj-column>
           <mj-column width="20%">
             <mj-image href="mailto:support@hiskio.com" padding="0" width="37px" src="icon_mail.png" />
-            <mj-text
-              padding-left="0"
-              padding-right="0"
-              padding-top="8px"
-              padding-bottom="8px"
-              font-size="14px"
-              align="center"
-              color="#8c8c8c">
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="mailto:support@hiskio.com" style="text-decoration: none; color: #8c8c8c">聯絡我們</a>
             </mj-text>
           </mj-column>
           <mj-column width="20%">
             <mj-image href="https://hiskio.com" target="_blank" padding="0" width="37px" src="icon_hi_link.png" />
-            <mj-text
-              padding-left="0"
-              padding-right="0"
-              padding-top="8px"
-              padding-bottom="8px"
-              font-size="14px"
-              align="center"
-              color="#8c8c8c">
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
               <a href="https://hiskio.com" target="_blank" style="text-decoration: none; color: #8c8c8c">官方網站</a>
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-image
-              href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg"
-              target="_blank"
-              padding="0"
-              width="37px"
-              src="icon_youtube.png" />
-            <mj-text
-              padding-left="0"
-              padding-right="0"
-              padding-top="8px"
-              padding-bottom="8px"
-              font-size="14px"
-              align="center"
-              color="#8c8c8c">
-              <a
-                href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg"
-                target="_blank"
-                style="text-decoration: none; color: #8c8c8c"
-                >Youtube</a
-              >
+            <mj-image href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" padding="0" width="37px" src="icon_youtube.png" />
+            <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
+              <a href="https://www.youtube.com/channel/UCvJOJ7Pg24ZTBDltbKbTLpg" target="_blank" style="text-decoration: none; color: #8c8c8c">Youtube</a>
             </mj-text>
           </mj-column>
           <mj-column width="10%"></mj-column>

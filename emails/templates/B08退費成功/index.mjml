@@ -205,20 +205,20 @@
             </tr>
             <tr>
               <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">退款至銀行帳戶</td>
-            </tr>            
+            </tr>
             <tr>
               <td style="color:#8C8C8C; font-size:14px; padding-bottom:4px;" class="info-text">退款原因</td>
             </tr>
             <tr>
               <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">商品內容與期望不同</td>
             </tr>
-            <!-- Use Wallet Start -->            
+            <!-- Use Wallet Start -->
             <tr>
               <td style="color:#8C8C8C; font-size:14px; padding-bottom:4px;" class="info-text">退款至銀行帳戶</td>
             </tr>
             <tr>
               <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">NT$999,999</td>
-            </tr>            
+            </tr>
             <tr>
               <td style="color:#8C8C8C; font-size:14px; padding-bottom:4px;" class="info-text">退款至我的錢包</td>
             </tr>
@@ -226,17 +226,17 @@
               <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">NT$50</td>
             </tr>
             <!-- Use Wallet End -->
-            <!-- Sum Up Below -->              
+            <!-- Sum Up Below -->
             <tr>
               <td style="color:#8C8C8C; font-size:14px; padding-top:10px; padding-bottom:4px; border-top: 1pt solid #D9D9D9;" class="info-text">退款總計</td>
-            </tr>                 
+            </tr>
             <tr>
               <td style="color:#262626; font-size:16px; padding-bottom:10px;" class="info-text">NT$1,000,049</td>
             </tr>
-          </mj-table>          
-          <mj-button background-color="#178fac" font-weight="bold" color="#fff" width="160px" font-size="16px"  css-class="activate" border-radius="8px">
+          </mj-table>
+          <mj-button background-color="#178fac" font-weight="bold" color="#fff" width="160px" font-size="16px" css-class="activate" border-radius="8px">
             查看完整明細
-          </mj-button>          
+          </mj-button>
         </mj-column>
       </mj-section>
       <mj-raw>
@@ -255,9 +255,9 @@
 
           </mj-column>
           <mj-column>
-            <mj-image href="https://www.facebook.com/hiskio" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1597975150120" />
+            <mj-image href="https://www.facebook.com/profile.php?id=61566172929164" padding="0" width="37px" src="https://edm.hiskio.com/source/5f1f8fd759c53/icon-fb.png?1597975150120" />
             <mj-text padding-left="0" padding-right="0" padding-top="4px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
-              <a href="https://www.facebook.com/hiskio" class="link-nostyle" width="58px">粉絲專頁</a>
+              <a href="https://www.facebook.com/profile.php?id=61566172929164" class="link-nostyle" width="58px">粉絲專頁</a>
             </mj-text>
           </mj-column>
           <mj-column>

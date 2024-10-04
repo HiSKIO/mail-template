@@ -35,9 +35,9 @@
         <mj-group width="100%">
           <mj-column width="10%"></mj-column>
           <mj-column width="20%">
-            <mj-image href="https://www.facebook.com/hiskio" target="_blank" padding="0" width="37px" src="icon_fb.png" />
+            <mj-image href="https://www.facebook.com/profile.php?id=61566172929164" target="_blank" padding="0" width="37px" src="icon_fb.png" />
             <mj-text padding-left="0" padding-right="0" padding-top="8px" padding-bottom="8px" font-size="14px" align="center" color="#8c8c8c">
-              <a href="https://www.facebook.com/hiskio" target="_blank" style="text-decoration: none; color: #8c8c8c">粉絲專頁</a>
+              <a href="https://www.facebook.com/profile.php?id=61566172929164" target="_blank" style="text-decoration: none; color: #8c8c8c">粉絲專頁</a>
             </mj-text>
           </mj-column>
           <mj-column width="20%">
