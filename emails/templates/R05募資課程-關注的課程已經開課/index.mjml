@@ -20,7 +20,7 @@
       <mj-section border-radius="0px 0px 6px 6px" padding="40px">
         <mj-column width="100%">
           <mj-text font-size="20px" align="left" padding="0px" padding-bottom="30px"> 哈囉～ 小白</mj-text>
-          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="30px" line-height="30px">您所關注的募資課程『<span style="font-weight: 500">MultiCharts 程式交易｜從零到一快速上手</span>』已經正式開課囉！您可以從現在開始上課並獲取完整知識。</mj-text>
+          <mj-text font-size="20px" align="left" padding="0px" padding-bottom="30px" line-height="30px">您所關注的募資課程『<span style="font-weight: 500">MultiCharts 程式交易｜從零到一快速上手</span>』已經開放上課囉！您可以從現在開始上課並獲取完整知識。</mj-text>
           <mj-text font-size="20px" align="left" padding="0px" padding-bottom="36px" line-height="30px">
             目前已經有 117 位學生加入這堂課，<br />
             如果您還在考慮，您可以：<br />
@@ -35,7 +35,7 @@
         </mj-column>
         <mj-column width="100%">
           <mj-button width="210px" height="30px" href="連到
-已經正式開課了，所以連到
+已經開放上課了，所以連到
 單堂銷售頁-已購課 頁面
 帶參數/??utm_source=edm&utm_medium=course_completed&utm_campaign=funding_course&utm_term=funding_course_completed" padding="0px" background-color="#178FAC" border-radius="8px" font-size="20px">前往試閱</mj-button>
         </mj-column>
