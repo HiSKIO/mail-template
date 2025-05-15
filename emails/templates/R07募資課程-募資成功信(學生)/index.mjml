@@ -21,10 +21,10 @@
         <mj-column width="100%">
           <mj-text font-size="20px" align="left" padding="0px" padding-bottom="30px">哈囉～ 小白</mj-text>
           <mj-text font-size="20px" align="left" padding="0px" padding-bottom="20px" line-height="30px">
-            您購買的募資課程『<span style="font-weight: 500">MultiCharts 程式交易｜從零到一快速上手</span>』募資成功囉！講師將開始備課，正式開課日時，所有課程內容會上架完成。</mj-text>
+            您購買的募資課程『<span style="font-weight: 500">MultiCharts 程式交易｜從零到一快速上手</span>』募資成功囉！講師將開始備課，開放上課日時，所有課程內容會上架完成。</mj-text>
         </mj-column>
         <mj-column width="100%" background-color="#f5f5f5" border-radius="8px">
-          <mj-text font-size="18px" padding="12px" line-height="30px" align="left">預計正式開課日期：2020/12/31 12:00</mj-text>
+          <mj-text font-size="18px" padding="12px" line-height="30px" align="left">預計開放上課日期：2020/12/31 12:00</mj-text>
         </mj-column>
       </mj-section>
       <mj-section background-color="#f0f0f0" padding="0px" padding-top="8px">
