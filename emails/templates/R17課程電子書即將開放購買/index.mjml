@@ -21,13 +21,13 @@
         <mj-column width="100%">
           <mj-text font-size="16px" line-height="24px" align="left" padding="0px" padding-bottom="28px"> 哈囉~ {會員暱稱}</mj-text>
           <mj-text font-size="16px" line-height="24px" align="left" padding="0px" padding-bottom="40px">
-            您所關注的{課程|電子書}『{課程/電子書名稱}』即將在 <span style="color: #E34A4A;">3 天後 ({YYYY/MM/DD hh:mm})</span> 即將開放購買囉！越早買越划算，別錯過最優惠的價格！
+            您所關注的{課程|電子書}『{課程/電子書名稱}』即將在 <span style="color: #E34A4A;">3 天後 ({YYYY/MM/DD hh:mm})</span> 開賣囉！越早買越划算，別錯過最優惠的價格！
           </mj-text>
         </mj-column>
         <mj-column width="100%">
           <mj-raw>
             <div style="text-align: center;">
-              <a href="https://hiskio.com/courses" style="display: inline-block; font-size: 16px; line-height: 24px; background-color: #42A4BC; color: #fff; border-radius: 8px; padding: 8px 20px; text-decoration: none;">前往了解課程</a>
+              <a href="https://hiskio.com/courses" style="display: inline-block; font-size: 16px; line-height: 24px; background-color: #42A4BC; color: #fff; border-radius: 8px; padding: 8px 20px; text-decoration: none;">前往購買</a>
             </div>
           </mj-raw>
         </mj-column>
